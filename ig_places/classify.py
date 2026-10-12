@@ -7,14 +7,15 @@ Categorías:
   other    otro idioma (alemán, francés, italiano...)
   neutral  sin idioma: solo nombres propios, topónimos, marcas o números
 
-Cada ubicación se clasifica una sola vez y se guarda por ID en
-data/languages.json; solo se vuelven a clasificar las nuevas o las que cambian
-de nombre. data/language_overrides.json ({"<id>": "<lang>"}) tiene prioridad
-sobre el modelo para corregir a mano.
+Primero se aplica el diccionario de ig_places.languages (gratis); solo los
+nombres sin palabras marcadoras van a Workers AI. Cada ubicación se clasifica
+una sola vez y se guarda por ID en data/languages.json (en el repo), tras cada
+petición: si se agota la cuota diaria no se pierde nada y se continúa al día
+siguiente. data/language_overrides.json ({"<id>": "<lang>"}) tiene prioridad.
+Al terminar escribe "lang" en data/locations.json.
 
 Uso:
   python -m ig_places.classify            # incremental
-  python -m ig_places.classify --all      # reclasifica todo (ignora data/languages.json)
   python -m ig_places.classify --review review.csv
 """
 
@@ -31,12 +32,15 @@ import urllib.request
 from collections import Counter
 from pathlib import Path
 
+from .config import Config
+from .languages import LANGUAGES_FILE, OVERRIDES_FILE, dictionary_lang, effective_langs, with_langs
 from .log import get_logger, setup_logging
+from .notify import notify
 
 log = get_logger()
 
 LANGS = ("es", "en", "ca", "other", "neutral")
-DEFAULT_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+DEFAULT_MODEL = "@cf/mistralai/mistral-small-3.1-24b-instruct"
 
 SYSTEM_PROMPT = """\
 Eres un lingüista experto en español, catalán (incluido el mallorquín) e inglés.
@@ -60,8 +64,9 @@ Reglas:
   idioma; aunque contengan artículos mallorquines (Sa, Es, Ca'n) forman parte del
   nombre propio.
 - Los nombres de país sí cuentan: Spain → en, España → es, Espanya → ca.
-- Palabras internacionales (bar, hotel, club, restaurant, café, gym, spa) no
-  determinan el idioma por sí solas.
+- Solo las palabras internacionales idénticas en todos los idiomas (bar, hotel,
+  club, spa, gym) no determinan el idioma. Las formas propias de un idioma sí:
+  Restaurante, Teatro, Calle, Playa, Puerto → es; Restaurant (sin -e) es neutro.
 - Si hay palabras de varios idiomas, elige el idioma de la palabra común que
   describe el lugar (p. ej. "Es Trenc Beach" → en).
 
@@ -110,6 +115,10 @@ RESPONSE_SCHEMA = {
 
 class ClassifyError(Exception):
     pass
+
+
+class QuotaExceeded(ClassifyError):
+    """Cuota diaria gratuita agotada: se continúa en la siguiente ejecución."""
 
 
 class WorkersAI:
@@ -185,6 +194,8 @@ class WorkersAI:
                 break
             except urllib.error.HTTPError as exc:
                 detail = exc.read().decode(errors="replace")[:500]
+                if "daily free allocation" in detail or '"code":4006' in detail.replace(" ", ""):
+                    raise QuotaExceeded("Cuota diaria gratuita de Workers AI agotada")
                 if "not available on the Workers Free plan" in detail:
                     raise ClassifyError(f"El modelo {self.model} no está disponible en el plan gratuito de Workers AI")
                 if exc.code in (401, 403):
@@ -237,10 +248,13 @@ def classify_batch(ai: WorkersAI, names: list[str]) -> dict[int, str]:
     return labels
 
 
-def classify_names(ai: WorkersAI, names: list[str], batch_size: int) -> list[str | None]:
-    """Clasifica en lotes; los nombres que el modelo omite se reintentan en lotes más pequeños."""
-    results: list[str | None] = [None] * len(names)
+def classify_names(ai: WorkersAI, names: list[str], batch_size: int, on_batch) -> None:
+    """Clasifica en lotes y llama a on_batch({índice: lang}) tras cada petición.
+
+    Los nombres que el modelo omite se reintentan en lotes más pequeños.
+    """
     pending = list(range(len(names)))
+    done = 0
     for size in (batch_size, max(1, batch_size // 4), 1):
         if not pending:
             break
@@ -248,20 +262,16 @@ def classify_names(ai: WorkersAI, names: list[str], batch_size: int) -> list[str
         for start in range(0, len(pending), size):
             idx = pending[start : start + size]
             labels = classify_batch(ai, [names[i] for i in idx])
-            for pos, i in enumerate(idx, 1):
-                if pos in labels:
-                    results[i] = labels[pos]
-                else:
-                    missing.append(i)
-            done = len(names) - len(pending) + start + len(idx)
-            log.info("Clasificados %d/%d", min(done, len(names)), len(names))
+            on_batch({i: labels[pos] for pos, i in enumerate(idx, 1) if pos in labels})
+            missing += [i for pos, i in enumerate(idx, 1) if pos not in labels]
+            done += sum(1 for pos in range(1, len(idx) + 1) if pos in labels)
+            log.info("Clasificados con IA %d/%d", done, len(names))
         if len(missing) == len(pending) and size == batch_size:
             # Ninguna respuesta útil: el modelo no sigue el formato; reintentar uno a uno solo gastaría cuota.
             raise ClassifyError(f"El modelo {ai.model} no devuelve respuestas en el formato esperado")
         if missing:
             log.warning("%d nombres sin respuesta; se reintentan en lotes de %d", len(missing), max(1, size // 4))
         pending = missing
-    return results
 
 
 def load_json(path: Path, default):
@@ -277,89 +287,121 @@ def write_json(path: Path, data) -> None:
     os.replace(tmp, path)
 
 
+def write_review(path: Path, locations: list[dict], known: dict, overrides: dict, langs: dict[str, str]) -> None:
+    order = {k: n for n, k in enumerate(LANGS)}
+    rows = [
+        (langs[loc["id"]], loc["name"], loc["id"], "override" if loc["id"] in overrides else known[loc["id"]]["source"])
+        for loc in locations
+        if loc["id"] in langs
+    ]
+    rows.sort(key=lambda r: (order[r[0]], r[1].lower()))
+    with path.open("w", newline="", encoding="utf-8") as fh:
+        writer = csv.writer(fh)
+        writer.writerow(["lang", "name", "id", "source"])
+        writer.writerows(rows)
+    log.info("CSV de revisión: %s", path)
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="ig_places.classify", description="Clasifica el idioma de las ubicaciones")
     parser.add_argument("--locations", type=Path, default=Path("data/locations.json"))
-    parser.add_argument("--languages", type=Path, default=Path("data/languages.json"))
-    parser.add_argument("--overrides", type=Path, default=Path("data/language_overrides.json"))
-    parser.add_argument("--all", action="store_true", help="reclasifica todas las ubicaciones")
-    parser.add_argument("--review", type=Path, help="escribe un CSV (lang,name,id) para revisar")
+    parser.add_argument("--languages", type=Path, default=LANGUAGES_FILE)
+    parser.add_argument("--overrides", type=Path, default=OVERRIDES_FILE)
+    parser.add_argument("--review", type=Path, help="escribe un CSV (lang,name,id,source) para revisar")
     parser.add_argument("--batch-size", type=int, default=int(os.environ.get("CF_AI_BATCH_SIZE", "40")))
-    parser.add_argument("--limit", type=int, help="clasifica solo una muestra repartida de N ubicaciones")
     parser.add_argument("--list-models", action="store_true", help="lista los modelos de texto disponibles")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
 
-    setup_logging(Path(os.environ.get("IG_LOG_DIR", "logs")), args.verbose)
-    account_id = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "").strip()
-    token = os.environ.get("CLOUDFLARE_API_TOKEN", "").strip()
-    if not account_id or not token:
-        log.error("Faltan CLOUDFLARE_ACCOUNT_ID y/o CLOUDFLARE_API_TOKEN")
-        return 1
-    ai = WorkersAI(account_id, token, os.environ.get("CF_AI_MODEL") or DEFAULT_MODEL)
-    if args.list_models:
-        for name in ai.list_models():
-            log.info("Modelo disponible: %s", name)
-        return 0
+    config = Config()
+    setup_logging(config.log_dir, args.verbose)
+    log.info("=== Clasificación de idioma ===")
 
     locations = load_json(args.locations, {"locations": []})["locations"]
-    if args.limit and args.limit < len(locations):
-        step = len(locations) / args.limit
-        locations = [locations[int(i * step)] for i in range(args.limit)]
-    known: dict = {} if args.all else load_json(args.languages, {})
-    overrides: dict = load_json(args.overrides, {})
+    known: dict = load_json(args.languages, {})
+    names_by_id = {loc["id"]: loc["name"] for loc in locations}
 
-    todo = [loc for loc in locations if known.get(loc["id"], {}).get("name") != loc["name"]]
+    def save() -> None:
+        # Solo ubicaciones que siguen existiendo, en el orden del JSON.
+        current = {i: known[i] for i in names_by_id if i in known}
+        write_json(args.languages, current)
+
+    # 1) Diccionario: gratis y determinista.
+    pending = [loc for loc in locations if known.get(loc["id"], {}).get("name") != loc["name"]]
+    by_dict = 0
+    for loc in pending:
+        lang = dictionary_lang(loc["name"])
+        if lang:
+            known[loc["id"]] = {"name": loc["name"], "lang": lang, "source": "dict"}
+            by_dict += 1
+    todo = [loc for loc in pending if loc["id"] not in known or known[loc["id"]]["name"] != loc["name"]]
+    save()
     log.info(
-        "Modelo %s | %d ubicaciones, %d por clasificar, %d overrides",
-        ai.model, len(locations), len(todo), len(overrides),
+        "%d ubicaciones | %d ya clasificadas | %d por diccionario | %d para IA",
+        len(locations), len(locations) - len(pending), by_dict, len(todo),
     )
 
+    # 2) Workers AI solo para lo que queda.
+    status, error = 0, ""
     started = time.monotonic()
-    try:
-        labels = classify_names(ai, [loc["name"] for loc in todo], args.batch_size) if todo else []
-    except ClassifyError as exc:
-        log.error("%s", exc)
-        return 1
-
-    for loc, lang in zip(todo, labels):
-        if lang:
-            known[loc["id"]] = {"name": loc["name"], "lang": lang}
+    ai = None
+    if todo or args.list_models:
+        account_id = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "").strip()
+        token = os.environ.get("CLOUDFLARE_API_TOKEN", "").strip()
+        if not account_id or not token:
+            status, error = 1, "Faltan CLOUDFLARE_ACCOUNT_ID y/o CLOUDFLARE_API_TOKEN"
+            log.error("%s", error)
         else:
-            log.warning("Sin clasificar: %s (%s)", loc["name"], loc["id"])
+            ai = WorkersAI(account_id, token, os.environ.get("CF_AI_MODEL") or DEFAULT_MODEL)
+            if args.list_models:
+                for name in ai.list_models():
+                    log.info("Modelo disponible: %s", name)
+                return 0
+            log.info("Modelo %s", ai.model)
 
-    # Solo se conservan las ubicaciones que siguen existiendo, en el mismo orden.
-    result = {}
-    for loc in locations:
-        entry = known.get(loc["id"])
-        if loc["id"] in overrides:
-            entry = {"name": loc["name"], "lang": overrides[loc["id"]], "override": True}
-        if entry:
-            result[loc["id"]] = entry
-    write_json(args.languages, result)
+            def on_batch(labels: dict[int, str]) -> None:
+                for i, lang in labels.items():
+                    loc = todo[i]
+                    known[loc["id"]] = {"name": loc["name"], "lang": lang, "source": "ai"}
+                save()
 
-    unclassified = sum(1 for lang in labels if not lang)
-    counts = Counter(e["lang"] for e in result.values())
-    summary = ", ".join(f"{k}: {counts.get(k, 0)}" for k in LANGS)
-    log.info("Resultado (%ds): %s | uso: %s", time.monotonic() - started, summary, dict(ai.usage) or "n/d")
+            try:
+                classify_names(ai, [loc["name"] for loc in todo], args.batch_size, on_batch)
+            except QuotaExceeded as exc:
+                error = f"{exc}; se continuará en la próxima ejecución"
+                log.warning("%s", error)
+            except ClassifyError as exc:
+                status, error = 1, str(exc)
+                log.error("%s", exc)
+
+    # 3) Escribe "lang" en el JSON de ubicaciones.
+    save()
+    langs = effective_langs(args.languages, args.overrides)
+    content = json.dumps({"locations": with_langs(locations, langs)}, ensure_ascii=False, indent=2) + "\n"
+    if args.locations.read_text(encoding="utf-8") != content:
+        tmp = args.locations.with_suffix(".tmp")
+        tmp.write_text(content, encoding="utf-8")
+        os.replace(tmp, args.locations)
+        log.info("Idiomas escritos en %s", args.locations)
+
+    missing = sum(1 for loc in locations if loc["id"] not in langs)
+    counts = Counter(langs[loc["id"]] for loc in locations if loc["id"] in langs)
+    summary = ", ".join(f"{k}: {counts.get(k, 0)}" for k in LANGS) + f", sin clasificar: {missing}"
+    usage = dict(ai.usage) if ai else {}
+    log.info("Resultado (%ds): %s | uso IA: %s", time.monotonic() - started, summary, usage or "ninguno")
 
     if args.review:
-        order = {k: n for n, k in enumerate(LANGS)}
-        rows = sorted(result.items(), key=lambda kv: (order[kv[1]["lang"]], kv[1]["name"].lower()))
-        with args.review.open("w", newline="", encoding="utf-8") as fh:
-            writer = csv.writer(fh)
-            writer.writerow(["lang", "name", "id"])
-            for loc_id, entry in rows:
-                writer.writerow([entry["lang"], entry["name"], loc_id])
-        log.info("CSV de revisión: %s", args.review)
+        write_review(args.review, locations, known, load_json(args.overrides, {}), langs)
 
+    body = f"- {summary}\n- Por diccionario: {by_dict}, con IA: {sum(1 for e in known.values() if e.get('source') == 'ai')}\n- Uso IA: {usage or 'ninguno'}"
+    if error:
+        body = f"**{'Error' if status else 'Aviso'}:** {error}\n\n{body}"
     if path := os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(path, "a", encoding="utf-8") as fh:
-            fh.write(f"## Clasificación de idioma\n\n- Modelo: `{ai.model}`\n- {summary}\n- Uso: {dict(ai.usage)}\n")
-    if unclassified:
-        log.error("%d ubicaciones sin clasificar", unclassified)
-        return 1
-    return 0
+            fh.write(f"## Clasificación de idioma\n\n{body}\n")
+    if error:
+        notify(config, "Clasificación de idioma " + ("FALLIDA" if status else "incompleta"), body, ok=False)
+    return status
 
 
 if __name__ == "__main__":

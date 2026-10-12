@@ -8,10 +8,12 @@ y las guarda juntas en `data/locations.json`:
 ```json
 {
   "locations": [
-    { "id": "607881395899347", "name": "Palma De Mallorca, Spain" }
+    { "id": "607881395899347", "name": "Palma De Mallorca, Spain", "lang": "en" }
   ]
 }
 ```
+
+`lang` es el idioma del nombre: `es`, `en`, `ca`, `other` (otro idioma) o `neutral` (solo nombres propios, topónimos o marcas). Ver [Idioma](#idioma).
 
 ## Cómo funciona
 
@@ -35,6 +37,18 @@ Los directorios se configuran con `IG_SOURCES` (`clave=url,clave=url`); por defe
 Para forzar una pasada completa: `python -m ig_places --full`, o lanzar el workflow a mano con *full_refresh*.
 
 En GitHub Actions la carpeta `.cache` se conserva entre ejecuciones con `actions/cache`.
+
+## Idioma
+
+Instagram no guarda en qué idioma está el nombre de una ubicación, así que se infiere del texto (`ig_places/languages.py` y `ig_places/classify.py`):
+
+1. **Diccionario** de palabras que solo existen en un idioma (*Teatre, Platja, Carrer* → `ca`; *Teatro, Playa, Calle, Restaurante* → `es`; *Beach, Old Town, Spain* → `en`). Gratis y determinista; resuelve aprox. un tercio de los nombres.
+2. **Cloudflare Workers AI** (`@cf/mistralai/mistral-small-3.1-24b-instruct`, plan gratuito) para el resto. Si un nombre vale en español y en catalán, cuenta como `es`.
+3. **`data/language_overrides.json`** (`{"<id>": "<lang>"}`): correcciones manuales, con prioridad sobre todo lo anterior.
+
+Cada ubicación se clasifica una sola vez: el resultado se guarda por ID en `data/languages.json` (en el repo), tras cada petición. Solo se clasifican las ubicaciones nuevas o las que cambian de nombre; si se agota la cuota diaria, se continúa al día siguiente sin perder nada.
+
+Requiere los secrets `CLOUDFLARE_ACCOUNT_ID` y `CLOUDFLARE_API_TOKEN` (token con permiso *Workers AI*).
 
 ## Logging
 

@@ -13,6 +13,7 @@ from pathlib import Path
 from .browser import InstagramBrowser, PageResult, PageStatus
 from .cache import PageCache
 from .config import Config, Source
+from .languages import effective_langs, with_langs
 from .log import get_logger, setup_logging
 from .notify import notify
 
@@ -218,7 +219,10 @@ def write_output(config: Config, locations: list[dict], report: Report) -> None:
             "No se sobrescribe el JSON."
         )
 
-    content = json.dumps({"locations": locations}, ensure_ascii=False, indent=2) + "\n"
+    # Conserva el idioma ya clasificado (ig_places.classify añade el de las nuevas).
+    content = json.dumps(
+        {"locations": with_langs(locations, effective_langs())}, ensure_ascii=False, indent=2
+    ) + "\n"
     if config.output_file.exists() and config.output_file.read_text(encoding="utf-8") == content:
         log.info("El JSON no ha cambiado (%d ubicaciones)", len(locations))
         return

@@ -2,11 +2,13 @@
   "locations": [
     {
       "id": "15166261",
-      "name": "Palma De Mallorca, Spain"
+      "name": "Palma De Mallorca, Spain",
+      "lang": "en"
     },
     {
       "id": "238691643545818",
-      "name": "Mallorca, Spain"
+      "name": "Mallorca, Spain",
+      "lang": "en"
     },
     {
       "id": "213077623",
@@ -14,15 +16,18 @@
     },
     {
       "id": "636554543186945",
-      "name": "Isla De Mallorca, Baleares"
+      "name": "Isla De Mallorca, Baleares",
+      "lang": "es"
     },
     {
       "id": "607881395899347",
-      "name": "Palma De Mallorca, Spain"
+      "name": "Palma De Mallorca, Spain",
+      "lang": "en"
     },
     {
       "id": "1770741833239722",
-      "name": "Palma Old Town"
+      "name": "Palma Old Town",
+      "lang": "en"
     },
     {
       "id": "1176061082561387",
@@ -30,7 +35,8 @@
     },
     {
       "id": "717167875",
-      "name": "Palma, Spain"
+      "name": "Palma, Spain",
+      "lang": "en"
     },
     {
       "id": "379786909",
@@ -38,7 +44,8 @@
     },
     {
       "id": "131487636902225",
-      "name": "Plaza Mayor de Palma de Mallorca"
+      "name": "Plaza Mayor de Palma de Mallorca",
+      "lang": "es"
     },
     {
       "id": "253214095",
@@ -54,7 +61,8 @@
     },
     {
       "id": "246287175",
-      "name": "Mercat de l'Olivar"
+      "name": "Mercat de l'Olivar",
+      "lang": "ca"
     },
     {
       "id": "250372216",
@@ -66,7 +74,8 @@
     },
     {
       "id": "28383048",
-      "name": "Anima Beach Palma"
+      "name": "Anima Beach Palma",
+      "lang": "en"
     },
     {
       "id": "340664343",
@@ -78,7 +87,8 @@
     },
     {
       "id": "236197609886253",
-      "name": "Plaza de España (Palma de Mallorca)"
+      "name": "Plaza de España (Palma de Mallorca)",
+      "lang": "es"
     },
     {
       "id": "283096033",
@@ -86,7 +96,8 @@
     },
     {
       "id": "1774193396191679",
-      "name": "Paseo del Borne (Palma de Mallorca)"
+      "name": "Paseo del Borne (Palma de Mallorca)",
+      "lang": "es"
     },
     {
       "id": "239345968",
@@ -110,11 +121,13 @@
     },
     {
       "id": "224014367",
-      "name": "Es Baluard Museu d'Art Contemporani de Palma"
+      "name": "Es Baluard Museu d'Art Contemporani de Palma",
+      "lang": "ca"
     },
     {
       "id": "250770847",
-      "name": "City Of Palma"
+      "name": "City Of Palma",
+      "lang": "en"
     },
     {
       "id": "262535587",
@@ -126,31 +139,38 @@
     },
     {
       "id": "270630933460274",
-      "name": "Deià, Mallorca, Spain"
+      "name": "Deià, Mallorca, Spain",
+      "lang": "en"
     },
     {
       "id": "235157770",
-      "name": "Port Palma De Mallorca, España"
+      "name": "Port Palma De Mallorca, España",
+      "lang": "es"
     },
     {
       "id": "380940",
-      "name": "Ca'n Joan de s'Aigo"
+      "name": "Ca'n Joan de s'Aigo",
+      "lang": "neutral"
     },
     {
       "id": "695989627",
-      "name": "Palacio Real de La Almudaina"
+      "name": "Palacio Real de La Almudaina",
+      "lang": "es"
     },
     {
       "id": "255641873",
-      "name": "Paguera, Palma de Mallorca, Espana."
+      "name": "Paguera, Palma de Mallorca, Espana.",
+      "lang": "es"
     },
     {
       "id": "117080585533435",
-      "name": "Catedral Palma De Mallorca, Balears, Spaña"
+      "name": "Catedral Palma De Mallorca, Balears, Spaña",
+      "lang": "ca"
     },
     {
       "id": "264933882",
-      "name": "Playa de Muro"
+      "name": "Playa de Muro",
+      "lang": "es"
     },
     {
       "id": "238917412",
@@ -170,7 +190,8 @@
     },
     {
       "id": "778110652",
-      "name": "Palma, Majorca"
+      "name": "Palma, Majorca",
+      "lang": "en"
     },
     {
       "id": "528823127540534",
@@ -178,7 +199,8 @@
     },
     {
       "id": "251371340",
-      "name": "Centro de Palma"
+      "name": "Centro de Palma",
+      "lang": "es"
     },
     {
       "id": "221979111",
@@ -198,11 +220,13 @@
     },
     {
       "id": "1527973597242051",
-      "name": "Palma De Mallorca España"
+      "name": "Palma De Mallorca España",
+      "lang": "es"
     },
     {
       "id": "429764430486736",
-      "name": "Paseo Marítimo"
+      "name": "Paseo Marítimo",
+      "lang": "es"
     },
     {
       "id": "269356289",
@@ -218,11 +242,13 @@
     },
     {
       "id": "253662713",
-      "name": "Jardins S'hort Del Rei - Palma De Mallorca"
+      "name": "Jardins S'hort Del Rei - Palma De Mallorca",
+      "lang": "ca"
     },
     {
       "id": "451951351",
-      "name": "Mercat de Santa Catalina"
+      "name": "Mercat de Santa Catalina",
+      "lang": "ca"
     },
     {
       "id": "110414782969564",
@@ -234,19 +260,23 @@
     },
     {
       "id": "248021486",
-      "name": "Palma Cathedral De Mallorca"
+      "name": "Palma Cathedral De Mallorca",
+      "lang": "en"
     },
     {
       "id": "1283513",
-      "name": "Parc de la Mar"
+      "name": "Parc de la Mar",
+      "lang": "ca"
     },
     {
       "id": "250699914",
-      "name": "Cathedral Palma"
+      "name": "Cathedral Palma",
+      "lang": "en"
     },
     {
       "id": "252772270",
-      "name": "Es Trenc Beach"
+      "name": "Es Trenc Beach",
+      "lang": "en"
     },
     {
       "id": "280955792057066",
@@ -266,7 +296,8 @@
     },
     {
       "id": "46303629",
-      "name": "Plaza España Palma"
+      "name": "Plaza España Palma",
+      "lang": "es"
     },
     {
       "id": "484204915016775",
@@ -278,7 +309,8 @@
     },
     {
       "id": "220737987953662",
-      "name": "Plaza de Cort"
+      "name": "Plaza de Cort",
+      "lang": "es"
     },
     {
       "id": "324521124",
@@ -306,23 +338,28 @@
     },
     {
       "id": "508230650",
-      "name": "Royal Palace of La Almudaina"
+      "name": "Royal Palace of La Almudaina",
+      "lang": "en"
     },
     {
       "id": "1355609687832899",
-      "name": "Ombu Tapas Bar & Cocktails"
+      "name": "Ombu Tapas Bar & Cocktails",
+      "lang": "en"
     },
     {
       "id": "1029506000",
-      "name": "Mallorca Isla"
+      "name": "Mallorca Isla",
+      "lang": "es"
     },
     {
       "id": "156877611814512",
-      "name": "Palma De Mallorca, España"
+      "name": "Palma De Mallorca, España",
+      "lang": "es"
     },
     {
       "id": "1137428439701270",
-      "name": "Palau De Congressos Palma"
+      "name": "Palau De Congressos Palma",
+      "lang": "ca"
     },
     {
       "id": "121204428592102",
@@ -330,11 +367,13 @@
     },
     {
       "id": "189241062001694",
-      "name": "Marina Bay Palma"
+      "name": "Marina Bay Palma",
+      "lang": "en"
     },
     {
       "id": "243051209",
-      "name": "Teatre Principal de Palma"
+      "name": "Teatre Principal de Palma",
+      "lang": "ca"
     },
     {
       "id": "966852222",
@@ -342,11 +381,13 @@
     },
     {
       "id": "108755664644994",
-      "name": "Brunchit España"
+      "name": "Brunchit España",
+      "lang": "es"
     },
     {
       "id": "101451865646596",
-      "name": "Palma Cathedral"
+      "name": "Palma Cathedral",
+      "lang": "en"
     },
     {
       "id": "587088438",
@@ -358,7 +399,8 @@
     },
     {
       "id": "250399931",
-      "name": "Palma Cathedral"
+      "name": "Palma Cathedral",
+      "lang": "en"
     },
     {
       "id": "108183417635110",
@@ -370,7 +412,8 @@
     },
     {
       "id": "215690790",
-      "name": "Playa Ca'n Pere Antoni"
+      "name": "Playa Ca'n Pere Antoni",
+      "lang": "es"
     },
     {
       "id": "710591809",
@@ -402,7 +445,8 @@
     },
     {
       "id": "100586291570901",
-      "name": "The Merchants - Steakhouse & Grill"
+      "name": "The Merchants - Steakhouse & Grill",
+      "lang": "en"
     },
     {
       "id": "236245307",
@@ -414,7 +458,8 @@
     },
     {
       "id": "250906198622057",
-      "name": "Sóller, España."
+      "name": "Sóller, España.",
+      "lang": "es"
     },
     {
       "id": "4652516",
@@ -426,7 +471,8 @@
     },
     {
       "id": "378203213",
-      "name": "La Seu Cathedral Palma De Mallorca Spain"
+      "name": "La Seu Cathedral Palma De Mallorca Spain",
+      "lang": "en"
     },
     {
       "id": "287302485053283",
@@ -434,11 +480,13 @@
     },
     {
       "id": "128824794425016",
-      "name": "Passeig Des Born"
+      "name": "Passeig Des Born",
+      "lang": "ca"
     },
     {
       "id": "219147936",
-      "name": "Plaza Mayor Mallorca"
+      "name": "Plaza Mayor Mallorca",
+      "lang": "es"
     },
     {
       "id": "542935559232683",
@@ -454,7 +502,8 @@
     },
     {
       "id": "183866362007649",
-      "name": "Parc de la Mar"
+      "name": "Parc de la Mar",
+      "lang": "ca"
     },
     {
       "id": "1839813942934953",
@@ -466,11 +515,13 @@
     },
     {
       "id": "2008353796063903",
-      "name": "La Llotja"
+      "name": "La Llotja",
+      "lang": "ca"
     },
     {
       "id": "1787853678172068",
-      "name": "The Cathedral of Santa Maria of Palma"
+      "name": "The Cathedral of Santa Maria of Palma",
+      "lang": "en"
     },
     {
       "id": "269095379",
@@ -478,7 +529,8 @@
     },
     {
       "id": "404369593",
-      "name": "Bahía Mediterráneo"
+      "name": "Bahía Mediterráneo",
+      "lang": "es"
     },
     {
       "id": "943447687",
@@ -486,7 +538,8 @@
     },
     {
       "id": "2103176559966011",
-      "name": "Illes Balears"
+      "name": "Illes Balears",
+      "lang": "ca"
     },
     {
       "id": "375633152944395",
@@ -510,7 +563,8 @@
     },
     {
       "id": "612901432057495",
-      "name": "Palma International Boat Show"
+      "name": "Palma International Boat Show",
+      "lang": "en"
     },
     {
       "id": "101435104568350",
@@ -522,7 +576,8 @@
     },
     {
       "id": "108861596500543",
-      "name": "Alcudia Old town"
+      "name": "Alcudia Old town",
+      "lang": "en"
     },
     {
       "id": "2024614317824668",
@@ -534,15 +589,18 @@
     },
     {
       "id": "235472608",
-      "name": "Playa De Gesa"
+      "name": "Playa De Gesa",
+      "lang": "es"
     },
     {
       "id": "534652",
-      "name": "Passeig Des Born"
+      "name": "Passeig Des Born",
+      "lang": "ca"
     },
     {
       "id": "630800867125649",
-      "name": "Cuevas del Drac"
+      "name": "Cuevas del Drac",
+      "lang": "es"
     },
     {
       "id": "320435016",
@@ -550,11 +608,13 @@
     },
     {
       "id": "2039703",
-      "name": "Bar España"
+      "name": "Bar España",
+      "lang": "es"
     },
     {
       "id": "313067549168399",
-      "name": "Parc De Sa Riera, Palma"
+      "name": "Parc De Sa Riera, Palma",
+      "lang": "ca"
     },
     {
       "id": "282182077",
@@ -566,7 +626,8 @@
     },
     {
       "id": "233036197363187",
-      "name": "Plaça de Cort, Palma"
+      "name": "Plaça de Cort, Palma",
+      "lang": "ca"
     },
     {
       "id": "221519963",
@@ -574,11 +635,13 @@
     },
     {
       "id": "219923820",
-      "name": "Palma De Mallorca! - España"
+      "name": "Palma De Mallorca! - España",
+      "lang": "es"
     },
     {
       "id": "1489332197754944",
-      "name": "Port Palma de Mallorca, españa"
+      "name": "Port Palma de Mallorca, españa",
+      "lang": "es"
     },
     {
       "id": "480398238968790",
@@ -598,23 +661,28 @@
     },
     {
       "id": "733396387",
-      "name": "Mallorca España"
+      "name": "Mallorca España",
+      "lang": "es"
     },
     {
       "id": "110392917959824",
-      "name": "Epic Palma"
+      "name": "Epic Palma",
+      "lang": "neutral"
     },
     {
       "id": "1030742574",
-      "name": "Plaça Espanya"
+      "name": "Plaça Espanya",
+      "lang": "ca"
     },
     {
       "id": "1347734005375427",
-      "name": "Can Bordoy Grand House & Garden"
+      "name": "Can Bordoy Grand House & Garden",
+      "lang": "en"
     },
     {
       "id": "249979588",
-      "name": "OMINO - By Ingrosso - Mallorca"
+      "name": "OMINO - By Ingrosso - Mallorca",
+      "lang": "en"
     },
     {
       "id": "4468473",
@@ -638,7 +706,8 @@
     },
     {
       "id": "4303831",
-      "name": "Plaza De Toros Coliseo Balear"
+      "name": "Plaza De Toros Coliseo Balear",
+      "lang": "es"
     },
     {
       "id": "259903302",
@@ -650,7 +719,8 @@
     },
     {
       "id": "479593625911155",
-      "name": "Palma De Mallorca, Islas Baleares"
+      "name": "Palma De Mallorca, Islas Baleares",
+      "lang": "es"
     },
     {
       "id": "1625448677485588",
@@ -658,15 +728,18 @@
     },
     {
       "id": "236186712",
-      "name": "En La Playa del Portixol"
+      "name": "En La Playa del Portixol",
+      "lang": "es"
     },
     {
       "id": "1772181876142828",
-      "name": "Palma Old Town"
+      "name": "Palma Old Town",
+      "lang": "en"
     },
     {
       "id": "340581038",
-      "name": "Beach Palma"
+      "name": "Beach Palma",
+      "lang": "en"
     },
     {
       "id": "449077685927641",
@@ -694,7 +767,8 @@
     },
     {
       "id": "1329956880383287",
-      "name": "Mercat Pere Garau"
+      "name": "Mercat Pere Garau",
+      "lang": "ca"
     },
     {
       "id": "747857448719859",
@@ -710,7 +784,8 @@
     },
     {
       "id": "943629756",
-      "name": "Nassau Beach Club Mallorca"
+      "name": "Nassau Beach Club Mallorca",
+      "lang": "en"
     },
     {
       "id": "1027891508",
@@ -718,7 +793,8 @@
     },
     {
       "id": "239530249",
-      "name": "Museu Fundació Juan March"
+      "name": "Museu Fundació Juan March",
+      "lang": "ca"
     },
     {
       "id": "105970158198474",
@@ -730,11 +806,13 @@
     },
     {
       "id": "220760488405138",
-      "name": "Melia Palma Bay"
+      "name": "Melia Palma Bay",
+      "lang": "en"
     },
     {
       "id": "246497185208337",
-      "name": "SkyNudos"
+      "name": "SkyNudos",
+      "lang": "neutral"
     },
     {
       "id": "241076339738522",
@@ -742,19 +820,23 @@
     },
     {
       "id": "3634569",
-      "name": "Ca n'Eduardo Restaurante"
+      "name": "Ca n'Eduardo Restaurante",
+      "lang": "es"
     },
     {
       "id": "925590174212370",
-      "name": "La Seu Cathedral Palma de Mallorca Spain"
+      "name": "La Seu Cathedral Palma de Mallorca Spain",
+      "lang": "en"
     },
     {
       "id": "102990428274624",
-      "name": "Concepció by Nobis"
+      "name": "Concepció by Nobis",
+      "lang": "en"
     },
     {
       "id": "270062807",
-      "name": "Ajuntament de Palma"
+      "name": "Ajuntament de Palma",
+      "lang": "ca"
     },
     {
       "id": "105397658467846",
@@ -762,7 +844,8 @@
     },
     {
       "id": "864410811",
-      "name": "Mercado Gastronómico San Juan"
+      "name": "Mercado Gastronómico San Juan",
+      "lang": "es"
     },
     {
       "id": "348487678939622",
@@ -782,7 +865,8 @@
     },
     {
       "id": "319649281881072",
-      "name": "Parc De La Mar, Palma De Mallorca, Illes Balears"
+      "name": "Parc De La Mar, Palma De Mallorca, Illes Balears",
+      "lang": "ca"
     },
     {
       "id": "251304916",
@@ -790,7 +874,8 @@
     },
     {
       "id": "344537920",
-      "name": "Illetes Beach, Mallorca"
+      "name": "Illetes Beach, Mallorca",
+      "lang": "en"
     },
     {
       "id": "863462023",
@@ -802,7 +887,8 @@
     },
     {
       "id": "754372636",
-      "name": "La Paloma"
+      "name": "La Paloma",
+      "lang": "neutral"
     },
     {
       "id": "249026950",
@@ -830,15 +916,18 @@
     },
     {
       "id": "333941740",
-      "name": "LAB Cocktail Bar & Academy"
+      "name": "LAB Cocktail Bar & Academy",
+      "lang": "en"
     },
     {
       "id": "224139368",
-      "name": "Paseo Mallorca"
+      "name": "Paseo Mallorca",
+      "lang": "es"
     },
     {
       "id": "2966603",
-      "name": "Parlament de les Illes Balears"
+      "name": "Parlament de les Illes Balears",
+      "lang": "ca"
     },
     {
       "id": "250705042",
@@ -866,7 +955,8 @@
     },
     {
       "id": "440903062970473",
-      "name": "Cala Agulla"
+      "name": "Cala Agulla",
+      "lang": "neutral"
     },
     {
       "id": "195719623928142",
@@ -882,7 +972,8 @@
     },
     {
       "id": "664941343563041",
-      "name": "Puerto de Palma de Mallorca"
+      "name": "Puerto de Palma de Mallorca",
+      "lang": "es"
     },
     {
       "id": "528992677619727",
@@ -906,7 +997,8 @@
     },
     {
       "id": "760327",
-      "name": "Plaça de Cort"
+      "name": "Plaça de Cort",
+      "lang": "ca"
     },
     {
       "id": "248513790",
@@ -918,15 +1010,18 @@
     },
     {
       "id": "274078766803767",
-      "name": "El Llorenc Parc de la Mar"
+      "name": "El Llorenc Parc de la Mar",
+      "lang": "ca"
     },
     {
       "id": "102697601717506",
-      "name": "Can Pastilla, Mallorca, Spain"
+      "name": "Can Pastilla, Mallorca, Spain",
+      "lang": "en"
     },
     {
       "id": "107950935596582",
-      "name": "Arlequin Restaurant & Cocktail Bar"
+      "name": "Arlequin Restaurant & Cocktail Bar",
+      "lang": "en"
     },
     {
       "id": "242435222983030",
@@ -934,11 +1029,13 @@
     },
     {
       "id": "2205665",
-      "name": "BORN 8"
+      "name": "BORN 8",
+      "lang": "neutral"
     },
     {
       "id": "1019675",
-      "name": "Plaça Major"
+      "name": "Plaça Major",
+      "lang": "ca"
     },
     {
       "id": "371476548",
@@ -946,7 +1043,8 @@
     },
     {
       "id": "538835673169405",
-      "name": "Plaza De La Reina, Palma De Mallorca"
+      "name": "Plaza De La Reina, Palma De Mallorca",
+      "lang": "es"
     },
     {
       "id": "98445985",
@@ -958,7 +1056,8 @@
     },
     {
       "id": "469244416",
-      "name": "Restaurante Nola"
+      "name": "Restaurante Nola",
+      "lang": "es"
     },
     {
       "id": "414922598",
@@ -974,7 +1073,8 @@
     },
     {
       "id": "1634248516625857",
-      "name": "Playa De Ses Illetes, Formentera"
+      "name": "Playa De Ses Illetes, Formentera",
+      "lang": "es"
     },
     {
       "id": "4247624",
@@ -982,7 +1082,8 @@
     },
     {
       "id": "2297101",
-      "name": "Banys Arabs"
+      "name": "Banys Arabs",
+      "lang": "ca"
     },
     {
       "id": "772797436216169",
@@ -990,7 +1091,8 @@
     },
     {
       "id": "1951595848448220",
-      "name": "La Vieja de Jonay Hernandez"
+      "name": "La Vieja de Jonay Hernandez",
+      "lang": "es"
     },
     {
       "id": "291958928088153",
@@ -998,11 +1100,13 @@
     },
     {
       "id": "132920667567083",
-      "name": "Mallorca Islands"
+      "name": "Mallorca Islands",
+      "lang": "en"
     },
     {
       "id": "261458819",
-      "name": "The Boat House Palma Spain"
+      "name": "The Boat House Palma Spain",
+      "lang": "en"
     },
     {
       "id": "933785000",
@@ -1010,11 +1114,13 @@
     },
     {
       "id": "107659694178557",
-      "name": "BROX kitchen & drinks"
+      "name": "BROX kitchen & drinks",
+      "lang": "en"
     },
     {
       "id": "266198538",
-      "name": "FORN Palma"
+      "name": "FORN Palma",
+      "lang": "ca"
     },
     {
       "id": "238337247",
@@ -1026,7 +1132,8 @@
     },
     {
       "id": "425953585",
-      "name": "Panadería SEstació"
+      "name": "Panadería SEstació",
+      "lang": "es"
     },
     {
       "id": "359264660",
@@ -1046,7 +1153,8 @@
     },
     {
       "id": "2076456655962153",
-      "name": "Habitos saludables con Catalina"
+      "name": "Habitos saludables con Catalina",
+      "lang": "es"
     },
     {
       "id": "114773163227660",
@@ -1054,7 +1162,8 @@
     },
     {
       "id": "131888406861849",
-      "name": "Bahía de Palma"
+      "name": "Bahía de Palma",
+      "lang": "es"
     },
     {
       "id": "583249485105425",
@@ -1066,11 +1175,13 @@
     },
     {
       "id": "623563571371959",
-      "name": "Centro De Palma"
+      "name": "Centro De Palma",
+      "lang": "es"
     },
     {
       "id": "315290621",
-      "name": "s'Arenal Palma De Mallorca,Spain"
+      "name": "s'Arenal Palma De Mallorca,Spain",
+      "lang": "en"
     },
     {
       "id": "100330552425892",
@@ -1082,7 +1193,8 @@
     },
     {
       "id": "1715815402050621",
-      "name": "Mallorca Islands"
+      "name": "Mallorca Islands",
+      "lang": "en"
     },
     {
       "id": "309407580",
@@ -1094,7 +1206,8 @@
     },
     {
       "id": "245894538",
-      "name": "Celler Sa Premsa"
+      "name": "Celler Sa Premsa",
+      "lang": "ca"
     },
     {
       "id": "974925531",
@@ -1102,11 +1215,13 @@
     },
     {
       "id": "370011756689096",
-      "name": "Mercat 1930"
+      "name": "Mercat 1930",
+      "lang": "ca"
     },
     {
       "id": "464646282",
-      "name": "Parc Guell Barcellona"
+      "name": "Parc Guell Barcellona",
+      "lang": "ca"
     },
     {
       "id": "137736070169925",
@@ -1134,11 +1249,13 @@
     },
     {
       "id": "1399923430263210",
-      "name": "Avenida Jaime III"
+      "name": "Avenida Jaime III",
+      "lang": "es"
     },
     {
       "id": "2978769",
-      "name": "Teatre Xesc Forteza"
+      "name": "Teatre Xesc Forteza",
+      "lang": "ca"
     },
     {
       "id": "226941339",
@@ -1146,7 +1263,8 @@
     },
     {
       "id": "107780805318136",
-      "name": "Lili’s Brunch & Cocktails"
+      "name": "Lili’s Brunch & Cocktails",
+      "lang": "en"
     },
     {
       "id": "487951082",
@@ -1170,7 +1288,8 @@
     },
     {
       "id": "256270782",
-      "name": "Cuevas Del Drach"
+      "name": "Cuevas Del Drach",
+      "lang": "es"
     },
     {
       "id": "105321505561529",
@@ -1182,15 +1301,18 @@
     },
     {
       "id": "242983717",
-      "name": "Palma De Mallorca Centro"
+      "name": "Palma De Mallorca Centro",
+      "lang": "es"
     },
     {
       "id": "273770531",
-      "name": "Ibiza & Formentera, Ses Illes Balears"
+      "name": "Ibiza & Formentera, Ses Illes Balears",
+      "lang": "ca"
     },
     {
       "id": "105305471926856",
-      "name": "Mistral Coffee House"
+      "name": "Mistral Coffee House",
+      "lang": "en"
     },
     {
       "id": "554650498073168",
@@ -1198,11 +1320,13 @@
     },
     {
       "id": "2214812465457074",
-      "name": "Quinta Avenida"
+      "name": "Quinta Avenida",
+      "lang": "es"
     },
     {
       "id": "227944074033131",
-      "name": "Miputacasa"
+      "name": "Miputacasa",
+      "lang": "neutral"
     },
     {
       "id": "756479684",
@@ -1222,15 +1346,18 @@
     },
     {
       "id": "345380235",
-      "name": "Llotja de Palma"
+      "name": "Llotja de Palma",
+      "lang": "ca"
     },
     {
       "id": "267303339",
-      "name": "Passeig Mallorca"
+      "name": "Passeig Mallorca",
+      "lang": "ca"
     },
     {
       "id": "786831734",
-      "name": "Estación Intermodal-Plaza de España"
+      "name": "Estación Intermodal-Plaza de España",
+      "lang": "es"
     },
     {
       "id": "108919998506052",
@@ -1238,7 +1365,8 @@
     },
     {
       "id": "551499138531055",
-      "name": "Bazaar Tapas Bar & Restaurante"
+      "name": "Bazaar Tapas Bar & Restaurante",
+      "lang": "es"
     },
     {
       "id": "109511461367881",
@@ -1266,11 +1394,13 @@
     },
     {
       "id": "263998787269329",
-      "name": "Soler"
+      "name": "Soler",
+      "lang": "neutral"
     },
     {
       "id": "2040666912811679",
-      "name": "Arabay Coffee"
+      "name": "Arabay Coffee",
+      "lang": "en"
     },
     {
       "id": "289309261445654",
@@ -1302,7 +1432,8 @@
     },
     {
       "id": "248019357",
-      "name": "Playa De Alcudia"
+      "name": "Playa De Alcudia",
+      "lang": "es"
     },
     {
       "id": "895180923",
@@ -1322,7 +1453,8 @@
     },
     {
       "id": "276254449632439",
-      "name": "Assaona Beach Club, Portixol"
+      "name": "Assaona Beach Club, Portixol",
+      "lang": "en"
     },
     {
       "id": "190925814692455",
@@ -1334,7 +1466,8 @@
     },
     {
       "id": "132184604245728",
-      "name": "Forn del santa Cristo"
+      "name": "Forn del santa Cristo",
+      "lang": "ca"
     },
     {
       "id": "280421075797439",
@@ -1346,7 +1479,8 @@
     },
     {
       "id": "1008050660",
-      "name": "Parque de las Estaciones"
+      "name": "Parque de las Estaciones",
+      "lang": "es"
     },
     {
       "id": "554676677966405",
@@ -1362,11 +1496,13 @@
     },
     {
       "id": "101829601375875",
-      "name": "Palma, Spain, Europe"
+      "name": "Palma, Spain, Europe",
+      "lang": "en"
     },
     {
       "id": "337363790",
-      "name": "Temple Natura Café Garden"
+      "name": "Temple Natura Café Garden",
+      "lang": "en"
     },
     {
       "id": "1016265915429068",
@@ -1374,7 +1510,8 @@
     },
     {
       "id": "280475148",
-      "name": "Forn Sto Cristo"
+      "name": "Forn Sto Cristo",
+      "lang": "ca"
     },
     {
       "id": "215466108",
@@ -1402,7 +1539,8 @@
     },
     {
       "id": "1839218456197643",
-      "name": "La Vasca"
+      "name": "La Vasca",
+      "lang": "neutral"
     },
     {
       "id": "311798723",
@@ -1414,11 +1552,13 @@
     },
     {
       "id": "173962553323149",
-      "name": "Jardines de Alfabia, Soller"
+      "name": "Jardines de Alfabia, Soller",
+      "lang": "es"
     },
     {
       "id": "861918117252054",
-      "name": "España"
+      "name": "España",
+      "lang": "es"
     },
     {
       "id": "252666927",
@@ -1430,7 +1570,8 @@
     },
     {
       "id": "249118435",
-      "name": "Bi Bap Korean and Asian Food"
+      "name": "Bi Bap Korean and Asian Food",
+      "lang": "en"
     },
     {
       "id": "1026882341",
@@ -1442,7 +1583,8 @@
     },
     {
       "id": "110690955094690",
-      "name": "The Jazz Lounge by Florencio Cruz"
+      "name": "The Jazz Lounge by Florencio Cruz",
+      "lang": "en"
     },
     {
       "id": "1385092171575805",
@@ -1466,11 +1608,13 @@
     },
     {
       "id": "234924481",
-      "name": "Beewi Paseo Mallorca"
+      "name": "Beewi Paseo Mallorca",
+      "lang": "es"
     },
     {
       "id": "101604117314581",
-      "name": "Paseo del Borne"
+      "name": "Paseo del Borne",
+      "lang": "es"
     },
     {
       "id": "767108949",
@@ -1486,7 +1630,8 @@
     },
     {
       "id": "269102329922797",
-      "name": "Calle Blanquerna"
+      "name": "Calle Blanquerna",
+      "lang": "es"
     },
     {
       "id": "229807977515661",
@@ -1514,7 +1659,8 @@
     },
     {
       "id": "116349683479417",
-      "name": "Nicolas Cocktail Bar"
+      "name": "Nicolas Cocktail Bar",
+      "lang": "en"
     },
     {
       "id": "262364690",
@@ -1534,7 +1680,8 @@
     },
     {
       "id": "214983594",
-      "name": "Mercado Del Olivar"
+      "name": "Mercado Del Olivar",
+      "lang": "es"
     },
     {
       "id": "1014992045",
@@ -1542,7 +1689,8 @@
     },
     {
       "id": "229013155",
-      "name": "Paseo del Borne"
+      "name": "Paseo del Borne",
+      "lang": "es"
     },
     {
       "id": "272389176427714",
@@ -1550,7 +1698,8 @@
     },
     {
       "id": "830163503834458",
-      "name": "SantaCatalina, PalmaIlles Balears"
+      "name": "SantaCatalina, PalmaIlles Balears",
+      "lang": "ca"
     },
     {
       "id": "228471179",
@@ -1558,7 +1707,8 @@
     },
     {
       "id": "2364225357184428",
-      "name": "Plaza España Palma De Mallorca"
+      "name": "Plaza España Palma De Mallorca",
+      "lang": "es"
     },
     {
       "id": "898711796908545",
@@ -1586,7 +1736,8 @@
     },
     {
       "id": "552003531623999",
-      "name": "Playa de S'amarador, Mallorca"
+      "name": "Playa de S'amarador, Mallorca",
+      "lang": "es"
     },
     {
       "id": "1014292369",
@@ -1598,15 +1749,18 @@
     },
     {
       "id": "640892925973956",
-      "name": "Plaza de toros de Palma de Mallorca"
+      "name": "Plaza de toros de Palma de Mallorca",
+      "lang": "es"
     },
     {
       "id": "477955191",
-      "name": "Mira Blau"
+      "name": "Mira Blau",
+      "lang": "neutral"
     },
     {
       "id": "273491293037163",
-      "name": "Playa del Mago"
+      "name": "Playa del Mago",
+      "lang": "es"
     },
     {
       "id": "972673229591753",
@@ -1642,11 +1796,13 @@
     },
     {
       "id": "1041717795965921",
-      "name": "Puerto De Palma De Mallorca Islas Baleares"
+      "name": "Puerto De Palma De Mallorca Islas Baleares",
+      "lang": "es"
     },
     {
       "id": "461948282",
-      "name": "Naan Street Food"
+      "name": "Naan Street Food",
+      "lang": "en"
     },
     {
       "id": "364188177",
@@ -1658,15 +1814,18 @@
     },
     {
       "id": "744460037",
-      "name": "Palma De Mallorca, Espana"
+      "name": "Palma De Mallorca, Espana",
+      "lang": "es"
     },
     {
       "id": "452228831571377",
-      "name": "Paseo Mallorca"
+      "name": "Paseo Mallorca",
+      "lang": "es"
     },
     {
       "id": "879589818830412",
-      "name": "Illetas"
+      "name": "Illetas",
+      "lang": "neutral"
     },
     {
       "id": "220590359",
@@ -1678,7 +1837,8 @@
     },
     {
       "id": "366620247180701",
-      "name": "Times Square Music Club"
+      "name": "Times Square Music Club",
+      "lang": "en"
     },
     {
       "id": "247959612790343",
@@ -1694,7 +1854,8 @@
     },
     {
       "id": "238308266",
-      "name": "Playa Es Trenc"
+      "name": "Playa Es Trenc",
+      "lang": "es"
     },
     {
       "id": "106798102400",
@@ -1702,7 +1863,8 @@
     },
     {
       "id": "512033238",
-      "name": "Bar Restaurante El Puente"
+      "name": "Bar Restaurante El Puente",
+      "lang": "es"
     },
     {
       "id": "327906807757978",
@@ -1734,11 +1896,13 @@
     },
     {
       "id": "1019776270",
-      "name": "ADlluna"
+      "name": "ADlluna",
+      "lang": "neutral"
     },
     {
       "id": "195375293991458",
-      "name": "Calle San Miguel"
+      "name": "Calle San Miguel",
+      "lang": "es"
     },
     {
       "id": "307103739693147",
@@ -1750,11 +1914,13 @@
     },
     {
       "id": "1018969184",
-      "name": "Distrito Centro (Palma de Mallorca)"
+      "name": "Distrito Centro (Palma de Mallorca)",
+      "lang": "es"
     },
     {
       "id": "1519139514776586",
-      "name": "KOA Grill & Cocktails"
+      "name": "KOA Grill & Cocktails",
+      "lang": "en"
     },
     {
       "id": "451257935",
@@ -1770,7 +1936,8 @@
     },
     {
       "id": "1280763",
-      "name": "Forn des Teatre"
+      "name": "Forn des Teatre",
+      "lang": "ca"
     },
     {
       "id": "476451296105028",
@@ -1790,11 +1957,13 @@
     },
     {
       "id": "387382525",
-      "name": "Atomic Garden Mallorca"
+      "name": "Atomic Garden Mallorca",
+      "lang": "en"
     },
     {
       "id": "288815389",
-      "name": "Paseo del Portixol"
+      "name": "Paseo del Portixol",
+      "lang": "es"
     },
     {
       "id": "2087210741497237",
@@ -1802,7 +1971,8 @@
     },
     {
       "id": "1018608554",
-      "name": "Cafè Riutort"
+      "name": "Cafè Riutort",
+      "lang": "ca"
     },
     {
       "id": "115205094949420",
@@ -1830,7 +2000,8 @@
     },
     {
       "id": "682133215143442",
-      "name": "The2 palma"
+      "name": "The2 palma",
+      "lang": "en"
     },
     {
       "id": "1151825108300730",
@@ -1838,11 +2009,13 @@
     },
     {
       "id": "745036347",
-      "name": "Plaza España"
+      "name": "Plaza España",
+      "lang": "es"
     },
     {
       "id": "386927715",
-      "name": "Cathedral De Palma"
+      "name": "Cathedral De Palma",
+      "lang": "en"
     },
     {
       "id": "109430180842695",
@@ -1866,7 +2039,8 @@
     },
     {
       "id": "830256280",
-      "name": "La Cuadra del Maño"
+      "name": "La Cuadra del Maño",
+      "lang": "es"
     },
     {
       "id": "768552676",
@@ -1906,7 +2080,8 @@
     },
     {
       "id": "232721210461661",
-      "name": "Innside by Meliá Palma Center"
+      "name": "Innside by Meliá Palma Center",
+      "lang": "en"
     },
     {
       "id": "258178968",
@@ -1918,7 +2093,8 @@
     },
     {
       "id": "1132179716824332",
-      "name": "Platja de Can Pere Antoni"
+      "name": "Platja de Can Pere Antoni",
+      "lang": "ca"
     },
     {
       "id": "250362456",
@@ -1934,11 +2110,13 @@
     },
     {
       "id": "801693264",
-      "name": "El Neo Restaurant"
+      "name": "El Neo Restaurant",
+      "lang": "neutral"
     },
     {
       "id": "242286187",
-      "name": "Plaza De La Reina"
+      "name": "Plaza De La Reina",
+      "lang": "es"
     },
     {
       "id": "240620758",
@@ -1946,11 +2124,13 @@
     },
     {
       "id": "210889502845116",
-      "name": "Banys Arabs (Arab Baths)"
+      "name": "Banys Arabs (Arab Baths)",
+      "lang": "ca"
     },
     {
       "id": "238796343",
-      "name": "Plaza Santa Eulalia"
+      "name": "Plaza Santa Eulalia",
+      "lang": "es"
     },
     {
       "id": "101723808211416",
@@ -1970,7 +2150,8 @@
     },
     {
       "id": "778037009004429",
-      "name": "Playa de Coll Baix"
+      "name": "Playa de Coll Baix",
+      "lang": "es"
     },
     {
       "id": "234776912",
@@ -1986,7 +2167,8 @@
     },
     {
       "id": "240172630081209",
-      "name": "Tristant Shop"
+      "name": "Tristant Shop",
+      "lang": "en"
     },
     {
       "id": "723405674679419",
@@ -2002,7 +2184,8 @@
     },
     {
       "id": "1026078828",
-      "name": "Palacio De La Almudaina"
+      "name": "Palacio De La Almudaina",
+      "lang": "es"
     },
     {
       "id": "2037390376376922",
@@ -2022,7 +2205,8 @@
     },
     {
       "id": "130209997515893",
-      "name": "Plaça d'Espanya"
+      "name": "Plaça d'Espanya",
+      "lang": "ca"
     },
     {
       "id": "316062999",
@@ -2042,11 +2226,13 @@
     },
     {
       "id": "872138276451797",
-      "name": "Palacio Can Marques"
+      "name": "Palacio Can Marques",
+      "lang": "es"
     },
     {
       "id": "220992855353897",
-      "name": "Palacio Real de la Almudaina"
+      "name": "Palacio Real de la Almudaina",
+      "lang": "es"
     },
     {
       "id": "353984804680113",
@@ -2058,7 +2244,8 @@
     },
     {
       "id": "776148082546895",
-      "name": "The Royal Factory Dance Academy"
+      "name": "The Royal Factory Dance Academy",
+      "lang": "en"
     },
     {
       "id": "259988037",
@@ -2066,7 +2253,8 @@
     },
     {
       "id": "106461081021427",
-      "name": "Clínica Rotger"
+      "name": "Clínica Rotger",
+      "lang": "neutral"
     },
     {
       "id": "1123386",
@@ -2078,7 +2266,8 @@
     },
     {
       "id": "293738850961519",
-      "name": "ABONE Asociación Balear de Ocio y Entretenimiento"
+      "name": "ABONE Asociación Balear de Ocio y Entretenimiento",
+      "lang": "es"
     },
     {
       "id": "100100674790344",
@@ -2094,11 +2283,13 @@
     },
     {
       "id": "214792045771694",
-      "name": "Seamill - Tapas Bar & Cocktails"
+      "name": "Seamill - Tapas Bar & Cocktails",
+      "lang": "en"
     },
     {
       "id": "943971348",
-      "name": "Mallorca Airport"
+      "name": "Mallorca Airport",
+      "lang": "en"
     },
     {
       "id": "224056841744566",
@@ -2110,15 +2301,18 @@
     },
     {
       "id": "272950591",
-      "name": "The Soho Bar"
+      "name": "The Soho Bar",
+      "lang": "en"
     },
     {
       "id": "1733082723611756",
-      "name": "Calixto Restaurante"
+      "name": "Calixto Restaurante",
+      "lang": "es"
     },
     {
       "id": "955871128",
-      "name": "Restaurante Libanés Rotana"
+      "name": "Restaurante Libanés Rotana",
+      "lang": "es"
     },
     {
       "id": "273960692",
@@ -2126,7 +2320,8 @@
     },
     {
       "id": "991634460885032",
-      "name": "Palma Casco Antiguo"
+      "name": "Palma Casco Antiguo",
+      "lang": "es"
     },
     {
       "id": "1023283259",
@@ -2134,11 +2329,13 @@
     },
     {
       "id": "809796499411895",
-      "name": "Msc Fantasia cruise"
+      "name": "Msc Fantasia cruise",
+      "lang": "neutral"
     },
     {
       "id": "627860505",
-      "name": "Palma Centro"
+      "name": "Palma Centro",
+      "lang": "es"
     },
     {
       "id": "277912392",
@@ -2150,11 +2347,13 @@
     },
     {
       "id": "121912791831942",
-      "name": "Cappuccino Palau March"
+      "name": "Cappuccino Palau March",
+      "lang": "ca"
     },
     {
       "id": "254622778250065",
-      "name": "Plaza de toros de Palma Coliseo Balear"
+      "name": "Plaza de toros de Palma Coliseo Balear",
+      "lang": "es"
     },
     {
       "id": "998420550",
@@ -2162,7 +2361,8 @@
     },
     {
       "id": "802756195",
-      "name": "Restaurante el Pilon"
+      "name": "Restaurante el Pilon",
+      "lang": "es"
     },
     {
       "id": "371472854",
@@ -2186,7 +2386,8 @@
     },
     {
       "id": "391345877935624",
-      "name": "M House Hotel"
+      "name": "M House Hotel",
+      "lang": "en"
     },
     {
       "id": "107045104302323",
@@ -2202,11 +2403,13 @@
     },
     {
       "id": "230177092",
-      "name": "Escola Superior de Disseny de les Illes Balears"
+      "name": "Escola Superior de Disseny de les Illes Balears",
+      "lang": "ca"
     },
     {
       "id": "475363887",
-      "name": "Festival Park Centro Ocio Festival Park, Autopista Palma-Inca, Mallorca,"
+      "name": "Festival Park Centro Ocio Festival Park, Autopista Palma-Inca, Mallorca,",
+      "lang": "es"
     },
     {
       "id": "1093618254069222",
@@ -2226,19 +2429,23 @@
     },
     {
       "id": "1778151469065993",
-      "name": "Restaurante el Olivo"
+      "name": "Restaurante el Olivo",
+      "lang": "es"
     },
     {
       "id": "1019780672",
-      "name": "Kingdom Skateboard Shop"
+      "name": "Kingdom Skateboard Shop",
+      "lang": "en"
     },
     {
       "id": "4550339",
-      "name": "Plaza Madrid"
+      "name": "Plaza Madrid",
+      "lang": "es"
     },
     {
       "id": "346144074",
-      "name": "Anima Beach Club"
+      "name": "Anima Beach Club",
+      "lang": "en"
     },
     {
       "id": "1584782621835478",
@@ -2250,7 +2457,8 @@
     },
     {
       "id": "2195148890511259",
-      "name": "Paseo Maritimo, Mallorca"
+      "name": "Paseo Maritimo, Mallorca",
+      "lang": "es"
     },
     {
       "id": "1019416774",
@@ -2258,19 +2466,23 @@
     },
     {
       "id": "188243215228436",
-      "name": "Cala Vella"
+      "name": "Cala Vella",
+      "lang": "ca"
     },
     {
       "id": "237987024",
-      "name": "Passeig Marítim (Palma De Mallorca)"
+      "name": "Passeig Marítim (Palma De Mallorca)",
+      "lang": "ca"
     },
     {
       "id": "262189451",
-      "name": "Calle Blanquerna, Palma"
+      "name": "Calle Blanquerna, Palma",
+      "lang": "es"
     },
     {
       "id": "1027698085",
-      "name": "The BOC Hostels"
+      "name": "The BOC Hostels",
+      "lang": "en"
     },
     {
       "id": "1004823120",
@@ -2314,7 +2526,8 @@
     },
     {
       "id": "108458521778063",
-      "name": "Es Príncep Rooftop"
+      "name": "Es Príncep Rooftop",
+      "lang": "en"
     },
     {
       "id": "236520759",
@@ -2334,11 +2547,13 @@
     },
     {
       "id": "290207",
-      "name": "Caixa forum"
+      "name": "Caixa forum",
+      "lang": "neutral"
     },
     {
       "id": "1960183564258634",
-      "name": "Mistral Speciality Coffee"
+      "name": "Mistral Speciality Coffee",
+      "lang": "en"
     },
     {
       "id": "300316623",
@@ -2346,11 +2561,13 @@
     },
     {
       "id": "560681437431883",
-      "name": "Viva Gym Management Ltd Sucursal en España."
+      "name": "Viva Gym Management Ltd Sucursal en España.",
+      "lang": "es"
     },
     {
       "id": "103423411091330",
-      "name": "Hotel Antigua Palma"
+      "name": "Hotel Antigua Palma",
+      "lang": "es"
     },
     {
       "id": "727338717422001",
@@ -2382,7 +2599,8 @@
     },
     {
       "id": "1014132488",
-      "name": "Jardin De Alfabia"
+      "name": "Jardin De Alfabia",
+      "lang": "es"
     },
     {
       "id": "1859896087433676",
@@ -2394,7 +2612,8 @@
     },
     {
       "id": "1015562953",
-      "name": "Restaurante de Tapas Tramuntana"
+      "name": "Restaurante de Tapas Tramuntana",
+      "lang": "es"
     },
     {
       "id": "565683430302456",
@@ -2402,7 +2621,8 @@
     },
     {
       "id": "623953371134372",
-      "name": "La nueva burguesa"
+      "name": "La nueva burguesa",
+      "lang": "es"
     },
     {
       "id": "288321587",
@@ -2410,7 +2630,8 @@
     },
     {
       "id": "1558729781009703",
-      "name": "FORN E FOOD PALMA carrer ample de la merce 26"
+      "name": "FORN E FOOD PALMA carrer ample de la merce 26",
+      "lang": "ca"
     },
     {
       "id": "358307384527250",
@@ -2418,11 +2639,13 @@
     },
     {
       "id": "266078946",
-      "name": "LENNOX - The Pub"
+      "name": "LENNOX - The Pub",
+      "lang": "en"
     },
     {
       "id": "593036207449747",
-      "name": "Calle de Aragón (Palma de Mallorca)"
+      "name": "Calle de Aragón (Palma de Mallorca)",
+      "lang": "es"
     },
     {
       "id": "656844744753345",
@@ -2430,7 +2653,8 @@
     },
     {
       "id": "981925908611023",
-      "name": "Plaça Major Palma"
+      "name": "Plaça Major Palma",
+      "lang": "ca"
     },
     {
       "id": "1025556590",
@@ -2442,7 +2666,8 @@
     },
     {
       "id": "393643403",
-      "name": "Royal Palace Of The Almudaina, Palma De Mallorca"
+      "name": "Royal Palace Of The Almudaina, Palma De Mallorca",
+      "lang": "en"
     },
     {
       "id": "673652709",
@@ -2450,15 +2675,18 @@
     },
     {
       "id": "240895681",
-      "name": "Moll Vell Palma"
+      "name": "Moll Vell Palma",
+      "lang": "ca"
     },
     {
       "id": "238763995",
-      "name": "Palacio Real De La Almudaina"
+      "name": "Palacio Real De La Almudaina",
+      "lang": "es"
     },
     {
       "id": "223281576",
-      "name": "Parque de La Mar"
+      "name": "Parque de La Mar",
+      "lang": "es"
     },
     {
       "id": "180649591952725",
@@ -2466,7 +2694,8 @@
     },
     {
       "id": "1069664416432001",
-      "name": "Restaurantes La Tagliatella"
+      "name": "Restaurantes La Tagliatella",
+      "lang": "es"
     },
     {
       "id": "326068133",
@@ -2474,7 +2703,8 @@
     },
     {
       "id": "194231404547595",
-      "name": "Plaza D'Espana"
+      "name": "Plaza D'Espana",
+      "lang": "es"
     },
     {
       "id": "399686247",
@@ -2486,7 +2716,8 @@
     },
     {
       "id": "102393309096541",
-      "name": "Restaurante Finca14"
+      "name": "Restaurante Finca14",
+      "lang": "es"
     },
     {
       "id": "244468832",
@@ -2502,7 +2733,8 @@
     },
     {
       "id": "1016596719",
-      "name": "La Isla Bonita"
+      "name": "La Isla Bonita",
+      "lang": "es"
     },
     {
       "id": "955044539",
@@ -2510,7 +2742,8 @@
     },
     {
       "id": "3703406",
-      "name": "The Prince William Pub"
+      "name": "The Prince William Pub",
+      "lang": "en"
     },
     {
       "id": "620807368",
@@ -2522,7 +2755,8 @@
     },
     {
       "id": "662530235",
-      "name": "Palau March Museu."
+      "name": "Palau March Museu.",
+      "lang": "ca"
     },
     {
       "id": "408301263",
@@ -2534,15 +2768,18 @@
     },
     {
       "id": "243180488",
-      "name": "Cappucino Grand Cafe, Palma"
+      "name": "Cappucino Grand Cafe, Palma",
+      "lang": "en"
     },
     {
       "id": "110818374789492",
-      "name": "Mestís Restaurante"
+      "name": "Mestís Restaurante",
+      "lang": "es"
     },
     {
       "id": "46558353",
-      "name": "Los Rafaeles"
+      "name": "Los Rafaeles",
+      "lang": "es"
     },
     {
       "id": "763348461",
@@ -2574,7 +2811,8 @@
     },
     {
       "id": "292368987",
-      "name": "Teatre \"Mar i Terra\"."
+      "name": "Teatre \"Mar i Terra\".",
+      "lang": "ca"
     },
     {
       "id": "1335579129876071",
@@ -2594,7 +2832,8 @@
     },
     {
       "id": "716551164",
-      "name": "The Wine Side"
+      "name": "The Wine Side",
+      "lang": "en"
     },
     {
       "id": "1998843",
@@ -2602,11 +2841,13 @@
     },
     {
       "id": "118905776161868",
-      "name": "Retroflakes"
+      "name": "Retroflakes",
+      "lang": "neutral"
     },
     {
       "id": "200205523668625",
-      "name": "Cuerpo 13 - Centro Médico - Estético y Aparatología"
+      "name": "Cuerpo 13 - Centro Médico - Estético y Aparatología",
+      "lang": "es"
     },
     {
       "id": "396083632",
@@ -2618,7 +2859,8 @@
     },
     {
       "id": "255571797",
-      "name": "Iglesia de Santa Eulalia"
+      "name": "Iglesia de Santa Eulalia",
+      "lang": "es"
     },
     {
       "id": "306045329919540",
@@ -2634,11 +2876,13 @@
     },
     {
       "id": "1376979632557355",
-      "name": "Ayuntamiento de Palma de Mallorca"
+      "name": "Ayuntamiento de Palma de Mallorca",
+      "lang": "es"
     },
     {
       "id": "259670741",
-      "name": "Cala S'Almonia, Islas Baleares, España"
+      "name": "Cala S'Almonia, Islas Baleares, España",
+      "lang": "es"
     },
     {
       "id": "652441385230904",
@@ -2654,7 +2898,8 @@
     },
     {
       "id": "255317722",
-      "name": "Centro Ciudad Palma Mallorca"
+      "name": "Centro Ciudad Palma Mallorca",
+      "lang": "es"
     },
     {
       "id": "2106925739544068",
@@ -2666,7 +2911,8 @@
     },
     {
       "id": "110258307119083",
-      "name": "Pachamama Cocktailbar"
+      "name": "Pachamama Cocktailbar",
+      "lang": "neutral"
     },
     {
       "id": "2260582034196355",
@@ -2694,7 +2940,8 @@
     },
     {
       "id": "355091059",
-      "name": "TangoPan Pasteleria"
+      "name": "TangoPan Pasteleria",
+      "lang": "es"
     },
     {
       "id": "106151377918073",
@@ -2710,11 +2957,13 @@
     },
     {
       "id": "1020061151",
-      "name": "Conservatori Superior de Música de les Illes Balears"
+      "name": "Conservatori Superior de Música de les Illes Balears",
+      "lang": "ca"
     },
     {
       "id": "103278818609244",
-      "name": "Aromata Restaurante"
+      "name": "Aromata Restaurante",
+      "lang": "es"
     },
     {
       "id": "531650904",
@@ -2734,11 +2983,13 @@
     },
     {
       "id": "239800996898769",
-      "name": "Melville & Co"
+      "name": "Melville & Co",
+      "lang": "neutral"
     },
     {
       "id": "1025547560",
-      "name": "Plaça Major"
+      "name": "Plaça Major",
+      "lang": "ca"
     },
     {
       "id": "119164749",
@@ -2762,11 +3013,13 @@
     },
     {
       "id": "258785754",
-      "name": "Airport Palma de Mallorca"
+      "name": "Airport Palma de Mallorca",
+      "lang": "en"
     },
     {
       "id": "823150924726332",
-      "name": "Palma Cathedral"
+      "name": "Palma Cathedral",
+      "lang": "en"
     },
     {
       "id": "1688913191421699",
@@ -2774,7 +3027,8 @@
     },
     {
       "id": "1032827826",
-      "name": "Restaurante La Cantina Palma"
+      "name": "Restaurante La Cantina Palma",
+      "lang": "es"
     },
     {
       "id": "244268499307214",
@@ -2802,15 +3056,18 @@
     },
     {
       "id": "291339098",
-      "name": "Corner Bar Palma"
+      "name": "Corner Bar Palma",
+      "lang": "neutral"
     },
     {
       "id": "300052641",
-      "name": "Palma De Majorca"
+      "name": "Palma De Majorca",
+      "lang": "en"
     },
     {
       "id": "331573373916120",
-      "name": "Plaça del Rei Joan Carles I"
+      "name": "Plaça del Rei Joan Carles I",
+      "lang": "ca"
     },
     {
       "id": "571749216332047",
@@ -2818,11 +3075,13 @@
     },
     {
       "id": "6181681",
-      "name": "ESERP Digital Business & Law School"
+      "name": "ESERP Digital Business & Law School",
+      "lang": "en"
     },
     {
       "id": "251118970",
-      "name": "Restaurante Koh"
+      "name": "Restaurante Koh",
+      "lang": "es"
     },
     {
       "id": "101893971801923",
@@ -2830,7 +3089,8 @@
     },
     {
       "id": "1914981652061486",
-      "name": "Panaderia Pasteleria la Concepcion"
+      "name": "Panaderia Pasteleria la Concepcion",
+      "lang": "es"
     },
     {
       "id": "948259708649974",
@@ -2850,11 +3110,13 @@
     },
     {
       "id": "291725",
-      "name": "Parc de Ses Estacions"
+      "name": "Parc de Ses Estacions",
+      "lang": "ca"
     },
     {
       "id": "689356265247943",
-      "name": "Restaurante La Greppia"
+      "name": "Restaurante La Greppia",
+      "lang": "es"
     },
     {
       "id": "456709551060162",
@@ -2866,7 +3128,8 @@
     },
     {
       "id": "129073927663989",
-      "name": "Parc Natural de Mondragó"
+      "name": "Parc Natural de Mondragó",
+      "lang": "ca"
     },
     {
       "id": "101587221320104",
@@ -2878,7 +3141,8 @@
     },
     {
       "id": "112613704212184",
-      "name": "Plaça De La Reina"
+      "name": "Plaça De La Reina",
+      "lang": "ca"
     },
     {
       "id": "214833353882849",
@@ -2918,11 +3182,13 @@
     },
     {
       "id": "15845147",
-      "name": "Jardins de la Misericòrdia."
+      "name": "Jardins de la Misericòrdia.",
+      "lang": "ca"
     },
     {
       "id": "12954795",
-      "name": "cafe atlantico cocktail bar"
+      "name": "cafe atlantico cocktail bar",
+      "lang": "en"
     },
     {
       "id": "280559268482410",
@@ -2930,15 +3196,18 @@
     },
     {
       "id": "336316956",
-      "name": "El Jardín de las Delicias"
+      "name": "El Jardín de las Delicias",
+      "lang": "es"
     },
     {
       "id": "1025075078",
-      "name": "Restaurante Quadrat"
+      "name": "Restaurante Quadrat",
+      "lang": "es"
     },
     {
       "id": "75859906708",
-      "name": "Teatre Sans"
+      "name": "Teatre Sans",
+      "lang": "ca"
     },
     {
       "id": "856200689",
@@ -2970,7 +3239,8 @@
     },
     {
       "id": "371075876",
-      "name": "Nuevo Victoria Club"
+      "name": "Nuevo Victoria Club",
+      "lang": "es"
     },
     {
       "id": "264140442",
@@ -2990,7 +3260,8 @@
     },
     {
       "id": "270071740",
-      "name": "El Arenal Beach"
+      "name": "El Arenal Beach",
+      "lang": "en"
     },
     {
       "id": "898569080",
@@ -3002,7 +3273,8 @@
     },
     {
       "id": "677159559415283",
-      "name": "Synergym Mallorca Escorxador"
+      "name": "Synergym Mallorca Escorxador",
+      "lang": "neutral"
     },
     {
       "id": "102626927965023",
@@ -3010,7 +3282,8 @@
     },
     {
       "id": "9595820",
-      "name": "Banc de Sang i Teixits de les Illes Balears"
+      "name": "Banc de Sang i Teixits de les Illes Balears",
+      "lang": "ca"
     },
     {
       "id": "103795694484321",
@@ -3018,7 +3291,8 @@
     },
     {
       "id": "955991262",
-      "name": "Sala Augusta Plaza España"
+      "name": "Sala Augusta Plaza España",
+      "lang": "es"
     },
     {
       "id": "731549393",
@@ -3026,7 +3300,8 @@
     },
     {
       "id": "235949656",
-      "name": "Parque De Las Estaciones"
+      "name": "Parque De Las Estaciones",
+      "lang": "es"
     },
     {
       "id": "1840545965997840",
@@ -3038,7 +3313,8 @@
     },
     {
       "id": "252238795345597",
-      "name": "Paseo de Mallorca"
+      "name": "Paseo de Mallorca",
+      "lang": "es"
     },
     {
       "id": "335064980605320",
@@ -3066,7 +3342,8 @@
     },
     {
       "id": "259956687",
-      "name": "Formentera"
+      "name": "Formentera",
+      "lang": "neutral"
     },
     {
       "id": "742992937",
@@ -3074,7 +3351,8 @@
     },
     {
       "id": "286060773",
-      "name": "Café Restaurante Sibil•la"
+      "name": "Café Restaurante Sibil•la",
+      "lang": "es"
     },
     {
       "id": "729893665",
@@ -3082,11 +3360,13 @@
     },
     {
       "id": "380898603",
-      "name": "Port Of Palma, Majorca"
+      "name": "Port Of Palma, Majorca",
+      "lang": "en"
     },
     {
       "id": "273344140",
-      "name": "Faro De Formentor"
+      "name": "Faro De Formentor",
+      "lang": "es"
     },
     {
       "id": "229168991",
@@ -3102,7 +3382,8 @@
     },
     {
       "id": "1004653495",
-      "name": "Restaurante Toque"
+      "name": "Restaurante Toque",
+      "lang": "es"
     },
     {
       "id": "110990458074971",
@@ -3118,7 +3399,8 @@
     },
     {
       "id": "652128065249611",
-      "name": "Puerto Adriano"
+      "name": "Puerto Adriano",
+      "lang": "es"
     },
     {
       "id": "117467468674454",
@@ -3134,7 +3416,8 @@
     },
     {
       "id": "925645988",
-      "name": "Hotel Saragota En Palma De Mallorca"
+      "name": "Hotel Saragota En Palma De Mallorca",
+      "lang": "neutral"
     },
     {
       "id": "1383425278588250",
@@ -3142,7 +3425,8 @@
     },
     {
       "id": "270211441",
-      "name": "Puerto Soller"
+      "name": "Puerto Soller",
+      "lang": "es"
     },
     {
       "id": "728608550619966",
@@ -3154,7 +3438,8 @@
     },
     {
       "id": "108624954009265",
-      "name": "Museu d'Art Sacre de Mallorca"
+      "name": "Museu d'Art Sacre de Mallorca",
+      "lang": "ca"
     },
     {
       "id": "128211960944050",
@@ -3190,7 +3475,8 @@
     },
     {
       "id": "727048797498517",
-      "name": "Cala Major Playa"
+      "name": "Cala Major Playa",
+      "lang": "es"
     },
     {
       "id": "284783722343535",
@@ -3202,7 +3488,8 @@
     },
     {
       "id": "260246946",
-      "name": "Restaurante El Cuerno"
+      "name": "Restaurante El Cuerno",
+      "lang": "es"
     },
     {
       "id": "101370355536469",
@@ -3214,7 +3501,8 @@
     },
     {
       "id": "660495198",
-      "name": "Global Tattoo The Factory"
+      "name": "Global Tattoo The Factory",
+      "lang": "en"
     },
     {
       "id": "103422589089368",
@@ -3230,15 +3518,18 @@
     },
     {
       "id": "306583479",
-      "name": "Old Town, Majorca"
+      "name": "Old Town, Majorca",
+      "lang": "en"
     },
     {
       "id": "1457164144399814",
-      "name": "Nativo coffee & cocktails"
+      "name": "Nativo coffee & cocktails",
+      "lang": "en"
     },
     {
       "id": "1890908",
-      "name": "Nassau Beach Club"
+      "name": "Nassau Beach Club",
+      "lang": "en"
     },
     {
       "id": "1025530050",
@@ -3250,11 +3541,13 @@
     },
     {
       "id": "266992947322089",
-      "name": "Parc De Sa Feixina"
+      "name": "Parc De Sa Feixina",
+      "lang": "ca"
     },
     {
       "id": "237995036",
-      "name": "Parc Sa Faixina"
+      "name": "Parc Sa Faixina",
+      "lang": "ca"
     },
     {
       "id": "1019198612",
@@ -3266,7 +3559,8 @@
     },
     {
       "id": "1943719455923050",
-      "name": "Palau Municipal D‘sports Son Moix"
+      "name": "Palau Municipal D‘sports Son Moix",
+      "lang": "ca"
     },
     {
       "id": "215439752",
@@ -3306,11 +3600,13 @@
     },
     {
       "id": "926648494",
-      "name": "The 50's Diner"
+      "name": "The 50's Diner",
+      "lang": "en"
     },
     {
       "id": "1013906149",
-      "name": "Isla Bonita, Palma De Mallorca"
+      "name": "Isla Bonita, Palma De Mallorca",
+      "lang": "es"
     },
     {
       "id": "943678168",
@@ -3322,7 +3618,8 @@
     },
     {
       "id": "1375520589375067",
-      "name": "Museo de Mallorca"
+      "name": "Museo de Mallorca",
+      "lang": "es"
     },
     {
       "id": "114724223781015",
@@ -3334,7 +3631,8 @@
     },
     {
       "id": "244656799",
-      "name": "Abaco, Palma"
+      "name": "Abaco, Palma",
+      "lang": "neutral"
     },
     {
       "id": "101085346960550",
@@ -3354,11 +3652,13 @@
     },
     {
       "id": "255593015",
-      "name": "Las Ramblas Palma De Mallorca"
+      "name": "Las Ramblas Palma De Mallorca",
+      "lang": "es"
     },
     {
       "id": "957517647",
-      "name": "Baby Tarta: Mamar, Sentir y Vestir"
+      "name": "Baby Tarta: Mamar, Sentir y Vestir",
+      "lang": "es"
     },
     {
       "id": "1023308314385659",
@@ -3378,15 +3678,18 @@
     },
     {
       "id": "1018544848",
-      "name": "Restaurante Mas Natural"
+      "name": "Restaurante Mas Natural",
+      "lang": "es"
     },
     {
       "id": "227802330413634",
-      "name": "Nala Brunch & Coffee"
+      "name": "Nala Brunch & Coffee",
+      "lang": "en"
     },
     {
       "id": "448022659090163",
-      "name": "Porto Cristo Cuevas Drach Grotte Del.drago."
+      "name": "Porto Cristo Cuevas Drach Grotte Del.drago.",
+      "lang": "es"
     },
     {
       "id": "747008472",
@@ -3402,11 +3705,13 @@
     },
     {
       "id": "430521197285258",
-      "name": "La VIEJA Escuela"
+      "name": "La VIEJA Escuela",
+      "lang": "es"
     },
     {
       "id": "255015589",
-      "name": "Plaza Del Quadrado"
+      "name": "Plaza Del Quadrado",
+      "lang": "es"
     },
     {
       "id": "999009194",
@@ -3418,7 +3723,8 @@
     },
     {
       "id": "384825325688922",
-      "name": "Hakka Dim Sum - Cocktail Bar & Asian Tapas"
+      "name": "Hakka Dim Sum - Cocktail Bar & Asian Tapas",
+      "lang": "en"
     },
     {
       "id": "2095675417400938",
@@ -3442,15 +3748,18 @@
     },
     {
       "id": "742141392",
-      "name": "RollandRoll Shop Palma de Mallorca"
+      "name": "RollandRoll Shop Palma de Mallorca",
+      "lang": "en"
     },
     {
       "id": "588076141546149",
-      "name": "Palma, Calle San Miguel"
+      "name": "Palma, Calle San Miguel",
+      "lang": "es"
     },
     {
       "id": "314959361692548",
-      "name": "Hotto Coffee Lab"
+      "name": "Hotto Coffee Lab",
+      "lang": "en"
     },
     {
       "id": "1015707127",
@@ -3458,7 +3767,8 @@
     },
     {
       "id": "220179105",
-      "name": "Plaça de l'Olivar"
+      "name": "Plaça de l'Olivar",
+      "lang": "ca"
     },
     {
       "id": "267361066",
@@ -3466,7 +3776,8 @@
     },
     {
       "id": "1063901077127214",
-      "name": "Spritzstop"
+      "name": "Spritzstop",
+      "lang": "neutral"
     },
     {
       "id": "1024252910",
@@ -3474,7 +3785,8 @@
     },
     {
       "id": "1014639749",
-      "name": "Tito's Palma Majorca"
+      "name": "Tito's Palma Majorca",
+      "lang": "en"
     },
     {
       "id": "867117993665267",
@@ -3486,7 +3798,8 @@
     },
     {
       "id": "1767074293537719",
-      "name": "Cala D'es Trenc. Islas Baleares"
+      "name": "Cala D'es Trenc. Islas Baleares",
+      "lang": "es"
     },
     {
       "id": "1024992908",
@@ -3506,11 +3819,13 @@
     },
     {
       "id": "210853709340825",
-      "name": "Es Trenc Beach"
+      "name": "Es Trenc Beach",
+      "lang": "en"
     },
     {
       "id": "356655881743608",
-      "name": "Osteria de Plaça Sant Francesc"
+      "name": "Osteria de Plaça Sant Francesc",
+      "lang": "ca"
     },
     {
       "id": "1218782888139833",
@@ -3526,7 +3841,8 @@
     },
     {
       "id": "108329874277963",
-      "name": "Ventura Harbor Bar"
+      "name": "Ventura Harbor Bar",
+      "lang": "en"
     },
     {
       "id": "105473270958588",
@@ -3534,7 +3850,8 @@
     },
     {
       "id": "411766676294831",
-      "name": "Kratos Palma Tattoo"
+      "name": "Kratos Palma Tattoo",
+      "lang": "neutral"
     },
     {
       "id": "2423624317850181",
@@ -3542,7 +3859,8 @@
     },
     {
       "id": "107330234342637",
-      "name": "Shiva Beach Club"
+      "name": "Shiva Beach Club",
+      "lang": "en"
     },
     {
       "id": "696172404",
@@ -3550,7 +3868,8 @@
     },
     {
       "id": "2450226488363334",
-      "name": "Conservatori Superior de Música de les Illes Balears"
+      "name": "Conservatori Superior de Música de les Illes Balears",
+      "lang": "ca"
     },
     {
       "id": "458717322",
@@ -3558,7 +3877,8 @@
     },
     {
       "id": "374921785",
-      "name": "Museu de Mallorca"
+      "name": "Museu de Mallorca",
+      "lang": "ca"
     },
     {
       "id": "109651387300679",
@@ -3578,19 +3898,23 @@
     },
     {
       "id": "322355891739556",
-      "name": "Alcudia Old town"
+      "name": "Alcudia Old town",
+      "lang": "en"
     },
     {
       "id": "263344207161739",
-      "name": "Los Platos de Soto"
+      "name": "Los Platos de Soto",
+      "lang": "es"
     },
     {
       "id": "2082026115445355",
-      "name": "Playa Cueva De Portals Vells"
+      "name": "Playa Cueva De Portals Vells",
+      "lang": "es"
     },
     {
       "id": "579859349038830",
-      "name": "La Cueva"
+      "name": "La Cueva",
+      "lang": "es"
     },
     {
       "id": "1625475341013588",
@@ -3602,15 +3926,18 @@
     },
     {
       "id": "393603805",
-      "name": "Las Ramblas de las Flores"
+      "name": "Las Ramblas de las Flores",
+      "lang": "es"
     },
     {
       "id": "862748824057424",
-      "name": "Marabans Coffee & Tea"
+      "name": "Marabans Coffee & Tea",
+      "lang": "en"
     },
     {
       "id": "209794592936926",
-      "name": "Shaka restaurante"
+      "name": "Shaka restaurante",
+      "lang": "es"
     },
     {
       "id": "103398894773539",
@@ -3622,11 +3949,13 @@
     },
     {
       "id": "272362544609931",
-      "name": "The Skin Koncept"
+      "name": "The Skin Koncept",
+      "lang": "en"
     },
     {
       "id": "332457475",
-      "name": "Tudurí Pastisseria i Cafè"
+      "name": "Tudurí Pastisseria i Cafè",
+      "lang": "ca"
     },
     {
       "id": "477797327",
@@ -3650,11 +3979,13 @@
     },
     {
       "id": "230136969",
-      "name": "Puerto Marítimo de Palma de Mallorca"
+      "name": "Puerto Marítimo de Palma de Mallorca",
+      "lang": "es"
     },
     {
       "id": "108162205207544",
-      "name": "Palau Can Vivot"
+      "name": "Palau Can Vivot",
+      "lang": "ca"
     },
     {
       "id": "106372821172457",
@@ -3666,15 +3997,18 @@
     },
     {
       "id": "102373524439972",
-      "name": "Hemudu"
+      "name": "Hemudu",
+      "lang": "neutral"
     },
     {
       "id": "356709322",
-      "name": "Playa De Estrenc, Mallorca"
+      "name": "Playa De Estrenc, Mallorca",
+      "lang": "es"
     },
     {
       "id": "2323205221234918",
-      "name": "Brooklyn Fitboxing Palma Centro"
+      "name": "Brooklyn Fitboxing Palma Centro",
+      "lang": "es"
     },
     {
       "id": "624426227907980",
@@ -3702,11 +4036,13 @@
     },
     {
       "id": "215334425",
-      "name": "Restaurante Japonés Hanaita"
+      "name": "Restaurante Japonés Hanaita",
+      "lang": "es"
     },
     {
       "id": "490537870",
-      "name": "Playa de Palma"
+      "name": "Playa de Palma",
+      "lang": "es"
     },
     {
       "id": "110066094959902",
@@ -3718,11 +4054,13 @@
     },
     {
       "id": "160360457324637",
-      "name": "Calle 31 de diciembre"
+      "name": "Calle 31 de diciembre",
+      "lang": "es"
     },
     {
       "id": "282023265",
-      "name": "Porto di Palma de Mallorca, Spain"
+      "name": "Porto di Palma de Mallorca, Spain",
+      "lang": "en"
     },
     {
       "id": "39457377",
@@ -3734,7 +4072,8 @@
     },
     {
       "id": "102927124531333",
-      "name": "Sa Cova de S'Embat"
+      "name": "Sa Cova de S'Embat",
+      "lang": "neutral"
     },
     {
       "id": "101186188352811",
@@ -3746,7 +4085,8 @@
     },
     {
       "id": "114709211875584",
-      "name": "Colegio de Nuestra Señora de Montesión"
+      "name": "Colegio de Nuestra Señora de Montesión",
+      "lang": "es"
     },
     {
       "id": "897091434",
@@ -3778,7 +4118,8 @@
     },
     {
       "id": "1003084509",
-      "name": "Parque Krekovic"
+      "name": "Parque Krekovic",
+      "lang": "es"
     },
     {
       "id": "316234490",
@@ -3802,7 +4143,8 @@
     },
     {
       "id": "1019619460",
-      "name": "Pizzeria 500 Grados"
+      "name": "Pizzeria 500 Grados",
+      "lang": "es"
     },
     {
       "id": "253234095",
@@ -3810,11 +4152,13 @@
     },
     {
       "id": "241421565",
-      "name": "Plaza del Tubo"
+      "name": "Plaza del Tubo",
+      "lang": "es"
     },
     {
       "id": "100610812665648",
-      "name": "Restaurante Brutal"
+      "name": "Restaurante Brutal",
+      "lang": "es"
     },
     {
       "id": "105784822084691",
@@ -3822,7 +4166,8 @@
     },
     {
       "id": "105173801953888",
-      "name": "Market Kitchen Palma"
+      "name": "Market Kitchen Palma",
+      "lang": "en"
     },
     {
       "id": "604954599874249",
@@ -3830,7 +4175,8 @@
     },
     {
       "id": "223125464711846",
-      "name": "Palacio Real de la Almudaina"
+      "name": "Palacio Real de la Almudaina",
+      "lang": "es"
     },
     {
       "id": "820059043",
@@ -3858,7 +4204,8 @@
     },
     {
       "id": "478404699004279",
-      "name": "Playa De Sa Calobra"
+      "name": "Playa De Sa Calobra",
+      "lang": "es"
     },
     {
       "id": "948176998622724",
@@ -3866,7 +4213,8 @@
     },
     {
       "id": "108794602269072",
-      "name": "Salto Angel Mallorca"
+      "name": "Salto Angel Mallorca",
+      "lang": "neutral"
     },
     {
       "id": "1864854173590832",
@@ -3874,15 +4222,18 @@
     },
     {
       "id": "1019910706",
-      "name": "CEF Escuela de Artes Audiovisuales"
+      "name": "CEF Escuela de Artes Audiovisuales",
+      "lang": "es"
     },
     {
       "id": "642521669523836",
-      "name": "Puerto de Palma"
+      "name": "Puerto de Palma",
+      "lang": "es"
     },
     {
       "id": "451515647",
-      "name": "WhyNot Cocktail Bar"
+      "name": "WhyNot Cocktail Bar",
+      "lang": "en"
     },
     {
       "id": "196785281241039",
@@ -3890,7 +4241,8 @@
     },
     {
       "id": "13916919",
-      "name": "Restaurante Ca'n manolo Palma"
+      "name": "Restaurante Ca'n manolo Palma",
+      "lang": "es"
     },
     {
       "id": "1954575118181495",
@@ -3902,15 +4254,18 @@
     },
     {
       "id": "272293489",
-      "name": "Puerto Pollença"
+      "name": "Puerto Pollença",
+      "lang": "es"
     },
     {
       "id": "2092646160798603",
-      "name": "Rooftop pool @ es princep"
+      "name": "Rooftop pool @ es princep",
+      "lang": "en"
     },
     {
       "id": "260818148",
-      "name": "Plaza Den Coll"
+      "name": "Plaza Den Coll",
+      "lang": "es"
     },
     {
       "id": "511811102",
@@ -3922,7 +4277,8 @@
     },
     {
       "id": "1024431198",
-      "name": "Restaurante Mexicano El Rey del Taco, Palma de Mallorca"
+      "name": "Restaurante Mexicano El Rey del Taco, Palma de Mallorca",
+      "lang": "es"
     },
     {
       "id": "340389276392909",
@@ -3934,7 +4290,8 @@
     },
     {
       "id": "452582391778746",
-      "name": "Canal 4"
+      "name": "Canal 4",
+      "lang": "neutral"
     },
     {
       "id": "564204236767771",
@@ -3942,7 +4299,8 @@
     },
     {
       "id": "1003433453123690",
-      "name": "Singular Rooftop Terrace"
+      "name": "Singular Rooftop Terrace",
+      "lang": "en"
     },
     {
       "id": "1027789738",
@@ -3966,15 +4324,18 @@
     },
     {
       "id": "1814107478676380",
-      "name": "Plaza Mayor"
+      "name": "Plaza Mayor",
+      "lang": "es"
     },
     {
       "id": "315306522331077",
-      "name": "Illetas beach Mallorca"
+      "name": "Illetas beach Mallorca",
+      "lang": "en"
     },
     {
       "id": "612679885578685",
-      "name": "Plaza Mayor Mallorca"
+      "name": "Plaza Mayor Mallorca",
+      "lang": "es"
     },
     {
       "id": "399418964240903",
@@ -3986,15 +4347,18 @@
     },
     {
       "id": "269726309",
-      "name": "Playa De Strenc, Mallorca."
+      "name": "Playa De Strenc, Mallorca.",
+      "lang": "es"
     },
     {
       "id": "114397324893812",
-      "name": "JS Palma Plaza"
+      "name": "JS Palma Plaza",
+      "lang": "es"
     },
     {
       "id": "322719344872008",
-      "name": "Coquetier Classy Cocktails"
+      "name": "Coquetier Classy Cocktails",
+      "lang": "en"
     },
     {
       "id": "806245156086921",
@@ -4002,7 +4366,8 @@
     },
     {
       "id": "218435836",
-      "name": "Ibiza, Spain"
+      "name": "Ibiza, Spain",
+      "lang": "en"
     },
     {
       "id": "705593612",
@@ -4018,7 +4383,8 @@
     },
     {
       "id": "2593773",
-      "name": "Playa D'en Bossa, Ibiza"
+      "name": "Playa D'en Bossa, Ibiza",
+      "lang": "es"
     },
     {
       "id": "217492161",
@@ -4034,7 +4400,8 @@
     },
     {
       "id": "1751789738271571",
-      "name": "Ibiza Old Town"
+      "name": "Ibiza Old Town",
+      "lang": "en"
     },
     {
       "id": "146616422857650",
@@ -4054,11 +4421,13 @@
     },
     {
       "id": "382014026",
-      "name": "Playa Figueretas (Ibiza)"
+      "name": "Playa Figueretas (Ibiza)",
+      "lang": "es"
     },
     {
       "id": "228055054",
-      "name": "Castillo de Ibiza"
+      "name": "Castillo de Ibiza",
+      "lang": "es"
     },
     {
       "id": "277133756",
@@ -4066,7 +4435,8 @@
     },
     {
       "id": "238691132",
-      "name": "Old Town Ibiza"
+      "name": "Old Town Ibiza",
+      "lang": "en"
     },
     {
       "id": "260778187",
@@ -4086,11 +4456,13 @@
     },
     {
       "id": "1272368756182130",
-      "name": "Nobu Hotel Ibiza Bay"
+      "name": "Nobu Hotel Ibiza Bay",
+      "lang": "en"
     },
     {
       "id": "101743725797769",
-      "name": "The Unexpected Ibiza Hotel"
+      "name": "The Unexpected Ibiza Hotel",
+      "lang": "en"
     },
     {
       "id": "286149522",
@@ -4098,7 +4470,8 @@
     },
     {
       "id": "17349",
-      "name": "Puerto de ibiza"
+      "name": "Puerto de ibiza",
+      "lang": "es"
     },
     {
       "id": "266556374",
@@ -4106,7 +4479,8 @@
     },
     {
       "id": "108935605553240",
-      "name": "Playa Soleil Ibiza"
+      "name": "Playa Soleil Ibiza",
+      "lang": "es"
     },
     {
       "id": "104805262269366",
@@ -4122,7 +4496,8 @@
     },
     {
       "id": "280715210",
-      "name": "Ushuaia Beach Club Ibiza"
+      "name": "Ushuaia Beach Club Ibiza",
+      "lang": "en"
     },
     {
       "id": "271064159",
@@ -4134,7 +4509,8 @@
     },
     {
       "id": "183441833201336",
-      "name": "Pacha Ibiza"
+      "name": "Pacha Ibiza",
+      "lang": "neutral"
     },
     {
       "id": "112204180621541",
@@ -4154,7 +4530,8 @@
     },
     {
       "id": "104077054340909",
-      "name": "Isla De Ibiza, España"
+      "name": "Isla De Ibiza, España",
+      "lang": "es"
     },
     {
       "id": "675788384",
@@ -4178,7 +4555,8 @@
     },
     {
       "id": "252858655",
-      "name": "Ibiza Playa D'em Bossa"
+      "name": "Ibiza Playa D'em Bossa",
+      "lang": "es"
     },
     {
       "id": "934223106651719",
@@ -4202,7 +4580,8 @@
     },
     {
       "id": "1971771649724178",
-      "name": "SEVEN Wellness Club Ibiza"
+      "name": "SEVEN Wellness Club Ibiza",
+      "lang": "en"
     },
     {
       "id": "118078304550876",
@@ -4226,7 +4605,8 @@
     },
     {
       "id": "100664992493306",
-      "name": "The Standard, Ibiza"
+      "name": "The Standard, Ibiza",
+      "lang": "en"
     },
     {
       "id": "409631388",
@@ -4238,15 +4618,18 @@
     },
     {
       "id": "317361798",
-      "name": "Las Salinas, Eivissa"
+      "name": "Las Salinas, Eivissa",
+      "lang": "es"
     },
     {
       "id": "277644293",
-      "name": "Eivissa / Ibiza, Islas Baleares"
+      "name": "Eivissa / Ibiza, Islas Baleares",
+      "lang": "es"
     },
     {
       "id": "4021740",
-      "name": "Ushuaïa Beach Club"
+      "name": "Ushuaïa Beach Club",
+      "lang": "en"
     },
     {
       "id": "323998414367168",
@@ -4258,7 +4641,8 @@
     },
     {
       "id": "102719555085551",
-      "name": "Ibiza, España"
+      "name": "Ibiza, España",
+      "lang": "es"
     },
     {
       "id": "247435569",
@@ -4266,7 +4650,8 @@
     },
     {
       "id": "278576468",
-      "name": "Ushuiai, Ibiza"
+      "name": "Ushuiai, Ibiza",
+      "lang": "neutral"
     },
     {
       "id": "2014786562077700",
@@ -4278,19 +4663,23 @@
     },
     {
       "id": "356227828399066",
-      "name": "The Ibiza Twiins"
+      "name": "The Ibiza Twiins",
+      "lang": "en"
     },
     {
       "id": "114105972587845",
-      "name": "Ibiza Old Town"
+      "name": "Ibiza Old Town",
+      "lang": "en"
     },
     {
       "id": "261446885",
-      "name": "Nirvana Beach Gym"
+      "name": "Nirvana Beach Gym",
+      "lang": "en"
     },
     {
       "id": "271943074",
-      "name": "Formentera Beach"
+      "name": "Formentera Beach",
+      "lang": "en"
     },
     {
       "id": "1962600683974178",
@@ -4318,7 +4707,8 @@
     },
     {
       "id": "109514071390508",
-      "name": "Ibiza Old Town"
+      "name": "Ibiza Old Town",
+      "lang": "en"
     },
     {
       "id": "332845530511048",
@@ -4334,7 +4724,8 @@
     },
     {
       "id": "344783908",
-      "name": "Dalt Vila, Ibiza"
+      "name": "Dalt Vila, Ibiza",
+      "lang": "en"
     },
     {
       "id": "238879616787539",
@@ -4358,7 +4749,8 @@
     },
     {
       "id": "246542932",
-      "name": "Ibiza Town Castle"
+      "name": "Ibiza Town Castle",
+      "lang": "en"
     },
     {
       "id": "268737677",
@@ -4366,7 +4758,8 @@
     },
     {
       "id": "921333297984801",
-      "name": "Playa de Talamanca"
+      "name": "Playa de Talamanca",
+      "lang": "es"
     },
     {
       "id": "219423021",
@@ -4386,7 +4779,8 @@
     },
     {
       "id": "263518680",
-      "name": "Ibiza Magic Island"
+      "name": "Ibiza Magic Island",
+      "lang": "en"
     },
     {
       "id": "301787954",
@@ -4394,7 +4788,8 @@
     },
     {
       "id": "1928707927431214",
-      "name": "Port d'Eivissa / Puerto de Ibiza"
+      "name": "Port d'Eivissa / Puerto de Ibiza",
+      "lang": "es"
     },
     {
       "id": "359109327546812",
@@ -4402,7 +4797,8 @@
     },
     {
       "id": "1794863307226573",
-      "name": "Pacha Ibiza"
+      "name": "Pacha Ibiza",
+      "lang": "neutral"
     },
     {
       "id": "303111833",
@@ -4422,11 +4818,13 @@
     },
     {
       "id": "264379430086738",
-      "name": "CLAP HOUSE Ibiza"
+      "name": "CLAP HOUSE Ibiza",
+      "lang": "en"
     },
     {
       "id": "3697567",
-      "name": "Hotel Ushuaia Beach"
+      "name": "Hotel Ushuaia Beach",
+      "lang": "en"
     },
     {
       "id": "209192122569438",
@@ -4458,7 +4856,8 @@
     },
     {
       "id": "650555111",
-      "name": "Ibiza Island"
+      "name": "Ibiza Island",
+      "lang": "en"
     },
     {
       "id": "2218620621519279",
@@ -4466,7 +4865,8 @@
     },
     {
       "id": "226968616",
-      "name": "Talamanca"
+      "name": "Talamanca",
+      "lang": "neutral"
     },
     {
       "id": "266078224",
@@ -4490,7 +4890,8 @@
     },
     {
       "id": "516072922512397",
-      "name": "Plaza del Sol Ibiza"
+      "name": "Plaza del Sol Ibiza",
+      "lang": "es"
     },
     {
       "id": "491506907720876",
@@ -4498,7 +4899,8 @@
     },
     {
       "id": "249052618",
-      "name": "Ibiza Beach"
+      "name": "Ibiza Beach",
+      "lang": "en"
     },
     {
       "id": "568748629",
@@ -4510,7 +4912,8 @@
     },
     {
       "id": "269741677",
-      "name": "Ushuaia Beach Club, Ibiza"
+      "name": "Ushuaia Beach Club, Ibiza",
+      "lang": "en"
     },
     {
       "id": "283342990",
@@ -4526,7 +4929,8 @@
     },
     {
       "id": "466334614",
-      "name": "Las Salinas Ibiza"
+      "name": "Las Salinas Ibiza",
+      "lang": "es"
     },
     {
       "id": "115220443190778",
@@ -4534,7 +4938,8 @@
     },
     {
       "id": "2446451",
-      "name": "La bodega Ibiza"
+      "name": "La bodega Ibiza",
+      "lang": "neutral"
     },
     {
       "id": "257580883",
@@ -4550,11 +4955,13 @@
     },
     {
       "id": "944658839",
-      "name": "The Zoo Project"
+      "name": "The Zoo Project",
+      "lang": "en"
     },
     {
       "id": "289971208",
-      "name": "Ibiza Castle"
+      "name": "Ibiza Castle",
+      "lang": "en"
     },
     {
       "id": "249712080",
@@ -4578,7 +4985,8 @@
     },
     {
       "id": "362743204",
-      "name": "Hotel Mare Nostrum Playa D'en Bossa Eivissa"
+      "name": "Hotel Mare Nostrum Playa D'en Bossa Eivissa",
+      "lang": "es"
     },
     {
       "id": "233230498",
@@ -4602,7 +5010,8 @@
     },
     {
       "id": "130843476",
-      "name": "Flower Power by Pacha"
+      "name": "Flower Power by Pacha",
+      "lang": "en"
     },
     {
       "id": "251964647",
@@ -4610,19 +5019,23 @@
     },
     {
       "id": "342515153",
-      "name": "Restaurante La Oliva"
+      "name": "Restaurante La Oliva",
+      "lang": "es"
     },
     {
       "id": "304693516",
-      "name": "Marina Ibiza - More than a marina, it’s a way of life"
+      "name": "Marina Ibiza - More than a marina, it’s a way of life",
+      "lang": "en"
     },
     {
       "id": "304629987",
-      "name": "Ibiza Marina, Ibiza, Spain"
+      "name": "Ibiza Marina, Ibiza, Spain",
+      "lang": "en"
     },
     {
       "id": "461161342",
-      "name": "Talamanca Beach Ibiza"
+      "name": "Talamanca Beach Ibiza",
+      "lang": "en"
     },
     {
       "id": "255732091",
@@ -4642,7 +5055,8 @@
     },
     {
       "id": "280803022",
-      "name": "Ses Salines Playa de Ibiza"
+      "name": "Ses Salines Playa de Ibiza",
+      "lang": "es"
     },
     {
       "id": "101713148202793",
@@ -4650,7 +5064,8 @@
     },
     {
       "id": "218617257",
-      "name": "Playa Figueretas"
+      "name": "Playa Figueretas",
+      "lang": "es"
     },
     {
       "id": "241769852",
@@ -4662,11 +5077,13 @@
     },
     {
       "id": "263364943",
-      "name": "Formentera Island"
+      "name": "Formentera Island",
+      "lang": "en"
     },
     {
       "id": "299796197021149",
-      "name": "Es Vedrà, Ibiza, Spain"
+      "name": "Es Vedrà, Ibiza, Spain",
+      "lang": "en"
     },
     {
       "id": "323262694",
@@ -4694,7 +5111,8 @@
     },
     {
       "id": "961540",
-      "name": "Playa De Figueretes"
+      "name": "Playa De Figueretes",
+      "lang": "es"
     },
     {
       "id": "340927733011589",
@@ -4702,7 +5120,8 @@
     },
     {
       "id": "286874943",
-      "name": "Eivissa, Ibiza, Spain"
+      "name": "Eivissa, Ibiza, Spain",
+      "lang": "en"
     },
     {
       "id": "104823737799218",
@@ -4710,7 +5129,8 @@
     },
     {
       "id": "386198111",
-      "name": "Eivissa Isla Baleares - España"
+      "name": "Eivissa Isla Baleares - España",
+      "lang": "es"
     },
     {
       "id": "948358579",
@@ -4718,11 +5138,13 @@
     },
     {
       "id": "1489899317892126",
-      "name": "The Beach, Unexpected Ibiza"
+      "name": "The Beach, Unexpected Ibiza",
+      "lang": "en"
     },
     {
       "id": "250075572",
-      "name": "LAS BOAS IBIZA"
+      "name": "LAS BOAS IBIZA",
+      "lang": "es"
     },
     {
       "id": "824332196",
@@ -4734,7 +5156,8 @@
     },
     {
       "id": "214661948",
-      "name": "Teatro Pereyra Ibiza"
+      "name": "Teatro Pereyra Ibiza",
+      "lang": "es"
     },
     {
       "id": "272247765",
@@ -4742,11 +5165,13 @@
     },
     {
       "id": "275899135",
-      "name": "The Beach Club at Hard Rock Hotel Ibiza"
+      "name": "The Beach Club at Hard Rock Hotel Ibiza",
+      "lang": "en"
     },
     {
       "id": "284525555",
-      "name": "Pacha Ibiza - VIP Lounge"
+      "name": "Pacha Ibiza - VIP Lounge",
+      "lang": "en"
     },
     {
       "id": "446027378",
@@ -4754,7 +5179,8 @@
     },
     {
       "id": "293385060",
-      "name": "CrossFit Isla Blanca - IBIZA"
+      "name": "CrossFit Isla Blanca - IBIZA",
+      "lang": "es"
     },
     {
       "id": "267534885",
@@ -4766,7 +5192,8 @@
     },
     {
       "id": "476014635762754",
-      "name": "Formentera Island"
+      "name": "Formentera Island",
+      "lang": "en"
     },
     {
       "id": "903539157",
@@ -4774,7 +5201,8 @@
     },
     {
       "id": "982361228",
-      "name": "Children of the 80's Party at Hard Rock Hotel Ibiza"
+      "name": "Children of the 80's Party at Hard Rock Hotel Ibiza",
+      "lang": "en"
     },
     {
       "id": "255635389",
@@ -4782,7 +5210,8 @@
     },
     {
       "id": "247273030",
-      "name": "Playa Ses Salinas, Ibiza"
+      "name": "Playa Ses Salinas, Ibiza",
+      "lang": "es"
     },
     {
       "id": "342567001",
@@ -4790,11 +5219,13 @@
     },
     {
       "id": "284016230",
-      "name": "Hotel Algarb, Playa Den Bossa"
+      "name": "Hotel Algarb, Playa Den Bossa",
+      "lang": "es"
     },
     {
       "id": "193108193887318",
-      "name": "Teatro Pereyra Ibiza"
+      "name": "Teatro Pereyra Ibiza",
+      "lang": "es"
     },
     {
       "id": "1606664679371198",
@@ -4802,7 +5233,8 @@
     },
     {
       "id": "743733705791251",
-      "name": "Cala Xarraca"
+      "name": "Cala Xarraca",
+      "lang": "neutral"
     },
     {
       "id": "334570151",
@@ -4810,7 +5242,8 @@
     },
     {
       "id": "942681141",
-      "name": "Ibiza Town"
+      "name": "Ibiza Town",
+      "lang": "en"
     },
     {
       "id": "1025709773",
@@ -4834,11 +5267,13 @@
     },
     {
       "id": "1034130670",
-      "name": "Ciudad y castillo de Ibiza"
+      "name": "Ciudad y castillo de Ibiza",
+      "lang": "es"
     },
     {
       "id": "520443377",
-      "name": "Hotel THB Los Molinos"
+      "name": "Hotel THB Los Molinos",
+      "lang": "es"
     },
     {
       "id": "264673258",
@@ -4846,11 +5281,13 @@
     },
     {
       "id": "255671997",
-      "name": "Puerto De Ibiza - Estación Marítima"
+      "name": "Puerto De Ibiza - Estación Marítima",
+      "lang": "es"
     },
     {
       "id": "263669835",
-      "name": "Puerto DEivissa"
+      "name": "Puerto DEivissa",
+      "lang": "es"
     },
     {
       "id": "287749750",
@@ -4858,15 +5295,18 @@
     },
     {
       "id": "323348687",
-      "name": "Dalt Villa Ibiza Old Town"
+      "name": "Dalt Villa Ibiza Old Town",
+      "lang": "en"
     },
     {
       "id": "258528738",
-      "name": "Formentera Playa De Illetes"
+      "name": "Formentera Playa De Illetes",
+      "lang": "es"
     },
     {
       "id": "253358321198664",
-      "name": "Ushuaïa Ibiza Beach Hotel"
+      "name": "Ushuaïa Ibiza Beach Hotel",
+      "lang": "en"
     },
     {
       "id": "309685349749123",
@@ -4918,7 +5358,8 @@
     },
     {
       "id": "542064952886041",
-      "name": "Talamanca Beach. Ibiza"
+      "name": "Talamanca Beach. Ibiza",
+      "lang": "en"
     },
     {
       "id": "278808207",
@@ -4926,7 +5367,8 @@
     },
     {
       "id": "203133123065205",
-      "name": "Playa de Talamanca"
+      "name": "Playa de Talamanca",
+      "lang": "es"
     },
     {
       "id": "21775106",
@@ -4934,7 +5376,8 @@
     },
     {
       "id": "112858718133930",
-      "name": "Casa Manolo 1992"
+      "name": "Casa Manolo 1992",
+      "lang": "neutral"
     },
     {
       "id": "106984788279804",
@@ -4946,11 +5389,13 @@
     },
     {
       "id": "320559488875412",
-      "name": "Ibiza, Spain"
+      "name": "Ibiza, Spain",
+      "lang": "en"
     },
     {
       "id": "316997685",
-      "name": "Playa Talamanca"
+      "name": "Playa Talamanca",
+      "lang": "es"
     },
     {
       "id": "258933935",
@@ -4962,7 +5407,8 @@
     },
     {
       "id": "241390751",
-      "name": "Puerto Marítimo de Ibiza"
+      "name": "Puerto Marítimo de Ibiza",
+      "lang": "es"
     },
     {
       "id": "1022035883",
@@ -4970,11 +5416,13 @@
     },
     {
       "id": "338171761",
-      "name": "Ushuaïa The Unexpected Experience, Ibiza"
+      "name": "Ushuaïa The Unexpected Experience, Ibiza",
+      "lang": "en"
     },
     {
       "id": "612421179138611",
-      "name": "Mirador de l'Illa d'Es Vedra"
+      "name": "Mirador de l'Illa d'Es Vedra",
+      "lang": "ca"
     },
     {
       "id": "749663242",
@@ -4982,7 +5430,8 @@
     },
     {
       "id": "285787776",
-      "name": "Bora Bora Beach Club (Ibiza)"
+      "name": "Bora Bora Beach Club (Ibiza)",
+      "lang": "en"
     },
     {
       "id": "1034631847",
@@ -4990,7 +5439,8 @@
     },
     {
       "id": "237747403",
-      "name": "Figuretas Beach"
+      "name": "Figuretas Beach",
+      "lang": "en"
     },
     {
       "id": "21625665",
@@ -5002,7 +5452,8 @@
     },
     {
       "id": "132368416808384",
-      "name": "Restaurante \"Bella Napoli\"-Ibiza"
+      "name": "Restaurante \"Bella Napoli\"-Ibiza",
+      "lang": "es"
     },
     {
       "id": "873130143",
@@ -5018,11 +5469,13 @@
     },
     {
       "id": "596381390830308",
-      "name": "Da Claudio Ibiza Restaurante"
+      "name": "Da Claudio Ibiza Restaurante",
+      "lang": "es"
     },
     {
       "id": "571466059551629",
-      "name": "Talamanca Beach"
+      "name": "Talamanca Beach",
+      "lang": "en"
     },
     {
       "id": "2004783376226640",
@@ -5046,7 +5499,8 @@
     },
     {
       "id": "269970854",
-      "name": "Port Of Ibiza"
+      "name": "Port Of Ibiza",
+      "lang": "en"
     },
     {
       "id": "753718940",
@@ -5058,7 +5512,8 @@
     },
     {
       "id": "256812491148946",
-      "name": "El Puerto Ibiza"
+      "name": "El Puerto Ibiza",
+      "lang": "es"
     },
     {
       "id": "292283809",
@@ -5066,7 +5521,8 @@
     },
     {
       "id": "1781653608738962",
-      "name": "Dorado Ibiza"
+      "name": "Dorado Ibiza",
+      "lang": "neutral"
     },
     {
       "id": "257122193",
@@ -5074,7 +5530,8 @@
     },
     {
       "id": "747558582120844",
-      "name": "Old town Ibiza"
+      "name": "Old town Ibiza",
+      "lang": "en"
     },
     {
       "id": "1717207011878752",
@@ -5094,7 +5551,8 @@
     },
     {
       "id": "610272295511435",
-      "name": "NoHo Beach Club"
+      "name": "NoHo Beach Club",
+      "lang": "en"
     },
     {
       "id": "288068808",
@@ -5102,7 +5560,8 @@
     },
     {
       "id": "264738806",
-      "name": "Calle De La Virgen"
+      "name": "Calle De La Virgen",
+      "lang": "es"
     },
     {
       "id": "151006008278942",
@@ -5110,7 +5569,8 @@
     },
     {
       "id": "257918538",
-      "name": "Little Ibiza Paseo De Figueretas"
+      "name": "Little Ibiza Paseo De Figueretas",
+      "lang": "es"
     },
     {
       "id": "741574260",
@@ -5134,11 +5594,13 @@
     },
     {
       "id": "415203569073566",
-      "name": "Ushuaïa"
+      "name": "Ushuaïa",
+      "lang": "neutral"
     },
     {
       "id": "2361815340714573",
-      "name": "Pacha Shop"
+      "name": "Pacha Shop",
+      "lang": "en"
     },
     {
       "id": "356195641",
@@ -5150,7 +5612,8 @@
     },
     {
       "id": "258181704",
-      "name": "Ibiza Town Port"
+      "name": "Ibiza Town Port",
+      "lang": "en"
     },
     {
       "id": "312924309053091",
@@ -5158,7 +5621,8 @@
     },
     {
       "id": "103563345236595",
-      "name": "Vanilla Beach Ibiza"
+      "name": "Vanilla Beach Ibiza",
+      "lang": "en"
     },
     {
       "id": "311513066",
@@ -5166,11 +5630,13 @@
     },
     {
       "id": "107917350554411",
-      "name": "Teatro Ibiza"
+      "name": "Teatro Ibiza",
+      "lang": "es"
     },
     {
       "id": "190589304936958",
-      "name": "Nobu Ibiza Bay Hotel"
+      "name": "Nobu Ibiza Bay Hotel",
+      "lang": "en"
     },
     {
       "id": "261026113",
@@ -5194,7 +5660,8 @@
     },
     {
       "id": "306244345894629",
-      "name": "BLESS Ibiza The Site"
+      "name": "BLESS Ibiza The Site",
+      "lang": "en"
     },
     {
       "id": "900273304",
@@ -5202,11 +5669,13 @@
     },
     {
       "id": "293387196",
-      "name": "Spain, Ibiza- Figueretas"
+      "name": "Spain, Ibiza- Figueretas",
+      "lang": "en"
     },
     {
       "id": "253945513",
-      "name": "Ibiza Platja d'en Bossa"
+      "name": "Ibiza Platja d'en Bossa",
+      "lang": "ca"
     },
     {
       "id": "1002526973092592",
@@ -5214,7 +5683,8 @@
     },
     {
       "id": "16604233",
-      "name": "Ibiza Royal Beach"
+      "name": "Ibiza Royal Beach",
+      "lang": "en"
     },
     {
       "id": "1035207936",
@@ -5222,19 +5692,23 @@
     },
     {
       "id": "100719798059259",
-      "name": "The Ibiza Twiins"
+      "name": "The Ibiza Twiins",
+      "lang": "en"
     },
     {
       "id": "275136896",
-      "name": "Mercado Medieval,Ibiza"
+      "name": "Mercado Medieval,Ibiza",
+      "lang": "es"
     },
     {
       "id": "256247055",
-      "name": "Playa En Bossa Ibiza"
+      "name": "Playa En Bossa Ibiza",
+      "lang": "es"
     },
     {
       "id": "234395328",
-      "name": "Playa De Talamanca - Ibiza"
+      "name": "Playa De Talamanca - Ibiza",
+      "lang": "es"
     },
     {
       "id": "12774737",
@@ -5242,11 +5716,13 @@
     },
     {
       "id": "286354002",
-      "name": "Ibiza Town, Dalt Villa"
+      "name": "Ibiza Town, Dalt Villa",
+      "lang": "en"
     },
     {
       "id": "703687012998004",
-      "name": "Puerto de Ibiza"
+      "name": "Puerto de Ibiza",
+      "lang": "es"
     },
     {
       "id": "258944165",
@@ -5258,7 +5734,8 @@
     },
     {
       "id": "709105779529529",
-      "name": "Cala bassa beach club"
+      "name": "Cala bassa beach club",
+      "lang": "en"
     },
     {
       "id": "271814207",
@@ -5266,7 +5743,8 @@
     },
     {
       "id": "269886665",
-      "name": "Eivissa Puerto"
+      "name": "Eivissa Puerto",
+      "lang": "es"
     },
     {
       "id": "267588093",
@@ -5282,7 +5760,8 @@
     },
     {
       "id": "101219745635993",
-      "name": "Ibiza Town"
+      "name": "Ibiza Town",
+      "lang": "en"
     },
     {
       "id": "337317732",
@@ -5294,7 +5773,8 @@
     },
     {
       "id": "166561237512711",
-      "name": "Playa las Salinas-Ibiza"
+      "name": "Playa las Salinas-Ibiza",
+      "lang": "es"
     },
     {
       "id": "115075551483270",
@@ -5318,7 +5798,8 @@
     },
     {
       "id": "235953524",
-      "name": "Ibiza Island - Spain"
+      "name": "Ibiza Island - Spain",
+      "lang": "en"
     },
     {
       "id": "109188347519198",
@@ -5330,11 +5811,13 @@
     },
     {
       "id": "188616905263336",
-      "name": "Ibiza beach Marina Botafoch"
+      "name": "Ibiza beach Marina Botafoch",
+      "lang": "en"
     },
     {
       "id": "354753095",
-      "name": "Gran Hotel Montesol Ibiza"
+      "name": "Gran Hotel Montesol Ibiza",
+      "lang": "neutral"
     },
     {
       "id": "264079770816849",
@@ -5342,7 +5825,8 @@
     },
     {
       "id": "538181616555094",
-      "name": "Café Mar y Sol"
+      "name": "Café Mar y Sol",
+      "lang": "es"
     },
     {
       "id": "342323679771572",
@@ -5350,7 +5834,8 @@
     },
     {
       "id": "1989404507784914",
-      "name": "Formentera, Balearic Islands, Spain"
+      "name": "Formentera, Balearic Islands, Spain",
+      "lang": "en"
     },
     {
       "id": "3312413",
@@ -5366,7 +5851,8 @@
     },
     {
       "id": "339180935",
-      "name": "Restaurante Formentera"
+      "name": "Restaurante Formentera",
+      "lang": "es"
     },
     {
       "id": "241210196",
@@ -5378,11 +5864,13 @@
     },
     {
       "id": "4590170",
-      "name": "Plaza del Parque"
+      "name": "Plaza del Parque",
+      "lang": "es"
     },
     {
       "id": "520525",
-      "name": "Bar restaurante Flotante"
+      "name": "Bar restaurante Flotante",
+      "lang": "es"
     },
     {
       "id": "392194173",
@@ -5394,7 +5882,8 @@
     },
     {
       "id": "587839498055500",
-      "name": "Museu d'Art Contemporani d'Eivissa"
+      "name": "Museu d'Art Contemporani d'Eivissa",
+      "lang": "ca"
     },
     {
       "id": "574954372884624",
@@ -5402,7 +5891,8 @@
     },
     {
       "id": "271616454",
-      "name": "Cala Benirras"
+      "name": "Cala Benirras",
+      "lang": "neutral"
     },
     {
       "id": "655846827927685",
@@ -5422,7 +5912,8 @@
     },
     {
       "id": "444240099335124",
-      "name": "Puerto De Marina Botafoch"
+      "name": "Puerto De Marina Botafoch",
+      "lang": "es"
     },
     {
       "id": "1735568696459824",
@@ -5466,11 +5957,13 @@
     },
     {
       "id": "72988479",
-      "name": "Harinus"
+      "name": "Harinus",
+      "lang": "neutral"
     },
     {
       "id": "768438023",
-      "name": "Ibiza Town"
+      "name": "Ibiza Town",
+      "lang": "en"
     },
     {
       "id": "270894286698662",
@@ -5514,11 +6007,13 @@
     },
     {
       "id": "4118872",
-      "name": "Castell D'eivissa"
+      "name": "Castell D'eivissa",
+      "lang": "ca"
     },
     {
       "id": "8002981",
-      "name": "Hotel Royal Plaza Ibiza"
+      "name": "Hotel Royal Plaza Ibiza",
+      "lang": "es"
     },
     {
       "id": "105780965769732",
@@ -5526,7 +6021,8 @@
     },
     {
       "id": "293230963",
-      "name": "Ushuaia Tower - Rooftop"
+      "name": "Ushuaia Tower - Rooftop",
+      "lang": "en"
     },
     {
       "id": "2088978668025635",
@@ -5534,7 +6030,8 @@
     },
     {
       "id": "100533051740835",
-      "name": "Hotel Playasol the New Algarb"
+      "name": "Hotel Playasol the New Algarb",
+      "lang": "en"
     },
     {
       "id": "346023645",
@@ -5542,15 +6039,18 @@
     },
     {
       "id": "269802916",
-      "name": "The Rock Bar Ibiza"
+      "name": "The Rock Bar Ibiza",
+      "lang": "en"
     },
     {
       "id": "894979864007029",
-      "name": "Bikini by Cathy Guetta"
+      "name": "Bikini by Cathy Guetta",
+      "lang": "en"
     },
     {
       "id": "296365727483805",
-      "name": "Ibiza Boat Club"
+      "name": "Ibiza Boat Club",
+      "lang": "en"
     },
     {
       "id": "829706659",
@@ -5562,7 +6062,8 @@
     },
     {
       "id": "262567375",
-      "name": "Faro Pilar de la Mola, Formentera"
+      "name": "Faro Pilar de la Mola, Formentera",
+      "lang": "es"
     },
     {
       "id": "447067608987624",
@@ -5570,15 +6071,18 @@
     },
     {
       "id": "531579088",
-      "name": "Mercat Nou"
+      "name": "Mercat Nou",
+      "lang": "ca"
     },
     {
       "id": "109296842459285",
-      "name": "Boat Party Ibiza"
+      "name": "Boat Party Ibiza",
+      "lang": "en"
     },
     {
       "id": "588069464400640",
-      "name": "SEVEN Wellness Club Ibiza"
+      "name": "SEVEN Wellness Club Ibiza",
+      "lang": "en"
     },
     {
       "id": "333539913901392",
@@ -5602,7 +6106,8 @@
     },
     {
       "id": "339981506",
-      "name": "Playa De Figuretes Ibiza"
+      "name": "Playa De Figuretes Ibiza",
+      "lang": "es"
     },
     {
       "id": "281642396",
@@ -5626,11 +6131,13 @@
     },
     {
       "id": "2017933678470033",
-      "name": "Paseo Vara de Rey"
+      "name": "Paseo Vara de Rey",
+      "lang": "es"
     },
     {
       "id": "1026495630",
-      "name": "Platja De Ses Illetes, Formentera"
+      "name": "Platja De Ses Illetes, Formentera",
+      "lang": "ca"
     },
     {
       "id": "292839679",
@@ -5654,7 +6161,8 @@
     },
     {
       "id": "108687164928658",
-      "name": "Playa D'en Bossa, Ibiza, España"
+      "name": "Playa D'en Bossa, Ibiza, España",
+      "lang": "es"
     },
     {
       "id": "5246941",
@@ -5666,7 +6174,8 @@
     },
     {
       "id": "105550294194926",
-      "name": "Cala D’hort"
+      "name": "Cala D’hort",
+      "lang": "neutral"
     },
     {
       "id": "281214720",
@@ -5674,7 +6183,8 @@
     },
     {
       "id": "169540713575782",
-      "name": "Restaurante Varadero"
+      "name": "Restaurante Varadero",
+      "lang": "es"
     },
     {
       "id": "113242798049674",
@@ -5690,7 +6200,8 @@
     },
     {
       "id": "287821229",
-      "name": "Sir Rocco Beach Trattoria"
+      "name": "Sir Rocco Beach Trattoria",
+      "lang": "en"
     },
     {
       "id": "271365864",
@@ -5702,15 +6213,18 @@
     },
     {
       "id": "1020049741",
-      "name": "Puerto De Ibiza"
+      "name": "Puerto De Ibiza",
+      "lang": "es"
     },
     {
       "id": "122412914186011",
-      "name": "Cremat Beach Ibiza"
+      "name": "Cremat Beach Ibiza",
+      "lang": "en"
     },
     {
       "id": "163916150847044",
-      "name": "Benirras Beach"
+      "name": "Benirras Beach",
+      "lang": "en"
     },
     {
       "id": "308403430",
@@ -5722,7 +6236,8 @@
     },
     {
       "id": "890331498025227",
-      "name": "Seahorse Beach Club Ibiza"
+      "name": "Seahorse Beach Club Ibiza",
+      "lang": "en"
     },
     {
       "id": "341826415",
@@ -5730,15 +6245,18 @@
     },
     {
       "id": "289686080",
-      "name": "Talamanca Beach Club"
+      "name": "Talamanca Beach Club",
+      "lang": "en"
     },
     {
       "id": "5047473",
-      "name": "Coolture Cafe Ibiza cocktail bar/ italian bistro"
+      "name": "Coolture Cafe Ibiza cocktail bar/ italian bistro",
+      "lang": "en"
     },
     {
       "id": "358405396",
-      "name": "Ibiza Talamanca Beach"
+      "name": "Ibiza Talamanca Beach",
+      "lang": "en"
     },
     {
       "id": "285989797942217",
@@ -5750,7 +6268,8 @@
     },
     {
       "id": "23741218",
-      "name": "América restaurante"
+      "name": "América restaurante",
+      "lang": "es"
     },
     {
       "id": "776935975",
@@ -5762,11 +6281,13 @@
     },
     {
       "id": "319213556",
-      "name": "Montauk Steakhouse Ibiza"
+      "name": "Montauk Steakhouse Ibiza",
+      "lang": "en"
     },
     {
       "id": "948603336",
-      "name": "Ibiza Puerto Nuevo"
+      "name": "Ibiza Puerto Nuevo",
+      "lang": "es"
     },
     {
       "id": "580274645680742",
@@ -5774,35 +6295,43 @@
     },
     {
       "id": "938132974",
-      "name": "La Plaza IBIZA"
+      "name": "La Plaza IBIZA",
+      "lang": "es"
     },
     {
       "id": "4385957",
-      "name": "Los Pasajeros"
+      "name": "Los Pasajeros",
+      "lang": "es"
     },
     {
       "id": "264661805",
-      "name": "Formentera, Ibiza, España"
+      "name": "Formentera, Ibiza, España",
+      "lang": "es"
     },
     {
       "id": "1748084758855719",
-      "name": "Restaurante Los Parasoles"
+      "name": "Restaurante Los Parasoles",
+      "lang": "es"
     },
     {
       "id": "236444734",
-      "name": "Playa Las Salinas-Ibiza"
+      "name": "Playa Las Salinas-Ibiza",
+      "lang": "es"
     },
     {
       "id": "1017220222",
-      "name": "Puerto Ibiza"
+      "name": "Puerto Ibiza",
+      "lang": "es"
     },
     {
       "id": "357234884981842",
-      "name": "El Puerto Ibiza Hotel & Spa"
+      "name": "El Puerto Ibiza Hotel & Spa",
+      "lang": "es"
     },
     {
       "id": "115124144859167",
-      "name": "BEN’S"
+      "name": "BEN’S",
+      "lang": "neutral"
     },
     {
       "id": "292543687",
@@ -5826,7 +6355,8 @@
     },
     {
       "id": "4588156",
-      "name": "Hotel Ibiza Playa"
+      "name": "Hotel Ibiza Playa",
+      "lang": "es"
     },
     {
       "id": "272877518",
@@ -5842,7 +6372,8 @@
     },
     {
       "id": "363759113490200",
-      "name": "Puerto Fino Ibiza"
+      "name": "Puerto Fino Ibiza",
+      "lang": "es"
     },
     {
       "id": "574814423193172",
@@ -5866,7 +6397,8 @@
     },
     {
       "id": "26863716",
-      "name": "Bar El Chupito Ibiza Puerto"
+      "name": "Bar El Chupito Ibiza Puerto",
+      "lang": "es"
     },
     {
       "id": "110093173920586",
@@ -5886,7 +6418,8 @@
     },
     {
       "id": "261631945",
-      "name": "Ibiza (town)"
+      "name": "Ibiza (town)",
+      "lang": "en"
     },
     {
       "id": "273519471",
@@ -5894,11 +6427,13 @@
     },
     {
       "id": "262579141095252",
-      "name": "Playa Benirras"
+      "name": "Playa Benirras",
+      "lang": "es"
     },
     {
       "id": "928627196",
-      "name": "Las Boas Ibiza"
+      "name": "Las Boas Ibiza",
+      "lang": "es"
     },
     {
       "id": "818574464",
@@ -5906,7 +6441,8 @@
     },
     {
       "id": "789173805",
-      "name": "Es Tap Nou Ibiza"
+      "name": "Es Tap Nou Ibiza",
+      "lang": "ca"
     },
     {
       "id": "102919675819345",
@@ -5918,7 +6454,8 @@
     },
     {
       "id": "1120805767988299",
-      "name": "Castle of Ibiza"
+      "name": "Castle of Ibiza",
+      "lang": "en"
     },
     {
       "id": "380595173",
@@ -5926,7 +6463,8 @@
     },
     {
       "id": "510130222",
-      "name": "Playa d'en Bossa"
+      "name": "Playa d'en Bossa",
+      "lang": "es"
     },
     {
       "id": "100913335920399",
@@ -5934,11 +6472,13 @@
     },
     {
       "id": "235470638",
-      "name": "Cas serres-ibiza"
+      "name": "Cas serres-ibiza",
+      "lang": "neutral"
     },
     {
       "id": "740106870",
-      "name": "Platja Cala D'hort-Sant Josep"
+      "name": "Platja Cala D'hort-Sant Josep",
+      "lang": "ca"
     },
     {
       "id": "106565534293229",
@@ -5946,7 +6486,8 @@
     },
     {
       "id": "272762358",
-      "name": "Platja de Ses Figueretes"
+      "name": "Platja de Ses Figueretes",
+      "lang": "ca"
     },
     {
       "id": "222069094511578",
@@ -5958,7 +6499,8 @@
     },
     {
       "id": "410529275471321",
-      "name": "The Amorous Project Ibiza"
+      "name": "The Amorous Project Ibiza",
+      "lang": "en"
     },
     {
       "id": "666831623179891",
@@ -5986,7 +6528,8 @@
     },
     {
       "id": "255441039",
-      "name": "Nassau Beach Club, Ibiza"
+      "name": "Nassau Beach Club, Ibiza",
+      "lang": "en"
     },
     {
       "id": "105969288592697",
@@ -5998,11 +6541,13 @@
     },
     {
       "id": "1541634139472897",
-      "name": "Mojito Beach Club"
+      "name": "Mojito Beach Club",
+      "lang": "en"
     },
     {
       "id": "1932714700280911",
-      "name": "Cocos ibiza"
+      "name": "Cocos ibiza",
+      "lang": "neutral"
     },
     {
       "id": "105619834843740",
@@ -6010,7 +6555,8 @@
     },
     {
       "id": "481229515638178",
-      "name": "Platja D'en Bossa Ibiza-Stad"
+      "name": "Platja D'en Bossa Ibiza-Stad",
+      "lang": "ca"
     },
     {
       "id": "839000274",
@@ -6030,7 +6576,8 @@
     },
     {
       "id": "119329647921513",
-      "name": "Happiness Beach Ibiza"
+      "name": "Happiness Beach Ibiza",
+      "lang": "en"
     },
     {
       "id": "300575148",
@@ -6042,7 +6589,8 @@
     },
     {
       "id": "869842216459837",
-      "name": "Ibiza Can Tixedo Sports Bar Restaurante"
+      "name": "Ibiza Can Tixedo Sports Bar Restaurante",
+      "lang": "es"
     },
     {
       "id": "100156938246867",
@@ -6054,11 +6602,13 @@
     },
     {
       "id": "1227952780561452",
-      "name": "Playa Cala Compte"
+      "name": "Playa Cala Compte",
+      "lang": "es"
     },
     {
       "id": "631036271",
-      "name": "Los Bodegueros Ibiza"
+      "name": "Los Bodegueros Ibiza",
+      "lang": "es"
     },
     {
       "id": "560093967479798",
@@ -6066,7 +6616,8 @@
     },
     {
       "id": "284684204",
-      "name": "Pacha Nightclub, Ibiza Town"
+      "name": "Pacha Nightclub, Ibiza Town",
+      "lang": "en"
     },
     {
       "id": "661250337682441",
@@ -6086,7 +6637,8 @@
     },
     {
       "id": "177926326069629",
-      "name": "Formentera Beach"
+      "name": "Formentera Beach",
+      "lang": "en"
     },
     {
       "id": "327712006",
@@ -6094,7 +6646,8 @@
     },
     {
       "id": "302412444",
-      "name": "Usuhaia Beach Club, Ibiza"
+      "name": "Usuhaia Beach Club, Ibiza",
+      "lang": "en"
     },
     {
       "id": "260068704",
@@ -6110,7 +6663,8 @@
     },
     {
       "id": "302851316480643",
-      "name": "Ibiza Town"
+      "name": "Ibiza Town",
+      "lang": "en"
     },
     {
       "id": "673245816469680",
@@ -6134,11 +6688,13 @@
     },
     {
       "id": "395295314286390",
-      "name": "Od Talamanca"
+      "name": "Od Talamanca",
+      "lang": "neutral"
     },
     {
       "id": "103490364787049",
-      "name": "La Gaia By Óscar Molina"
+      "name": "La Gaia By Óscar Molina",
+      "lang": "en"
     },
     {
       "id": "841372846",
@@ -6146,7 +6702,8 @@
     },
     {
       "id": "252230073",
-      "name": "Prince bar lounge"
+      "name": "Prince bar lounge",
+      "lang": "en"
     },
     {
       "id": "280470916",
@@ -6158,7 +6715,8 @@
     },
     {
       "id": "124677198089437",
-      "name": "The Bull Restaurant"
+      "name": "The Bull Restaurant",
+      "lang": "en"
     },
     {
       "id": "104630721150944",
@@ -6178,11 +6736,13 @@
     },
     {
       "id": "610614375",
-      "name": "Ibiza Platja Figueretes"
+      "name": "Ibiza Platja Figueretes",
+      "lang": "ca"
     },
     {
       "id": "100323655112510",
-      "name": "La Oliva Restaurante"
+      "name": "La Oliva Restaurante",
+      "lang": "es"
     },
     {
       "id": "177867962776887",
@@ -6190,7 +6750,8 @@
     },
     {
       "id": "1732214810334938",
-      "name": "Torre del Mar Hotel Ibiza España"
+      "name": "Torre del Mar Hotel Ibiza España",
+      "lang": "es"
     },
     {
       "id": "828333388",
@@ -6198,11 +6759,13 @@
     },
     {
       "id": "507266886",
-      "name": "Las Puertas Del Cielo"
+      "name": "Las Puertas Del Cielo",
+      "lang": "es"
     },
     {
       "id": "175458855800372",
-      "name": "Ibiza - Architect of The life Patrícia Lopez"
+      "name": "Ibiza - Architect of The life Patrícia Lopez",
+      "lang": "en"
     },
     {
       "id": "442886139437935",
@@ -6210,7 +6773,8 @@
     },
     {
       "id": "271308945",
-      "name": "Platja d'en Bossa (Ibiza)"
+      "name": "Platja d'en Bossa (Ibiza)",
+      "lang": "ca"
     },
     {
       "id": "1381903618633488",
@@ -6218,7 +6782,8 @@
     },
     {
       "id": "351039378",
-      "name": "Restaurante Can D'en Parra"
+      "name": "Restaurante Can D'en Parra",
+      "lang": "es"
     },
     {
       "id": "5761352",
@@ -6234,7 +6799,8 @@
     },
     {
       "id": "524062917795408",
-      "name": "Plaza De La Paz Ibiza"
+      "name": "Plaza De La Paz Ibiza",
+      "lang": "es"
     },
     {
       "id": "288494435383164",
@@ -6258,7 +6824,8 @@
     },
     {
       "id": "256282653",
-      "name": "Platja Illetes, Parc Natural les Savines - Formentera"
+      "name": "Platja Illetes, Parc Natural les Savines - Formentera",
+      "lang": "ca"
     },
     {
       "id": "290255417",
@@ -6266,7 +6833,8 @@
     },
     {
       "id": "361417411072160",
-      "name": "Ibiza Bpm Radio"
+      "name": "Ibiza Bpm Radio",
+      "lang": "neutral"
     },
     {
       "id": "263371707105575",
@@ -6278,7 +6846,8 @@
     },
     {
       "id": "1008518583",
-      "name": "Bossa Beach"
+      "name": "Bossa Beach",
+      "lang": "en"
     },
     {
       "id": "103870576069682",
@@ -6306,7 +6875,8 @@
     },
     {
       "id": "495220864310598",
-      "name": "Plaça des Parc"
+      "name": "Plaça des Parc",
+      "lang": "ca"
     },
     {
       "id": "2016234598684916",
@@ -6314,7 +6884,8 @@
     },
     {
       "id": "216212682202611",
-      "name": "Pago Pago by Ibiza Jet"
+      "name": "Pago Pago by Ibiza Jet",
+      "lang": "en"
     },
     {
       "id": "1018610616",
@@ -6334,7 +6905,8 @@
     },
     {
       "id": "345439056",
-      "name": "Les Salines Ibiza"
+      "name": "Les Salines Ibiza",
+      "lang": "neutral"
     },
     {
       "id": "1998011303853425",
@@ -6346,11 +6918,13 @@
     },
     {
       "id": "1101691606563998",
-      "name": "Restaurantes La Tagliatella"
+      "name": "Restaurantes La Tagliatella",
+      "lang": "es"
     },
     {
       "id": "272479456697245",
-      "name": "Hostal Parque Ibiza"
+      "name": "Hostal Parque Ibiza",
+      "lang": "es"
     },
     {
       "id": "1861135250876764",
@@ -6362,7 +6936,8 @@
     },
     {
       "id": "195482324407358",
-      "name": "Restaurante Nassau"
+      "name": "Restaurante Nassau",
+      "lang": "es"
     },
     {
       "id": "2414073918876358",
@@ -6370,7 +6945,8 @@
     },
     {
       "id": "812228502",
-      "name": "Bora Bora Beach"
+      "name": "Bora Bora Beach",
+      "lang": "en"
     },
     {
       "id": "105337680886099",
@@ -6390,7 +6966,8 @@
     },
     {
       "id": "945937805",
-      "name": "La Solera Restaurante Puerto de Ibiza"
+      "name": "La Solera Restaurante Puerto de Ibiza",
+      "lang": "es"
     },
     {
       "id": "284272739",
@@ -6402,11 +6979,13 @@
     },
     {
       "id": "302857353",
-      "name": "Divino Cafè, Ibiza"
+      "name": "Divino Cafè, Ibiza",
+      "lang": "ca"
     },
     {
       "id": "481115",
-      "name": "Parque de La Paz"
+      "name": "Parque de La Paz",
+      "lang": "es"
     },
     {
       "id": "129094507506842",
@@ -6422,7 +7001,8 @@
     },
     {
       "id": "1006829388",
-      "name": "Isla Magica Ibiza ️"
+      "name": "Isla Magica Ibiza ️",
+      "lang": "es"
     },
     {
       "id": "347020610",
@@ -6450,15 +7030,18 @@
     },
     {
       "id": "260835471",
-      "name": "Ca n'Alfredo Restaurante"
+      "name": "Ca n'Alfredo Restaurante",
+      "lang": "es"
     },
     {
       "id": "249242250",
-      "name": "Platja de Talamanca"
+      "name": "Platja de Talamanca",
+      "lang": "ca"
     },
     {
       "id": "2016564608585327",
-      "name": "Restaurante Oli Ibiza"
+      "name": "Restaurante Oli Ibiza",
+      "lang": "es"
     },
     {
       "id": "1023387126",
@@ -6466,7 +7049,8 @@
     },
     {
       "id": "989209457882831",
-      "name": "La Imprenta Ibiza"
+      "name": "La Imprenta Ibiza",
+      "lang": "neutral"
     },
     {
       "id": "252867521",
@@ -6478,7 +7062,8 @@
     },
     {
       "id": "304460934",
-      "name": "Puerto marina Ibiza"
+      "name": "Puerto marina Ibiza",
+      "lang": "es"
     },
     {
       "id": "360811426",
@@ -6494,7 +7079,8 @@
     },
     {
       "id": "234942023",
-      "name": "Pura Vida Plaza del Parque"
+      "name": "Pura Vida Plaza del Parque",
+      "lang": "es"
     },
     {
       "id": "406112180235752",
@@ -6514,7 +7100,8 @@
     },
     {
       "id": "253519022254139",
-      "name": "Ibiza Castle"
+      "name": "Ibiza Castle",
+      "lang": "en"
     },
     {
       "id": "613114715435888",
@@ -6534,7 +7121,8 @@
     },
     {
       "id": "293623452",
-      "name": "Ibiza Old Town Cathedral"
+      "name": "Ibiza Old Town Cathedral",
+      "lang": "en"
     },
     {
       "id": "108621581493826",
@@ -6550,11 +7138,13 @@
     },
     {
       "id": "1889599881361018",
-      "name": "Restaurante Casa Manolo"
+      "name": "Restaurante Casa Manolo",
+      "lang": "es"
     },
     {
       "id": "302490135",
-      "name": "Ibiza Cathedral"
+      "name": "Ibiza Cathedral",
+      "lang": "en"
     },
     {
       "id": "348017302272429",
@@ -6566,11 +7156,13 @@
     },
     {
       "id": "1617508121911439",
-      "name": "Castillo De Ibiza"
+      "name": "Castillo De Ibiza",
+      "lang": "es"
     },
     {
       "id": "621820034683123",
-      "name": "Playa de las Salinas"
+      "name": "Playa de las Salinas",
+      "lang": "es"
     },
     {
       "id": "2278330458912708",
@@ -6602,7 +7194,8 @@
     },
     {
       "id": "284343639",
-      "name": "Porto Sale Ibiza"
+      "name": "Porto Sale Ibiza",
+      "lang": "neutral"
     },
     {
       "id": "286415546",
@@ -6634,7 +7227,8 @@
     },
     {
       "id": "286081221",
-      "name": "Ibiza Ciudad Vieja"
+      "name": "Ibiza Ciudad Vieja",
+      "lang": "es"
     },
     {
       "id": "168440536884986",
@@ -6646,7 +7240,8 @@
     },
     {
       "id": "323986844",
-      "name": "Restaurante SA Nansa Ibiza"
+      "name": "Restaurante SA Nansa Ibiza",
+      "lang": "es"
     },
     {
       "id": "946373182",
@@ -6654,7 +7249,8 @@
     },
     {
       "id": "711039564",
-      "name": "Playa Figueretas - IBIZA"
+      "name": "Playa Figueretas - IBIZA",
+      "lang": "es"
     },
     {
       "id": "1340781279375315",
@@ -6666,23 +7262,28 @@
     },
     {
       "id": "386690331843367",
-      "name": "Il Punto Gelato Ibiza"
+      "name": "Il Punto Gelato Ibiza",
+      "lang": "other"
     },
     {
       "id": "258195747",
-      "name": "Puerto Ibiza"
+      "name": "Puerto Ibiza",
+      "lang": "es"
     },
     {
       "id": "168473930491658",
-      "name": "Sate House Ibiza"
+      "name": "Sate House Ibiza",
+      "lang": "en"
     },
     {
       "id": "655040004",
-      "name": "Uib Universitat de les Illes Balears"
+      "name": "Uib Universitat de les Illes Balears",
+      "lang": "ca"
     },
     {
       "id": "284666310",
-      "name": "Casco Antiguo Ibiza"
+      "name": "Casco Antiguo Ibiza",
+      "lang": "es"
     },
     {
       "id": "380866849",
@@ -6702,15 +7303,18 @@
     },
     {
       "id": "422790321252818",
-      "name": "Analei Peluqueria Esther Fernandez"
+      "name": "Analei Peluqueria Esther Fernandez",
+      "lang": "es"
     },
     {
       "id": "331090370592179",
-      "name": "Platja Illetes, Parc Natural les Savines - Formentera"
+      "name": "Platja Illetes, Parc Natural les Savines - Formentera",
+      "lang": "ca"
     },
     {
       "id": "654992080",
-      "name": "La marina puerto de ibiza"
+      "name": "La marina puerto de ibiza",
+      "lang": "es"
     },
     {
       "id": "469244433",
@@ -6718,7 +7322,8 @@
     },
     {
       "id": "161388508038564",
-      "name": "Plaza del Sol"
+      "name": "Plaza del Sol",
+      "lang": "es"
     },
     {
       "id": "313798982",
@@ -6734,7 +7339,8 @@
     },
     {
       "id": "1935828596710345",
-      "name": "Club de Campo Ibiza"
+      "name": "Club de Campo Ibiza",
+      "lang": "es"
     },
     {
       "id": "106600635112004",
@@ -6754,7 +7360,8 @@
     },
     {
       "id": "2372705559413581",
-      "name": "Plaza Del Parque Ibiza"
+      "name": "Plaza Del Parque Ibiza",
+      "lang": "es"
     },
     {
       "id": "348306803",
@@ -6766,7 +7373,8 @@
     },
     {
       "id": "951335111686490",
-      "name": "Playa De Los Molinos Ibiza"
+      "name": "Playa De Los Molinos Ibiza",
+      "lang": "es"
     },
     {
       "id": "827821791",
@@ -6790,7 +7398,8 @@
     },
     {
       "id": "255770435",
-      "name": "Plaça de la Catedral, Dalt Vila, Eivissa."
+      "name": "Plaça de la Catedral, Dalt Vila, Eivissa.",
+      "lang": "ca"
     },
     {
       "id": "126027065740938",
@@ -6802,7 +7411,8 @@
     },
     {
       "id": "2061349854092024",
-      "name": "La Esquina"
+      "name": "La Esquina",
+      "lang": "es"
     },
     {
       "id": "1022934877",
@@ -6818,7 +7428,8 @@
     },
     {
       "id": "307702099",
-      "name": "Playa Del Bossa, Ibiza"
+      "name": "Playa Del Bossa, Ibiza",
+      "lang": "es"
     },
     {
       "id": "102814814443546",
@@ -6826,11 +7437,13 @@
     },
     {
       "id": "998450329",
-      "name": "Playa Talamanca, Ibiza"
+      "name": "Playa Talamanca, Ibiza",
+      "lang": "es"
     },
     {
       "id": "303171940",
-      "name": "Hotel Torre Del Mar, Playa d'en Bossa, Ibiza"
+      "name": "Hotel Torre Del Mar, Playa d'en Bossa, Ibiza",
+      "lang": "es"
     },
     {
       "id": "144176469485763",
@@ -6862,11 +7475,13 @@
     },
     {
       "id": "297728866",
-      "name": "Playa De'n Bossa"
+      "name": "Playa De'n Bossa",
+      "lang": "es"
     },
     {
       "id": "1822772451347454",
-      "name": "Garage 10 Studio Ibiza"
+      "name": "Garage 10 Studio Ibiza",
+      "lang": "neutral"
     },
     {
       "id": "804010082",
@@ -6874,7 +7489,8 @@
     },
     {
       "id": "284549277",
-      "name": "Magnus Playa Bistro"
+      "name": "Magnus Playa Bistro",
+      "lang": "es"
     },
     {
       "id": "1095549283637116",
@@ -6902,7 +7518,8 @@
     },
     {
       "id": "586881564",
-      "name": "Ibiza Centro"
+      "name": "Ibiza Centro",
+      "lang": "es"
     },
     {
       "id": "249980749",
@@ -6918,7 +7535,8 @@
     },
     {
       "id": "402424349892880",
-      "name": "Faro de Botafoc"
+      "name": "Faro de Botafoc",
+      "lang": "es"
     },
     {
       "id": "362942769",
@@ -6934,11 +7552,13 @@
     },
     {
       "id": "304597306066626",
-      "name": "World of Ink ibiza"
+      "name": "World of Ink ibiza",
+      "lang": "en"
     },
     {
       "id": "334876271",
-      "name": "The Ninth Ibiza"
+      "name": "The Ninth Ibiza",
+      "lang": "en"
     },
     {
       "id": "609082529",
@@ -6994,15 +7614,18 @@
     },
     {
       "id": "360706034",
-      "name": "Parc Reina Sofia - Eivissa"
+      "name": "Parc Reina Sofia - Eivissa",
+      "lang": "ca"
     },
     {
       "id": "203898710243886",
-      "name": "El Barco Restaurante"
+      "name": "El Barco Restaurante",
+      "lang": "es"
     },
     {
       "id": "510507278993507",
-      "name": "Allaroundtheworld"
+      "name": "Allaroundtheworld",
+      "lang": "neutral"
     },
     {
       "id": "293292467871590",
@@ -7034,15 +7657,18 @@
     },
     {
       "id": "1465068003597238",
-      "name": "Mercado de las Dalias"
+      "name": "Mercado de las Dalias",
+      "lang": "es"
     },
     {
       "id": "265420216",
-      "name": "Puerto Marina Botafoch"
+      "name": "Puerto Marina Botafoch",
+      "lang": "es"
     },
     {
       "id": "387491624452081",
-      "name": "El Nautico Ibiza Restaurante"
+      "name": "El Nautico Ibiza Restaurante",
+      "lang": "es"
     },
     {
       "id": "384582099050685",
@@ -7058,7 +7684,8 @@
     },
     {
       "id": "1485364068147843",
-      "name": "Amante Beach Club, Calla Llonga, Ibiza"
+      "name": "Amante Beach Club, Calla Llonga, Ibiza",
+      "lang": "en"
     },
     {
       "id": "1031445753",
@@ -7066,23 +7693,28 @@
     },
     {
       "id": "271087928",
-      "name": "Santa Eularia Del Riu"
+      "name": "Santa Eularia Del Riu",
+      "lang": "neutral"
     },
     {
       "id": "757627307955386",
-      "name": "Ibiza Real Estate and Rentals"
+      "name": "Ibiza Real Estate and Rentals",
+      "lang": "en"
     },
     {
       "id": "881115555354277",
-      "name": "Ocean Beach Club San Antonio"
+      "name": "Ocean Beach Club San Antonio",
+      "lang": "en"
     },
     {
       "id": "252153620",
-      "name": "Platja De Ses Figueretes Ibiza"
+      "name": "Platja De Ses Figueretes Ibiza",
+      "lang": "ca"
     },
     {
       "id": "698849201",
-      "name": "Castello Del Puerto Ibiza"
+      "name": "Castello Del Puerto Ibiza",
+      "lang": "es"
     },
     {
       "id": "104414281285422",
@@ -7110,7 +7742,8 @@
     },
     {
       "id": "1074500482414837",
-      "name": "Coya Beach Ibiza"
+      "name": "Coya Beach Ibiza",
+      "lang": "en"
     },
     {
       "id": "244285585665391",
@@ -7134,7 +7767,8 @@
     },
     {
       "id": "360763847",
-      "name": "Bla Bla • Ibiza"
+      "name": "Bla Bla • Ibiza",
+      "lang": "neutral"
     },
     {
       "id": "588061008044040",
@@ -7154,7 +7788,8 @@
     },
     {
       "id": "2288177771511272",
-      "name": "The Masquerade at Pacha"
+      "name": "The Masquerade at Pacha",
+      "lang": "en"
     },
     {
       "id": "799397372",
@@ -7166,7 +7801,8 @@
     },
     {
       "id": "178292649044487",
-      "name": "Algun Lugar De La Isla"
+      "name": "Algun Lugar De La Isla",
+      "lang": "es"
     },
     {
       "id": "1007022671",
@@ -7178,7 +7814,8 @@
     },
     {
       "id": "345016689",
-      "name": "Platja d'en Bossa"
+      "name": "Platja d'en Bossa",
+      "lang": "ca"
     },
     {
       "id": "946342366",
@@ -7186,11 +7823,13 @@
     },
     {
       "id": "1034646546",
-      "name": "Cotton Lounge Club"
+      "name": "Cotton Lounge Club",
+      "lang": "en"
     },
     {
       "id": "241013158",
-      "name": "Ibiza Hotel El Puerto"
+      "name": "Ibiza Hotel El Puerto",
+      "lang": "es"
     },
     {
       "id": "275654965",
@@ -7202,7 +7841,8 @@
     },
     {
       "id": "327126520",
-      "name": "Privilege, Ibiza"
+      "name": "Privilege, Ibiza",
+      "lang": "neutral"
     },
     {
       "id": "346621114",
@@ -7210,7 +7850,8 @@
     },
     {
       "id": "740165406",
-      "name": "Cala Bassa Beach, Ibiza"
+      "name": "Cala Bassa Beach, Ibiza",
+      "lang": "en"
     },
     {
       "id": "26659366",
@@ -7222,7 +7863,8 @@
     },
     {
       "id": "275832837",
-      "name": "Salinas Beach"
+      "name": "Salinas Beach",
+      "lang": "en"
     },
     {
       "id": "359636563",
@@ -7246,7 +7888,8 @@
     },
     {
       "id": "231422425",
-      "name": "Restaurante Jardin La Brasa Ibiza"
+      "name": "Restaurante Jardin La Brasa Ibiza",
+      "lang": "es"
     },
     {
       "id": "341531781",
@@ -7266,7 +7909,8 @@
     },
     {
       "id": "313490441",
-      "name": "Space Closing Fiesta, Ibiza"
+      "name": "Space Closing Fiesta, Ibiza",
+      "lang": "neutral"
     },
     {
       "id": "313569621",
@@ -7290,11 +7934,13 @@
     },
     {
       "id": "285732951",
-      "name": "Sushi And Love"
+      "name": "Sushi And Love",
+      "lang": "en"
     },
     {
       "id": "11929227",
-      "name": "Heladeria Los Valencianos"
+      "name": "Heladeria Los Valencianos",
+      "lang": "es"
     },
     {
       "id": "285330198536282",
@@ -7302,11 +7948,13 @@
     },
     {
       "id": "105122451321690",
-      "name": "UNIC Restaurante Ibiza"
+      "name": "UNIC Restaurante Ibiza",
+      "lang": "es"
     },
     {
       "id": "275058711",
-      "name": "Ibiza Marina, Old Town"
+      "name": "Ibiza Marina, Old Town",
+      "lang": "en"
     },
     {
       "id": "339644332",
@@ -7330,11 +7978,13 @@
     },
     {
       "id": "130467177016921",
-      "name": "Restaurante Soleado Ibiza"
+      "name": "Restaurante Soleado Ibiza",
+      "lang": "es"
     },
     {
       "id": "255459750",
-      "name": "Bar 1805 Ibiza"
+      "name": "Bar 1805 Ibiza",
+      "lang": "neutral"
     },
     {
       "id": "226658147756496",
@@ -7354,15 +8004,18 @@
     },
     {
       "id": "1556983907960373",
-      "name": "Los Rosales Restaurante"
+      "name": "Los Rosales Restaurante",
+      "lang": "es"
     },
     {
       "id": "2182633598490123",
-      "name": "The Pool @ Algarb Hotel"
+      "name": "The Pool @ Algarb Hotel",
+      "lang": "en"
     },
     {
       "id": "312077598",
-      "name": "CAN MARIO Restaurante"
+      "name": "CAN MARIO Restaurante",
+      "lang": "es"
     },
     {
       "id": "696337034",
@@ -7370,7 +8023,8 @@
     },
     {
       "id": "42897058",
-      "name": "McDonald's Puerto de Ibiza"
+      "name": "McDonald's Puerto de Ibiza",
+      "lang": "es"
     },
     {
       "id": "449315849",
@@ -7378,7 +8032,8 @@
     },
     {
       "id": "745949725",
-      "name": "Eivissa, Islas Baleares"
+      "name": "Eivissa, Islas Baleares",
+      "lang": "es"
     },
     {
       "id": "112628351901760",
@@ -7402,7 +8057,8 @@
     },
     {
       "id": "175133259286581",
-      "name": "Benirraz"
+      "name": "Benirraz",
+      "lang": "neutral"
     },
     {
       "id": "119930713936673",
@@ -7414,15 +8070,18 @@
     },
     {
       "id": "236543924",
-      "name": "Hotel Maritimo, Ibiza, Spain"
+      "name": "Hotel Maritimo, Ibiza, Spain",
+      "lang": "en"
     },
     {
       "id": "644534918908111",
-      "name": "Restaurante Sissis Ibiza"
+      "name": "Restaurante Sissis Ibiza",
+      "lang": "es"
     },
     {
       "id": "336368629",
-      "name": "Ushuaïa Ibiza Beach Hotel"
+      "name": "Ushuaïa Ibiza Beach Hotel",
+      "lang": "en"
     },
     {
       "id": "376980643",
@@ -7430,7 +8089,8 @@
     },
     {
       "id": "1579378385723349",
-      "name": "Ibiza Old Town"
+      "name": "Ibiza Old Town",
+      "lang": "en"
     },
     {
       "id": "112825061",
@@ -7438,7 +8098,8 @@
     },
     {
       "id": "1047523778654854",
-      "name": "Playa de s'Estanyol"
+      "name": "Playa de s'Estanyol",
+      "lang": "es"
     },
     {
       "id": "1102944016416597",
@@ -7446,7 +8107,8 @@
     },
     {
       "id": "1005434538",
-      "name": "Platja S'Estanyol"
+      "name": "Platja S'Estanyol",
+      "lang": "ca"
     },
     {
       "id": "527687100622701",
@@ -7454,19 +8116,23 @@
     },
     {
       "id": "111385303645476",
-      "name": "The BOOO"
+      "name": "The BOOO",
+      "lang": "en"
     },
     {
       "id": "498914347190308",
-      "name": "Ibiza Town Castle"
+      "name": "Ibiza Town Castle",
+      "lang": "en"
     },
     {
       "id": "266603795",
-      "name": "Dalt Villa El Castillo De Eivissa"
+      "name": "Dalt Villa El Castillo De Eivissa",
+      "lang": "es"
     },
     {
       "id": "412479788860726",
-      "name": "Restaurante Es Timbal"
+      "name": "Restaurante Es Timbal",
+      "lang": "es"
     },
     {
       "id": "950009351856173",
@@ -7474,11 +8140,13 @@
     },
     {
       "id": "417583055427326",
-      "name": "Massa Coffee"
+      "name": "Massa Coffee",
+      "lang": "en"
     },
     {
       "id": "283609183",
-      "name": "Eivissa Castle"
+      "name": "Eivissa Castle",
+      "lang": "en"
     },
     {
       "id": "247092791",
@@ -7490,11 +8158,13 @@
     },
     {
       "id": "351705071",
-      "name": "Appartementos Tropical Garden"
+      "name": "Appartementos Tropical Garden",
+      "lang": "en"
     },
     {
       "id": "257561752",
-      "name": "Playa Cala Salada - Ibiza"
+      "name": "Playa Cala Salada - Ibiza",
+      "lang": "es"
     },
     {
       "id": "186177628059150",
@@ -7526,7 +8196,8 @@
     },
     {
       "id": "206941783349254",
-      "name": "Calle De La Virgen 5 - Puerto De ibiza"
+      "name": "Calle De La Virgen 5 - Puerto De ibiza",
+      "lang": "es"
     },
     {
       "id": "114260494",
@@ -7534,11 +8205,13 @@
     },
     {
       "id": "767463754",
-      "name": "Benniras"
+      "name": "Benniras",
+      "lang": "neutral"
     },
     {
       "id": "227157978",
-      "name": "Paseo Maritimo Ibiza"
+      "name": "Paseo Maritimo Ibiza",
+      "lang": "es"
     },
     {
       "id": "266059918",
@@ -7562,11 +8235,13 @@
     },
     {
       "id": "238084257",
-      "name": "Eivissa Platja D'en Bossa"
+      "name": "Eivissa Platja D'en Bossa",
+      "lang": "ca"
     },
     {
       "id": "827323675",
-      "name": "PocoLoco Ibiza - Beachwear by Carmen Diaz"
+      "name": "PocoLoco Ibiza - Beachwear by Carmen Diaz",
+      "lang": "en"
     },
     {
       "id": "305793240",
@@ -7574,7 +8249,8 @@
     },
     {
       "id": "118532794688082",
-      "name": "Tattoo Ibiza Lounge"
+      "name": "Tattoo Ibiza Lounge",
+      "lang": "en"
     },
     {
       "id": "1033494246",
@@ -7586,7 +8262,8 @@
     },
     {
       "id": "113249360848828",
-      "name": "La Taberna del Parque Ibiza"
+      "name": "La Taberna del Parque Ibiza",
+      "lang": "es"
     },
     {
       "id": "184152831604977",
@@ -7594,7 +8271,8 @@
     },
     {
       "id": "251940918",
-      "name": "Playa Los Molinos Ibiza"
+      "name": "Playa Los Molinos Ibiza",
+      "lang": "es"
     },
     {
       "id": "498682307133354",
@@ -7602,7 +8280,8 @@
     },
     {
       "id": "360005754141555",
-      "name": "Ibiza Universe"
+      "name": "Ibiza Universe",
+      "lang": "neutral"
     },
     {
       "id": "368217883",
@@ -7622,7 +8301,8 @@
     },
     {
       "id": "1069370793117515",
-      "name": "Playa de ses Illetes"
+      "name": "Playa de ses Illetes",
+      "lang": "es"
     },
     {
       "id": "1030569581",
@@ -7638,7 +8318,8 @@
     },
     {
       "id": "847568518",
-      "name": "El Faro Ibiza"
+      "name": "El Faro Ibiza",
+      "lang": "es"
     },
     {
       "id": "1908560082713710",
@@ -7650,7 +8331,8 @@
     },
     {
       "id": "102565454860371",
-      "name": "Guillemis Platja d'en Bossa"
+      "name": "Guillemis Platja d'en Bossa",
+      "lang": "ca"
     },
     {
       "id": "714868441",
@@ -7666,7 +8348,8 @@
     },
     {
       "id": "100447845559836",
-      "name": "Dankie Sounds"
+      "name": "Dankie Sounds",
+      "lang": "neutral"
     },
     {
       "id": "26862724",
@@ -7674,11 +8357,13 @@
     },
     {
       "id": "260928173",
-      "name": "Ibiza Playa Talamanca"
+      "name": "Ibiza Playa Talamanca",
+      "lang": "es"
     },
     {
       "id": "7927606",
-      "name": "Faro Botafoch"
+      "name": "Faro Botafoch",
+      "lang": "es"
     },
     {
       "id": "373993700",
@@ -7686,7 +8371,8 @@
     },
     {
       "id": "309782228",
-      "name": "Paseo Vara De Rey"
+      "name": "Paseo Vara De Rey",
+      "lang": "es"
     },
     {
       "id": "1409649999102964",
@@ -7694,7 +8380,8 @@
     },
     {
       "id": "1514812835287958",
-      "name": "MIL Y UNA NOCHE Ibiza"
+      "name": "MIL Y UNA NOCHE Ibiza",
+      "lang": "es"
     },
     {
       "id": "112728150920017",
@@ -7734,7 +8421,8 @@
     },
     {
       "id": "259163054",
-      "name": "Hard Rock Cafe Ibiza"
+      "name": "Hard Rock Cafe Ibiza",
+      "lang": "en"
     },
     {
       "id": "106789884882233",
@@ -7746,11 +8434,13 @@
     },
     {
       "id": "269051312",
-      "name": "S'estanyol Beach"
+      "name": "S'estanyol Beach",
+      "lang": "en"
     },
     {
       "id": "258047982",
-      "name": "Platja De Ses Salines, Ibiza"
+      "name": "Platja De Ses Salines, Ibiza",
+      "lang": "ca"
     },
     {
       "id": "175846259627094",
@@ -7766,7 +8456,8 @@
     },
     {
       "id": "949100444",
-      "name": "La Isla Bonita"
+      "name": "La Isla Bonita",
+      "lang": "es"
     },
     {
       "id": "114495877933843",
@@ -7790,7 +8481,8 @@
     },
     {
       "id": "257272923",
-      "name": "Calle De La Virgen • IBIZA"
+      "name": "Calle De La Virgen • IBIZA",
+      "lang": "es"
     },
     {
       "id": "306414989",
@@ -7802,15 +8494,18 @@
     },
     {
       "id": "106179648405676",
-      "name": "I Gemelli Pizzaioli Ibiza"
+      "name": "I Gemelli Pizzaioli Ibiza",
+      "lang": "other"
     },
     {
       "id": "258899652",
-      "name": "LAS BOAS Resort IBIZA"
+      "name": "LAS BOAS Resort IBIZA",
+      "lang": "es"
     },
     {
       "id": "101428245821419",
-      "name": "Omakase by Walt"
+      "name": "Omakase by Walt",
+      "lang": "en"
     },
     {
       "id": "1031110039",
@@ -7818,7 +8513,8 @@
     },
     {
       "id": "377948133",
-      "name": "Eivissa Town"
+      "name": "Eivissa Town",
+      "lang": "en"
     },
     {
       "id": "289165961492181",
@@ -7826,15 +8522,18 @@
     },
     {
       "id": "1253524344692741",
-      "name": "Librería Papelería Sa Cultural"
+      "name": "Librería Papelería Sa Cultural",
+      "lang": "es"
     },
     {
       "id": "296696651",
-      "name": "Migjorn Resort And Spa Ibiza"
+      "name": "Migjorn Resort And Spa Ibiza",
+      "lang": "en"
     },
     {
       "id": "1023371724",
-      "name": "Escuela de lucha ibiza"
+      "name": "Escuela de lucha ibiza",
+      "lang": "es"
     },
     {
       "id": "540057826155690",
@@ -7842,7 +8541,8 @@
     },
     {
       "id": "100441155027710",
-      "name": "Rebel Ibiza Shop"
+      "name": "Rebel Ibiza Shop",
+      "lang": "en"
     },
     {
       "id": "629786790222159",
@@ -7866,7 +8566,8 @@
     },
     {
       "id": "103179499549008",
-      "name": "Contrabando Cocktail Pub"
+      "name": "Contrabando Cocktail Pub",
+      "lang": "en"
     },
     {
       "id": "249115157",
@@ -7878,7 +8579,8 @@
     },
     {
       "id": "861977343",
-      "name": "The White Angel Ibiza - NL"
+      "name": "The White Angel Ibiza - NL",
+      "lang": "en"
     },
     {
       "id": "647464345590111",
@@ -7894,11 +8596,13 @@
     },
     {
       "id": "750094329",
-      "name": "Isla de Ibiza"
+      "name": "Isla de Ibiza",
+      "lang": "es"
     },
     {
       "id": "249387655",
-      "name": "Playa D'en Bossa - Ibiza"
+      "name": "Playa D'en Bossa - Ibiza",
+      "lang": "es"
     },
     {
       "id": "893151650841947",
@@ -7930,11 +8634,13 @@
     },
     {
       "id": "1756769824571666",
-      "name": "RUTA Market"
+      "name": "RUTA Market",
+      "lang": "en"
     },
     {
       "id": "101449041652002",
-      "name": "Lydia’s Smokehouse Ibiza"
+      "name": "Lydia’s Smokehouse Ibiza",
+      "lang": "en"
     },
     {
       "id": "2254694167926274",
@@ -7946,7 +8652,8 @@
     },
     {
       "id": "527722846",
-      "name": "Bora Bora Beach, Ibiza"
+      "name": "Bora Bora Beach, Ibiza",
+      "lang": "en"
     },
     {
       "id": "100399706764683",
@@ -7954,11 +8661,13 @@
     },
     {
       "id": "281604209",
-      "name": "Ibiza Harbour"
+      "name": "Ibiza Harbour",
+      "lang": "en"
     },
     {
       "id": "246250374",
-      "name": "Isla Ibiza Bonita - Ibiza"
+      "name": "Isla Ibiza Bonita - Ibiza",
+      "lang": "es"
     },
     {
       "id": "24834255",
@@ -7974,7 +8683,8 @@
     },
     {
       "id": "481607588910282",
-      "name": "Bar Restaurante Asador Arami"
+      "name": "Bar Restaurante Asador Arami",
+      "lang": "es"
     },
     {
       "id": "1632826950356395",
@@ -7982,7 +8692,8 @@
     },
     {
       "id": "829906303",
-      "name": "Virgin Street, Ibiza Old Town"
+      "name": "Virgin Street, Ibiza Old Town",
+      "lang": "en"
     },
     {
       "id": "626905894035259",
