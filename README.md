@@ -1,8 +1,9 @@
 # instagram-places
 
-Sincroniza a diario las ubicaciones de Instagram del directorio de
-[Palma de Mallorca](https://www.instagram.com/explore/locations/c692339/palmademallorca-spain/)
-y las guarda en `data/locations.json`:
+Sincroniza a diario las ubicaciones de Instagram de los directorios de
+[Palma de Mallorca](https://www.instagram.com/explore/locations/c692339/palmademallorca-spain/) e
+[Ibiza](https://www.instagram.com/explore/locations/c685540/ibiza-spain/)
+y las guarda juntas en `data/locations.json`:
 
 ```json
 {
@@ -16,15 +17,17 @@ y las guarda en `data/locations.json`:
 
 1. Abre Chromium headless (Playwright) con un perfil de navegador real (user agent, idioma `es-ES`, zona horaria `Europe/Madrid`).
 2. Acepta el banner de cookies la primera vez y guarda las cookies en `.cache/storage_state.json`, así que en las ejecuciones siguientes ya no aparece.
-3. Recorre `?page=1`, `?page=2`… y extrae cada enlace del recuadro **Lugares de PalmadeMallorca** (`/explore/locations/<id>/<slug>/` → `id` + texto).
+3. Para cada directorio, recorre `?page=1`, `?page=2`… y extrae cada enlace del recuadro **Lugares de …** (`/explore/locations/<id>/<slug>/` → `id` + texto).
 4. Termina cuando una página muestra *"Se ha producido un error"* (la siguiente a la última, que ya no tiene enlace "Ver más").
-5. Une las páginas sin duplicados y reescribe el JSON solo si ha cambiado.
+5. Une todos los directorios en orden (primero Palma, luego Ibiza), sin duplicados, y reescribe el JSON solo si ha cambiado. Si algún directorio falla, el JSON no se toca, para no dejarlo incompleto.
+
+Los directorios se configuran con `IG_SOURCES` (`clave=url,clave=url`); por defecto, `palma` e `ibiza`.
 
 ## Caché
 
-`.cache/pages.json` guarda, por cada página, sus ubicaciones y un hash del contenido.
+`.cache/pages-<clave>.json` guarda, para cada directorio y página, sus ubicaciones y un hash del contenido.
 
-- La **página 1 es el centinela**: si no ha cambiado respecto a la caché, se reutilizan el resto de páginas cacheadas sin visitarlas (1 sola petición).
+- La **página 1 es el centinela**: si no ha cambiado respecto a la caché, se reutilizan el resto de páginas cacheadas sin visitarlas (1 sola petición por directorio).
 - Si la página 1 cambia, se recorren todas las páginas.
 - Cada `IG_FULL_CRAWL_DAYS` días (7 por defecto) se fuerza un recorrido completo, para detectar cambios en páginas interiores aunque la 1 siga igual.
 - Si una página falla pero está en caché, se usan los datos cacheados y se avisa.
@@ -66,7 +69,7 @@ python -m ig_places --full -v  # todas las páginas, log detallado
 python -m ig_places --headed   # ver el navegador
 ```
 
-Otras variables de entorno: `IG_BASE_URL`, `IG_OUTPUT_FILE`, `IG_MAX_PAGES`, `IG_PAGE_RETRIES`, `IG_MIN_DELAY`/`IG_MAX_DELAY` (pausa entre páginas, en segundos). Ver `ig_places/config.py`.
+Otras variables de entorno: `IG_SOURCES`, `IG_OUTPUT_FILE`, `IG_MAX_PAGES`, `IG_PAGE_RETRIES`, `IG_MIN_DELAY`/`IG_MAX_DELAY` (pausa entre páginas, en segundos). Ver `ig_places/config.py`.
 
 ## Licencia
 

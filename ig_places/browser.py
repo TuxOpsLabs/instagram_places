@@ -10,7 +10,7 @@ from enum import Enum
 from playwright.sync_api import Browser, BrowserContext, Page, Playwright, sync_playwright
 from playwright.sync_api import TimeoutError as PlaywrightTimeout
 
-from .config import Config
+from .config import Config, Source
 from .log import get_logger
 
 log = get_logger()
@@ -68,6 +68,7 @@ class InstagramBrowser:
         self._context: BrowserContext | None = None
         self._page: Page | None = None
         self.cookies_accepted = False
+        self.fetches = 0
 
     # -- ciclo de vida -----------------------------------------------------
 
@@ -132,9 +133,10 @@ class InstagramBrowser:
         log.debug("Pausa de %.1fs", delay)
         self._page.wait_for_timeout(delay * 1000)
 
-    def fetch(self, page_number: int) -> PageResult:
+    def fetch(self, source: Source, page_number: int) -> PageResult:
         page = self._page
-        url = self.config.page_url(page_number)
+        url = source.page_url(page_number)
+        self.fetches += 1
         log.debug("GET %s", url)
         response = page.goto(url, wait_until="domcontentloaded")
         status = response.status if response else None

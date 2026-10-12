@@ -19,11 +19,38 @@ def _env_bool(name: str, default: bool = False) -> bool:
     return value in {"1", "true", "yes", "on", "si", "sí"}
 
 
+DEFAULT_SOURCES = (
+    "palma=https://www.instagram.com/explore/locations/c692339/palmademallorca-spain/,"
+    "ibiza=https://www.instagram.com/explore/locations/c685540/ibiza-spain/"
+)
+
+
+@dataclass(frozen=True)
+class Source:
+    """Un directorio de ubicaciones de Instagram (una ciudad)."""
+
+    key: str
+    url: str
+
+    def page_url(self, page: int) -> str:
+        return f"{self.url}?page={page}"
+
+
+def _parse_sources(raw: str) -> list[Source]:
+    """IG_SOURCES="clave=url,clave=url"; el orden es el del JSON final."""
+    sources = []
+    for item in filter(None, (part.strip() for part in raw.split(","))):
+        key, sep, url = item.partition("=")
+        if not sep or not key.strip() or not url.strip():
+            raise ValueError(f"IG_SOURCES mal formado: {item!r} (se espera clave=url)")
+        sources.append(Source(key.strip(), url.strip()))
+    return sources
+
+
 @dataclass
 class Config:
-    base_url: str = os.environ.get(
-        "IG_BASE_URL",
-        "https://www.instagram.com/explore/locations/c692339/palmademallorca-spain/",
+    sources: list[Source] = field(
+        default_factory=lambda: _parse_sources(os.environ.get("IG_SOURCES", DEFAULT_SOURCES))
     )
     output_file: Path = Path(os.environ.get("IG_OUTPUT_FILE", "data/locations.json"))
     cache_dir: Path = Path(os.environ.get("IG_CACHE_DIR", ".cache"))
@@ -60,12 +87,8 @@ class Config:
     def storage_state_file(self) -> Path:
         return self.cache_dir / "storage_state.json"
 
-    @property
-    def pages_cache_file(self) -> Path:
-        return self.cache_dir / "pages.json"
-
-    def page_url(self, page: int) -> str:
-        return f"{self.base_url}?page={page}"
+    def pages_cache_file(self, source: Source) -> Path:
+        return self.cache_dir / f"pages-{source.key}.json"
 
 
 def _github_run_url() -> str:
