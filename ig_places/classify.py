@@ -118,6 +118,23 @@ class WorkersAI:
         self.model = model
         self.usage = Counter()
 
+    def verify_token(self) -> str:
+        """Diagnóstico de un 401/403: comprueba el token sin revelarlo."""
+        account_url = self.url.split("/ai/run/")[0]
+        notes = [f"longitud del token: {len(self.token)}"]
+        for label, url in (("token de usuario", "https://api.cloudflare.com/client/v4/user/tokens/verify"),
+                           ("token de cuenta", f"{account_url}/tokens/verify")):
+            req = urllib.request.Request(url, headers={"Authorization": f"Bearer {self.token}"})
+            try:
+                with urllib.request.urlopen(req, timeout=20) as resp:
+                    status = json.loads(resp.read()).get("result", {}).get("status")
+                notes.append(f"{label}: válido ({status})")
+            except urllib.error.HTTPError as exc:
+                notes.append(f"{label}: no válido (HTTP {exc.code})")
+            except Exception as exc:
+                notes.append(f"{label}: no comprobado ({exc})")
+        return "; ".join(notes)
+
     def run(self, messages: list[dict], max_tokens: int) -> dict:
         body = {
             "messages": messages,
@@ -139,7 +156,9 @@ class WorkersAI:
             except urllib.error.HTTPError as exc:
                 detail = exc.read().decode(errors="replace")[:500]
                 if exc.code in (401, 403):
-                    raise ClassifyError(f"Workers AI rechaza el token (HTTP {exc.code}): {detail}")
+                    raise ClassifyError(
+                        f"Workers AI rechaza el token (HTTP {exc.code}): {detail} | {self.verify_token()}"
+                    )
                 if attempt == 4 or exc.code not in (408, 429, 500, 502, 503, 504):
                     raise ClassifyError(f"Workers AI HTTP {exc.code}: {detail}")
                 log.warning("Workers AI HTTP %d, reintento %d/3", exc.code, attempt)
