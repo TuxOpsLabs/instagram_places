@@ -9,6 +9,9 @@ on:
       batch_size:
         description: "Nombres por petición"
         default: "40"
+      limit:
+        description: "Muestra de N ubicaciones (vacío = todas)"
+        default: ""
       list_models:
         description: "Solo listar los modelos de texto disponibles"
         type: boolean
@@ -39,7 +42,8 @@ jobs:
           if [ "${{ inputs.list_models }}" = "true" ]; then
             python -m ig_places.classify --list-models
           else
-            python -m ig_places.classify --all --languages out/languages.json --review out/review.csv
+            python -m ig_places.classify --all --languages out/languages.json --review out/review.csv \
+              ${{ inputs.limit && format('--limit {0}', inputs.limit) || '' }}
           fi
 
       - name: Upload result

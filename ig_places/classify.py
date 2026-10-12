@@ -204,6 +204,8 @@ class WorkersAI:
         usage = result.get("usage") or {}
         self.usage.update({k: v for k, v in usage.items() if isinstance(v, (int, float))})
         response = result.get("response")
+        if response is None and result.get("choices"):  # formato OpenAI (gpt-oss, etc.)
+            response = (result["choices"][0].get("message") or {}).get("content")
         # Con JSON mode la respuesta puede llegar ya como objeto o como texto JSON.
         if isinstance(response, str):
             start, end = response.find("{"), response.rfind("}")
@@ -278,6 +280,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--all", action="store_true", help="reclasifica todas las ubicaciones")
     parser.add_argument("--review", type=Path, help="escribe un CSV (lang,name,id) para revisar")
     parser.add_argument("--batch-size", type=int, default=int(os.environ.get("CF_AI_BATCH_SIZE", "40")))
+    parser.add_argument("--limit", type=int, help="clasifica solo una muestra repartida de N ubicaciones")
     parser.add_argument("--list-models", action="store_true", help="lista los modelos de texto disponibles")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
@@ -295,6 +298,9 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     locations = load_json(args.locations, {"locations": []})["locations"]
+    if args.limit and args.limit < len(locations):
+        step = len(locations) / args.limit
+        locations = [locations[int(i * step)] for i in range(args.limit)]
     known: dict = {} if args.all else load_json(args.languages, {})
     overrides: dict = load_json(args.overrides, {})
 
