@@ -1924,7 +1924,7 @@
       "id": "229807977515661",
       "name": "Zar Society",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "102631252395515",
@@ -2050,7 +2050,7 @@
       "id": "302791260161518",
       "name": "Seshlehem",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "552003531623999",
@@ -3454,7 +3454,7 @@
       "id": "2365423653533322",
       "name": "Arquinesia",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "945403855567868",
@@ -3478,7 +3478,7 @@
       "id": "118905776161868",
       "name": "Retroflakes",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "200205523668625",
@@ -4312,7 +4312,7 @@
       "id": "101370355536469",
       "name": "La Mujer de Verde",
       "lang": "es",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "1379528569004124",
@@ -4372,7 +4372,7 @@
       "id": "101241349318467",
       "name": "VIP GLAM 69",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "266992947322089",
@@ -4528,7 +4528,7 @@
       "id": "1023308314385659",
       "name": "poleydays",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "917121164",
@@ -4672,7 +4672,7 @@
       "id": "1063901077127214",
       "name": "Spritzstop",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "1024252910",
@@ -4942,7 +4942,7 @@
       "id": "1049991901854519",
       "name": "Pecados Capitales",
       "lang": "es",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "230136969",
@@ -7312,7 +7312,7 @@
       "id": "2200517906850476",
       "name": "GooD LifE Ibiza",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "1004237027",
@@ -7678,7 +7678,7 @@
       "id": "102909238938048",
       "name": "IBIZA WORLD",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "1030907176",
@@ -8530,7 +8530,7 @@
       "id": "613114715435888",
       "name": "Blowout Ibiza",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "462385816",
@@ -8860,7 +8860,7 @@
       "id": "722878474400975",
       "name": "Locals Only IBIZA",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "951335111686490",
@@ -9736,7 +9736,7 @@
       "id": "527687100622701",
       "name": "Oceanbeat",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "111385303645476",
@@ -9940,7 +9940,7 @@
       "id": "360005754141555",
       "name": "Ibiza Universe",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "368217883",
@@ -10030,7 +10030,7 @@
       "id": "100447845559836",
       "name": "Dankie Sounds",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "26862724",
@@ -10438,7 +10438,7 @@
       "id": "100399706764683",
       "name": "Ibiza Trendy",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "281604209",
@@ -10474,7 +10474,7 @@
       "id": "1632826950356395",
       "name": "Anymaladas",
       "lang": "neutral",
-      "publishable": true
+      "publishable": false
     },
     {
       "id": "829906303",
