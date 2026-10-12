@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 LANGUAGES_FILE = Path("data/languages.json")
@@ -73,6 +74,29 @@ def without_excluded(locations: list[dict], excluded_file: Path = EXCLUDED_FILE)
     """Quita eventos, personas, marcas, barcos... (ids de data/excluded_locations.json)."""
     excluded = load_json(excluded_file, {})
     return [loc for loc in locations if loc["id"] not in excluded]
+
+
+def _name_key(name: str) -> str:
+    """Nombre sin mayúsculas, acentos ni signos, para detectar duplicados."""
+    name = unicodedata.normalize("NFKD", name.casefold())
+    name = "".join(c for c in name if not unicodedata.combining(c))
+    return " ".join(re.findall(r"[a-z0-9]+", name))
+
+
+def without_duplicates(locations: list[dict]) -> tuple[list[dict], list[tuple[dict, dict]]]:
+    """Una ubicación por nombre: la de ID mayor (las IDs cortas son ubicaciones antiguas
+    de Instagram que la API de publicación rechaza; las largas son páginas de Facebook).
+
+    Devuelve (ubicaciones en el orden original, [(descartada, conservada)]).
+    """
+    best: dict[str, dict] = {}
+    for loc in locations:
+        key = _name_key(loc["name"])
+        if key not in best or int(loc["id"]) > int(best[key]["id"]):
+            best[key] = loc
+    kept = {id(loc) for loc in best.values()}
+    dropped = [(loc, best[_name_key(loc["name"])]) for loc in locations if id(loc) not in kept]
+    return [loc for loc in locations if id(loc) in kept], dropped
 
 
 def effective_langs(

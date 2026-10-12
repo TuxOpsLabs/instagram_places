@@ -40,7 +40,7 @@ En GitHub Actions la carpeta `.cache` se conserva entre ejecuciones con `actions
 
 ## Exclusiones
 
-El JSON solo incluye lugares reales: sitios, calles, playas o locales concretos. `data/excluded_locations.json` (`{"<id>": {"name", "reason"}}`) lista lo que Instagram mezcla en el directorio y no lo es: eventos y fiestas, personas, cruceros, marcas o cadenas sin un local concreto, negocios online, frases y lugares fuera de la zona. También los duplicados: de cada nombre repetido (sin distinguir mayúsculas ni acentos) se conserva la primera ID del directorio y el resto queda como `"reason": "duplicado de <id>"`. Se filtra en cada sincronización, así que tampoco se clasifica su idioma.
+El JSON solo incluye lugares reales: sitios, calles, playas o locales concretos. `data/excluded_locations.json` (`{"<id>": {"name", "reason"}}`) lista lo que Instagram mezcla en el directorio y no lo es: eventos y fiestas, personas, cruceros, marcas o cadenas sin un local concreto, negocios online, frases y lugares fuera de la zona. Además, de cada nombre repetido (sin distinguir mayúsculas ni acentos) solo se conserva la ID mayor: las IDs cortas son ubicaciones antiguas de Instagram que la API de publicación rechaza (*not a valid location page ID*), y las largas son páginas de Facebook. Ambos filtros se aplican antes de clasificar el idioma, así que no gastan cuota.
 
 ## Idioma
 

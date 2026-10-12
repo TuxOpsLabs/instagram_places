@@ -13,7 +13,7 @@ from pathlib import Path
 from .browser import InstagramBrowser, PageResult, PageStatus
 from .cache import PageCache
 from .config import Config, Source
-from .languages import effective_langs, with_langs, without_excluded
+from .languages import effective_langs, with_langs, without_duplicates, without_excluded
 from .log import get_logger, setup_logging
 from .notify import notify
 
@@ -203,7 +203,11 @@ def write_output(config: Config, locations: list[dict], report: Report) -> None:
     kept = without_excluded(locations)
     if len(kept) != len(locations):
         log.info("%d ubicaciones excluidas (data/excluded_locations.json)", len(locations) - len(kept))
-    locations = kept
+    locations, dropped = without_duplicates(kept)
+    for loc, winner in dropped:
+        log.debug("Duplicado descartado: %s %r (se conserva %s)", loc["id"], loc["name"], winner["id"])
+    if dropped:
+        log.info("%d duplicados descartados (mismo nombre; se conserva la ID mayor)", len(dropped))
 
     previous: list[dict] = []
     if config.output_file.exists():
