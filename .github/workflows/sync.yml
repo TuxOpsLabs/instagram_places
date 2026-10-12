@@ -1,0 +1,109 @@
+name: Sync Instagram locations
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # todos los días a las 04:17 UTC
+  workflow_dispatch:
+    inputs:
+      full_refresh:
+        description: "Ignorar la caché y visitar todas las páginas"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # commitear data/locations.json
+  issues: write # abrir una issue si falla
+
+concurrency:
+  group: sync-instagram-locations
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Cache Playwright browsers
+        id: pw-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Install Chromium
+        if: steps.pw-cache.outputs.cache-hit != 'true'
+        run: python -m playwright install --with-deps chromium
+
+      - name: Install Chromium system deps
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: python -m playwright install-deps chromium
+
+      # Caché de páginas + cookies (consentimiento) entre ejecuciones.
+      - name: Restore sync cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: ig-cache-${{ github.run_id }}
+          restore-keys: ig-cache-
+
+      - name: Run sync
+        env:
+          IG_FULL_REFRESH: ${{ inputs.full_refresh || 'false' }}
+          NOTIFY_WEBHOOK_URL: ${{ secrets.NOTIFY_WEBHOOK_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NOTIFY_ON_SUCCESS: ${{ vars.NOTIFY_ON_SUCCESS || 'false' }}
+        run: python -m ig_places
+
+      - name: Save sync cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .cache
+          key: ig-cache-${{ github.run_id }}
+
+      - name: Commit updated JSON
+        run: |
+          if git diff --quiet -- data/locations.json; then
+            echo "Sin cambios en data/locations.json"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/locations.json
+          git commit -m "Update Instagram locations ($(date -u +%Y-%m-%d))"
+          git push
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sync-logs-${{ github.run_id }}
+          path: logs/
+          retention-days: 30
+          if-no-files-found: ignore
+
+      - name: Open or update failure issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="Sincronización de ubicaciones de Instagram fallida"
+          number=$(gh issue list --state open --search "in:title \"$title\"" --json number --jq '.[0].number')
+          body="La ejecución del $(date -u '+%Y-%m-%d %H:%M UTC') ha fallado: $RUN_URL"
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body"
+          fi
