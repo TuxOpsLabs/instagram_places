@@ -8,12 +8,14 @@ y las guarda juntas en `data/locations.json`:
 ```json
 {
   "locations": [
-    { "id": "607881395899347", "name": "Palma De Mallorca, Spain", "lang": "en" }
+    { "id": "607881395899347", "name": "Palma De Mallorca, Spain", "lang": "en", "publishable": true }
   ]
 }
 ```
 
 `lang` es el idioma del nombre: `es`, `en`, `ca`, `other` (otro idioma) o `neutral` (solo nombres propios, topónimos o marcas). Ver [Idioma](#idioma).
+
+`publishable` indica si la ID sirve como `location_id` en la API de publicación de Instagram. Las IDs de más de 10 cifras son páginas de Facebook y funcionan; las de 10 o menos son ubicaciones antiguas de Instagram que la API rechaza (*not a valid location page ID*). Las revisiones manuales van en `data/publishable_overrides.json` (`{"<id>": true|false}`) y tienen prioridad.
 
 ## Cómo funciona
 

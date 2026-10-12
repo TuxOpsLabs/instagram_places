@@ -9,6 +9,7 @@ Ficheros (en el repo, para no pagar nunca dos veces la misma clasificación):
   data/languages.json           {"<id>": {"name", "lang", "source": "dict"|"ai"}}
   data/language_overrides.json  {"<id>": "<lang>"} correcciones manuales (prioridad máxima)
   data/excluded_locations.json  {"<id>": {"name", "reason"}} lo que no es un lugar real (fuera del JSON)
+  data/publishable_overrides.json {"<id>": true|false} revisión manual del campo "publishable"
 """
 
 from __future__ import annotations
@@ -21,6 +22,7 @@ from pathlib import Path
 LANGUAGES_FILE = Path("data/languages.json")
 OVERRIDES_FILE = Path("data/language_overrides.json")
 EXCLUDED_FILE = Path("data/excluded_locations.json")
+PUBLISHABLE_FILE = Path("data/publishable_overrides.json")
 
 # Palabras que solo existen (o solo se usan así) en un idioma. Los topónimos y los
 # artículos mallorquines/ibicencos (Sa, Es, Ca'n...) no están a propósito: forman
@@ -108,12 +110,22 @@ def effective_langs(
     return langs
 
 
-def with_langs(locations: list[dict], langs: dict[str, str]) -> list[dict]:
-    """Añade "lang" a cada ubicación ya clasificada (id, name, lang)."""
+def with_langs(
+    locations: list[dict], langs: dict[str, str], publishable_file: Path = PUBLISHABLE_FILE
+) -> list[dict]:
+    """Ubicaciones tal como van al JSON: id, name, lang (si ya está clasificada) y publishable.
+
+    publishable: si la API de publicación de Instagram acepta la ID como location_id. Las IDs
+    de más de 10 cifras son páginas de Facebook y funcionan; las de 10 o menos son ubicaciones
+    antiguas de Instagram que se rechazan ("not a valid location page ID"). Las revisadas a
+    mano en data/publishable_overrides.json tienen prioridad.
+    """
+    overrides = load_json(publishable_file, {})
     out = []
     for loc in locations:
         item = {"id": loc["id"], "name": loc["name"]}
         if loc["id"] in langs:
             item["lang"] = langs[loc["id"]]
+        item["publishable"] = overrides.get(loc["id"], len(loc["id"]) > 10)
         out.append(item)
     return out
