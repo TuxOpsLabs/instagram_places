@@ -24,6 +24,7 @@ import argparse
 import csv
 import json
 import os
+import re
 import time
 import urllib.error
 import urllib.request
@@ -133,6 +134,26 @@ class WorkersAI:
                 notes.append(f"{label}: no válido (HTTP {exc.code})")
             except Exception as exc:
                 notes.append(f"{label}: no comprobado ({exc})")
+
+        # ¿Ve el token la cuenta configurada? (no se registran los IDs: los logs son públicos)
+        account_id = account_url.rsplit("/", 1)[-1]
+        notes.append(f"CLOUDFLARE_ACCOUNT_ID: {len(account_id)} caracteres"
+                     + ("" if re.fullmatch(r"[0-9a-f]{32}", account_id) else " (formato no esperado: 32 hex)"))
+        req = urllib.request.Request(
+            "https://api.cloudflare.com/client/v4/accounts?per_page=50",
+            headers={"Authorization": f"Bearer {self.token}"},
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                ids = [a.get("id") for a in json.loads(resp.read()).get("result") or []]
+            notes.append(
+                f"el token ve {len(ids)} cuenta(s); la configurada "
+                + ("SÍ está entre ellas" if account_id in ids else "NO está entre ellas")
+            )
+        except urllib.error.HTTPError as exc:
+            notes.append(f"no se pudieron listar las cuentas del token (HTTP {exc.code})")
+        except Exception as exc:
+            notes.append(f"no se pudieron listar las cuentas del token ({exc})")
         return "; ".join(notes)
 
     def run(self, messages: list[dict], max_tokens: int) -> dict:
