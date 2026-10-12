@@ -185,9 +185,11 @@ class WorkersAI:
                 break
             except urllib.error.HTTPError as exc:
                 detail = exc.read().decode(errors="replace")[:500]
+                if "not available on the Workers Free plan" in detail:
+                    raise ClassifyError(f"El modelo {self.model} no está disponible en el plan gratuito de Workers AI")
                 if exc.code in (401, 403):
                     raise ClassifyError(
-                        f"Workers AI rechaza el token (HTTP {exc.code}): {detail} | {self.verify_token()}"
+                        f"Workers AI rechaza la petición (HTTP {exc.code}): {detail} | {self.verify_token()}"
                     )
                 if attempt == 4 or exc.code not in (408, 429, 500, 502, 503, 504):
                     raise ClassifyError(f"Workers AI HTTP {exc.code}: {detail}")
@@ -253,6 +255,9 @@ def classify_names(ai: WorkersAI, names: list[str], batch_size: int) -> list[str
                     missing.append(i)
             done = len(names) - len(pending) + start + len(idx)
             log.info("Clasificados %d/%d", min(done, len(names)), len(names))
+        if len(missing) == len(pending) and size == batch_size:
+            # Ninguna respuesta útil: el modelo no sigue el formato; reintentar uno a uno solo gastaría cuota.
+            raise ClassifyError(f"El modelo {ai.model} no devuelve respuestas en el formato esperado")
         if missing:
             log.warning("%d nombres sin respuesta; se reintentan en lotes de %d", len(missing), max(1, size // 4))
         pending = missing
@@ -333,6 +338,7 @@ def main(argv: list[str] | None = None) -> int:
             result[loc["id"]] = entry
     write_json(args.languages, result)
 
+    unclassified = sum(1 for lang in labels if not lang)
     counts = Counter(e["lang"] for e in result.values())
     summary = ", ".join(f"{k}: {counts.get(k, 0)}" for k in LANGS)
     log.info("Resultado (%ds): %s | uso: %s", time.monotonic() - started, summary, dict(ai.usage) or "n/d")
@@ -350,6 +356,9 @@ def main(argv: list[str] | None = None) -> int:
     if path := os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(path, "a", encoding="utf-8") as fh:
             fh.write(f"## Clasificación de idioma\n\n- Modelo: `{ai.model}`\n- {summary}\n- Uso: {dict(ai.usage)}\n")
+    if unclassified:
+        log.error("%d ubicaciones sin clasificar", unclassified)
+        return 1
     return 0
 
 
