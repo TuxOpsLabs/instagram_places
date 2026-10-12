@@ -156,6 +156,15 @@ class WorkersAI:
             notes.append(f"no se pudieron listar las cuentas del token ({exc})")
         return "; ".join(notes)
 
+    def list_models(self) -> list[str]:
+        base = self.url.split("/ai/run/")[0]
+        req = urllib.request.Request(
+            f"{base}/ai/models/search?task=Text%20Generation&per_page=100",
+            headers={"Authorization": f"Bearer {self.token}"},
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return sorted(m["name"] for m in json.loads(resp.read()).get("result") or [])
+
     def run(self, messages: list[dict], max_tokens: int) -> dict:
         body = {
             "messages": messages,
@@ -192,7 +201,8 @@ class WorkersAI:
         if not data.get("success", True):
             raise ClassifyError(f"Workers AI devolvió error: {data.get('errors')}")
         result = data.get("result", {})
-        self.usage.update(result.get("usage") or {})
+        usage = result.get("usage") or {}
+        self.usage.update({k: v for k, v in usage.items() if isinstance(v, (int, float))})
         response = result.get("response")
         # Con JSON mode la respuesta puede llegar ya como objeto o como texto JSON.
         if isinstance(response, str):
@@ -268,6 +278,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--all", action="store_true", help="reclasifica todas las ubicaciones")
     parser.add_argument("--review", type=Path, help="escribe un CSV (lang,name,id) para revisar")
     parser.add_argument("--batch-size", type=int, default=int(os.environ.get("CF_AI_BATCH_SIZE", "40")))
+    parser.add_argument("--list-models", action="store_true", help="lista los modelos de texto disponibles")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
 
@@ -277,7 +288,11 @@ def main(argv: list[str] | None = None) -> int:
     if not account_id or not token:
         log.error("Faltan CLOUDFLARE_ACCOUNT_ID y/o CLOUDFLARE_API_TOKEN")
         return 1
-    ai = WorkersAI(account_id, token, os.environ.get("CF_AI_MODEL", DEFAULT_MODEL))
+    ai = WorkersAI(account_id, token, os.environ.get("CF_AI_MODEL") or DEFAULT_MODEL)
+    if args.list_models:
+        for name in ai.list_models():
+            log.info("Modelo disponible: %s", name)
+        return 0
 
     locations = load_json(args.locations, {"locations": []})["locations"]
     known: dict = {} if args.all else load_json(args.languages, {})

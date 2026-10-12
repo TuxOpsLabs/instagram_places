@@ -9,6 +9,10 @@ on:
       batch_size:
         description: "Nombres por petición"
         default: "40"
+      list_models:
+        description: "Solo listar los modelos de texto disponibles"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -31,7 +35,12 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CF_AI_MODEL: ${{ inputs.model }}
           CF_AI_BATCH_SIZE: ${{ inputs.batch_size }}
-        run: python -m ig_places.classify --all --languages out/languages.json --review out/review.csv
+        run: |
+          if [ "${{ inputs.list_models }}" = "true" ]; then
+            python -m ig_places.classify --list-models
+          else
+            python -m ig_places.classify --all --languages out/languages.json --review out/review.csv
+          fi
 
       - name: Upload result
         if: always()
