@@ -13,7 +13,7 @@ from pathlib import Path
 from .browser import InstagramBrowser, PageResult, PageStatus
 from .cache import PageCache
 from .config import Config, Source
-from .languages import effective_langs, with_langs
+from .languages import effective_langs, with_langs, without_excluded
 from .log import get_logger, setup_logging
 from .notify import notify
 
@@ -200,6 +200,11 @@ def crawl(
 
 
 def write_output(config: Config, locations: list[dict], report: Report) -> None:
+    kept = without_excluded(locations)
+    if len(kept) != len(locations):
+        log.info("%d ubicaciones excluidas (data/excluded_locations.json)", len(locations) - len(kept))
+    locations = kept
+
     previous: list[dict] = []
     if config.output_file.exists():
         try:

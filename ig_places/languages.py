@@ -8,6 +8,7 @@ ig_places.classify con Workers AI.
 Ficheros (en el repo, para no pagar nunca dos veces la misma clasificación):
   data/languages.json           {"<id>": {"name", "lang", "source": "dict"|"ai"}}
   data/language_overrides.json  {"<id>": "<lang>"} correcciones manuales (prioridad máxima)
+  data/excluded_locations.json  {"<id>": {"name", "reason"}} lo que no es un lugar real (fuera del JSON)
 """
 
 from __future__ import annotations
@@ -18,6 +19,7 @@ from pathlib import Path
 
 LANGUAGES_FILE = Path("data/languages.json")
 OVERRIDES_FILE = Path("data/language_overrides.json")
+EXCLUDED_FILE = Path("data/excluded_locations.json")
 
 # Palabras que solo existen (o solo se usan así) en un idioma. Los topónimos y los
 # artículos mallorquines/ibicencos (Sa, Es, Ca'n...) no están a propósito: forman
@@ -65,6 +67,12 @@ def load_json(path: Path, default):
     if path.exists():
         return json.loads(path.read_text(encoding="utf-8"))
     return default
+
+
+def without_excluded(locations: list[dict], excluded_file: Path = EXCLUDED_FILE) -> list[dict]:
+    """Quita eventos, personas, marcas, barcos... (ids de data/excluded_locations.json)."""
+    excluded = load_json(excluded_file, {})
+    return [loc for loc in locations if loc["id"] not in excluded]
 
 
 def effective_langs(

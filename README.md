@@ -38,6 +38,10 @@ Para forzar una pasada completa: `python -m ig_places --full`, o lanzar el workf
 
 En GitHub Actions la carpeta `.cache` se conserva entre ejecuciones con `actions/cache`.
 
+## Exclusiones
+
+El JSON solo incluye lugares reales: sitios, calles, playas o locales concretos. `data/excluded_locations.json` (`{"<id>": {"name", "reason"}}`) lista lo que Instagram mezcla en el directorio y no lo es: eventos y fiestas, personas, cruceros, marcas o cadenas sin un local concreto, negocios online, frases y lugares fuera de la zona. También los duplicados: de cada nombre repetido (sin distinguir mayúsculas ni acentos) se conserva la primera ID del directorio y el resto queda como `"reason": "duplicado de <id>"`. Se filtra en cada sincronización, así que tampoco se clasifica su idioma.
+
 ## Idioma
 
 Instagram no guarda en qué idioma está el nombre de una ubicación, así que se infiere del texto (`ig_places/languages.py` y `ig_places/classify.py`):

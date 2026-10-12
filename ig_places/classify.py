@@ -33,7 +33,14 @@ from collections import Counter
 from pathlib import Path
 
 from .config import Config
-from .languages import LANGUAGES_FILE, OVERRIDES_FILE, dictionary_lang, effective_langs, with_langs
+from .languages import (
+    LANGUAGES_FILE,
+    OVERRIDES_FILE,
+    dictionary_lang,
+    effective_langs,
+    with_langs,
+    without_excluded,
+)
 from .log import get_logger, setup_logging
 from .notify import notify
 
@@ -317,7 +324,8 @@ def main(argv: list[str] | None = None) -> int:
     setup_logging(config.log_dir, args.verbose)
     log.info("=== Clasificación de idioma ===")
 
-    locations = load_json(args.locations, {"locations": []})["locations"]
+    # Lo excluido no se clasifica (no gasta cuota) ni se escribe en el JSON.
+    locations = without_excluded(load_json(args.locations, {"locations": []})["locations"])
     known: dict = load_json(args.languages, {})
     names_by_id = {loc["id"]: loc["name"] for loc in locations}
 
