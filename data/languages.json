@@ -249,13 +249,13 @@
     "lang": "es",
     "source": "dict"
   },
-  "324521124": {
-    "name": "Cala Saona, Formentera",
+  "287979001277847": {
+    "name": "Meliá Palma Marina",
     "lang": "neutral",
     "source": "ai"
   },
-  "287979001277847": {
-    "name": "Meliá Palma Marina",
+  "324521124": {
+    "name": "Cala Saona, Formentera",
     "lang": "neutral",
     "source": "ai"
   },
@@ -454,13 +454,13 @@
     "lang": "en",
     "source": "dict"
   },
-  "943447687": {
-    "name": "Luna Palma",
+  "102580625935749": {
+    "name": "Nobis Hotel Palma",
     "lang": "neutral",
     "source": "ai"
   },
-  "102580625935749": {
-    "name": "Nobis Hotel Palma",
+  "943447687": {
+    "name": "Luna Palma",
     "lang": "neutral",
     "source": "ai"
   },
@@ -1309,15 +1309,15 @@
     "lang": "ca",
     "source": "dict"
   },
-  "244268740": {
-    "name": "Baños Arabes",
-    "lang": "ca",
-    "source": "ai"
-  },
   "786831734": {
     "name": "Estación Intermodal-Plaza de España",
     "lang": "es",
     "source": "dict"
+  },
+  "244268740": {
+    "name": "Baños Arabes",
+    "lang": "ca",
+    "source": "ai"
   },
   "1147415185368225": {
     "name": "Mama's Pepper Pizza",
@@ -1394,14 +1394,14 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "597949510700092": {
-    "name": "Isla Baleares - Spain",
-    "lang": "en",
-    "source": "ai"
-  },
   "101102001576917": {
     "name": "Cala De Santanyí",
     "lang": "neutral",
+    "source": "ai"
+  },
+  "597949510700092": {
+    "name": "Isla Baleares - Spain",
+    "lang": "en",
     "source": "ai"
   },
   "190925814692455": {
@@ -1494,13 +1494,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "881410": {
-    "name": "Lórien",
+  "102615899372793": {
+    "name": "Sāntal - Café De Especialidad",
     "lang": "neutral",
     "source": "ai"
   },
-  "102615899372793": {
-    "name": "Sāntal - Café De Especialidad",
+  "881410": {
+    "name": "Lórien",
     "lang": "neutral",
     "source": "ai"
   },
@@ -1539,14 +1539,14 @@
     "lang": "en",
     "source": "dict"
   },
-  "110690955094690": {
-    "name": "The Jazz Lounge by Florencio Cruz",
-    "lang": "en",
-    "source": "dict"
-  },
   "101604117314581": {
     "name": "Paseo del Borne",
     "lang": "es",
+    "source": "dict"
+  },
+  "110690955094690": {
+    "name": "The Jazz Lounge by Florencio Cruz",
+    "lang": "en",
     "source": "dict"
   },
   "114688253278036": {
@@ -1674,15 +1674,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "830163503834458": {
-    "name": "SantaCatalina, PalmaIlles Balears",
-    "lang": "ca",
-    "source": "dict"
-  },
   "898711796908545": {
     "name": "Lloseta",
     "lang": "neutral",
     "source": "ai"
+  },
+  "830163503834458": {
+    "name": "SantaCatalina, PalmaIlles Balears",
+    "lang": "ca",
+    "source": "dict"
   },
   "387174284995657": {
     "name": "Zaranda Restaurant",
@@ -1704,15 +1704,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "1014292369": {
-    "name": "Portopí Mallorca",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "552003531623999": {
     "name": "Playa de S'amarador, Mallorca",
     "lang": "es",
     "source": "dict"
+  },
+  "1014292369": {
+    "name": "Portopí Mallorca",
+    "lang": "neutral",
+    "source": "ai"
   },
   "965928173": {
     "name": "Thalassa Marítimo",
@@ -1884,14 +1884,14 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "451257935": {
-    "name": "Catedral de Palma",
-    "lang": "es",
-    "source": "ai"
-  },
   "1538932673081407": {
     "name": "Frikers",
     "lang": "neutral",
+    "source": "ai"
+  },
+  "451257935": {
+    "name": "Catedral de Palma",
+    "lang": "es",
     "source": "ai"
   },
   "1022000139": {
@@ -1909,15 +1909,15 @@
     "lang": "en",
     "source": "dict"
   },
-  "1018969184": {
-    "name": "Distrito Centro (Palma de Mallorca)",
-    "lang": "es",
-    "source": "dict"
-  },
   "315084667": {
     "name": "Ipanema Na brasa",
     "lang": "neutral",
     "source": "ai"
+  },
+  "1018969184": {
+    "name": "Distrito Centro (Palma de Mallorca)",
+    "lang": "es",
+    "source": "dict"
   },
   "115205094949420": {
     "name": "Gerhardt Braun Gallery",
@@ -1959,13 +1959,18 @@
     "lang": "es",
     "source": "ai"
   },
-  "2087210741497237": {
-    "name": "Ca'n Joan de s'Aigo",
-    "lang": "neutral",
-    "source": "ai"
+  "386927715": {
+    "name": "Cathedral De Palma",
+    "lang": "en",
+    "source": "dict"
   },
   "325827511107108": {
     "name": "Seishin Aikido Mallorca",
+    "lang": "neutral",
+    "source": "ai"
+  },
+  "2087210741497237": {
+    "name": "Ca'n Joan de s'Aigo",
     "lang": "neutral",
     "source": "ai"
   },
@@ -1982,11 +1987,6 @@
   "1018608554": {
     "name": "Cafè Riutort",
     "lang": "ca",
-    "source": "dict"
-  },
-  "386927715": {
-    "name": "Cathedral De Palma",
-    "lang": "en",
     "source": "dict"
   },
   "288815389": {
@@ -2119,25 +2119,25 @@
     "lang": "neutral",
     "source": "ai"
   },
+  "210889502845116": {
+    "name": "Banys Arabs (Arab Baths)",
+    "lang": "ca",
+    "source": "dict"
+  },
   "242286187": {
     "name": "Plaza De La Reina",
     "lang": "es",
     "source": "dict"
   },
-  "210889502845116": {
-    "name": "Banys Arabs (Arab Baths)",
-    "lang": "ca",
+  "240172630081209": {
+    "name": "Tristant Shop",
+    "lang": "en",
     "source": "dict"
   },
   "101852661679025": {
     "name": "La Molienda Arxiduc",
     "lang": "neutral",
     "source": "ai"
-  },
-  "240172630081209": {
-    "name": "Tristant Shop",
-    "lang": "en",
-    "source": "dict"
   },
   "238796343": {
     "name": "Plaza Santa Eulalia",
@@ -2149,14 +2149,14 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "240620758": {
-    "name": "CaixaForum Palma",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "723405674679419": {
     "name": "Basilica De Sant Miquel",
     "lang": "es",
+    "source": "ai"
+  },
+  "240620758": {
+    "name": "CaixaForum Palma",
+    "lang": "neutral",
     "source": "ai"
   },
   "426912877652339": {
@@ -2189,15 +2189,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "622902891": {
-    "name": "Rivoli Aficine",
-    "lang": "other",
-    "source": "ai"
-  },
   "1026078828": {
     "name": "Palacio De La Almudaina",
     "lang": "es",
     "source": "dict"
+  },
+  "622902891": {
+    "name": "Rivoli Aficine",
+    "lang": "other",
+    "source": "ai"
   },
   "263313659": {
     "name": "Sa Jugueteria",
@@ -2219,15 +2219,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "872138276451797": {
-    "name": "Palacio Can Marques",
-    "lang": "es",
-    "source": "dict"
-  },
   "2037390376376922": {
     "name": "Badal Burger",
     "lang": "neutral",
     "source": "ai"
+  },
+  "872138276451797": {
+    "name": "Palacio Can Marques",
+    "lang": "es",
+    "source": "dict"
   },
   "269942716": {
     "name": "Meson Don Caracol",
@@ -2469,13 +2469,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "478925192309275": {
-    "name": "Cala macarella",
+  "944069107": {
+    "name": "Sadrassana",
     "lang": "neutral",
     "source": "ai"
   },
-  "944069107": {
-    "name": "Sadrassana",
+  "478925192309275": {
+    "name": "Cala macarella",
     "lang": "neutral",
     "source": "ai"
   },
@@ -2599,13 +2599,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "2106523592729164": {
-    "name": "Greengo Palma",
+  "290207": {
+    "name": "Caixa forum",
     "lang": "neutral",
     "source": "ai"
   },
-  "290207": {
-    "name": "Caixa forum",
+  "2106523592729164": {
+    "name": "Greengo Palma",
     "lang": "neutral",
     "source": "ai"
   },
@@ -2634,14 +2634,14 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "868486293184160": {
-    "name": "Cappuccini moda",
-    "lang": "other",
-    "source": "ai"
-  },
   "1859896087433676": {
     "name": "DINS Santi Taura",
     "lang": "neutral",
+    "source": "ai"
+  },
+  "868486293184160": {
+    "name": "Cappuccini moda",
+    "lang": "other",
     "source": "ai"
   },
   "906048182887529": {
@@ -2689,25 +2689,20 @@
     "lang": "es",
     "source": "dict"
   },
-  "623953371134372": {
-    "name": "La nueva burguesa",
-    "lang": "es",
-    "source": "dict"
-  },
   "981925908611023": {
     "name": "Plaça Major Palma",
     "lang": "ca",
+    "source": "dict"
+  },
+  "623953371134372": {
+    "name": "La nueva burguesa",
+    "lang": "es",
     "source": "dict"
   },
   "393643403": {
     "name": "Royal Palace Of The Almudaina, Palma De Mallorca",
     "lang": "en",
     "source": "dict"
-  },
-  "288321587": {
-    "name": "Cala Romantica",
-    "lang": "neutral",
-    "source": "ai"
   },
   "656844744753345": {
     "name": "Sushi Ritual",
@@ -2718,6 +2713,11 @@
     "name": "LENNOX - The Pub",
     "lang": "en",
     "source": "dict"
+  },
+  "288321587": {
+    "name": "Cala Romantica",
+    "lang": "neutral",
+    "source": "ai"
   },
   "673652709": {
     "name": "Bodega La Rambla",
@@ -2829,14 +2829,14 @@
     "lang": "en",
     "source": "ai"
   },
-  "2866253": {
-    "name": "Jardi Del Bisbe",
-    "lang": "ca",
-    "source": "ai"
-  },
   "763348461": {
     "name": "Cala Mesquida - Mallorca",
     "lang": "neutral",
+    "source": "ai"
+  },
+  "2866253": {
+    "name": "Jardi Del Bisbe",
+    "lang": "ca",
     "source": "ai"
   },
   "109934551756492": {
@@ -2849,15 +2849,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "124580552566603": {
-    "name": "GOFitter",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "292368987": {
     "name": "Teatre \"Mar i Terra\".",
     "lang": "ca",
     "source": "dict"
+  },
+  "124580552566603": {
+    "name": "GOFitter",
+    "lang": "neutral",
+    "source": "ai"
   },
   "716551164": {
     "name": "The Wine Side",
@@ -2874,13 +2874,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "312965681": {
-    "name": "Cala Varques Manacor",
+  "2324118067866201": {
+    "name": "Hotel Basilica",
     "lang": "neutral",
     "source": "ai"
   },
-  "2324118067866201": {
-    "name": "Hotel Basilica",
+  "312965681": {
+    "name": "Cala Varques Manacor",
     "lang": "neutral",
     "source": "ai"
   },
@@ -2894,13 +2894,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "200205523668625": {
-    "name": "Cuerpo 13 - Centro Médico - Estético y Aparatología",
+  "1376979632557355": {
+    "name": "Ayuntamiento de Palma de Mallorca",
     "lang": "es",
     "source": "dict"
   },
-  "1376979632557355": {
-    "name": "Ayuntamiento de Palma de Mallorca",
+  "200205523668625": {
+    "name": "Cuerpo 13 - Centro Médico - Estético y Aparatología",
     "lang": "es",
     "source": "dict"
   },
@@ -2989,13 +2989,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "265980780": {
-    "name": "Montuiri",
+  "1234359713274757": {
+    "name": "Darkcruisingbar",
     "lang": "neutral",
     "source": "ai"
   },
-  "1234359713274757": {
-    "name": "Darkcruisingbar",
+  "265980780": {
+    "name": "Montuiri",
     "lang": "neutral",
     "source": "ai"
   },
@@ -3009,15 +3009,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "106151377918073": {
-    "name": "Arroceria Puente",
-    "lang": "es",
-    "source": "ai"
-  },
   "823150924726332": {
     "name": "Palma Cathedral",
     "lang": "en",
     "source": "dict"
+  },
+  "106151377918073": {
+    "name": "Arroceria Puente",
+    "lang": "es",
+    "source": "ai"
   },
   "114719841542249": {
     "name": "Opera Maritim",
@@ -3054,14 +3054,14 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "1025547560": {
-    "name": "Plaça Major",
-    "lang": "ca",
-    "source": "dict"
-  },
   "1914981652061486": {
     "name": "Panaderia Pasteleria la Concepcion",
     "lang": "es",
+    "source": "dict"
+  },
+  "1025547560": {
+    "name": "Plaça Major",
+    "lang": "ca",
     "source": "dict"
   },
   "119164749": {
@@ -3074,14 +3074,14 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "101848218574921": {
-    "name": "Bar Cristal",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "457970748013858": {
     "name": "Paseo Marítimo, Palma De Mallorca - Spain",
     "lang": "en",
+    "source": "ai"
+  },
+  "101848218574921": {
+    "name": "Bar Cristal",
+    "lang": "neutral",
     "source": "ai"
   },
   "258785754": {
@@ -3149,11 +3149,6 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "331573373916120": {
-    "name": "Plaça del Rei Joan Carles I",
-    "lang": "ca",
-    "source": "dict"
-  },
   "112613704212184": {
     "name": "Plaça De La Reina",
     "lang": "ca",
@@ -3162,6 +3157,11 @@
   "251118970": {
     "name": "Restaurante Koh",
     "lang": "es",
+    "source": "dict"
+  },
+  "331573373916120": {
+    "name": "Plaça del Rei Joan Carles I",
+    "lang": "ca",
     "source": "dict"
   },
   "1330016890363219": {
@@ -3229,19 +3229,24 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "217109905827027": {
-    "name": "Hotel Convent de la Missió",
+  "210198633121164": {
+    "name": "La Boutique Del Gelato",
     "lang": "neutral",
     "source": "ai"
   },
-  "210198633121164": {
-    "name": "La Boutique Del Gelato",
+  "217109905827027": {
+    "name": "Hotel Convent de la Missió",
     "lang": "neutral",
     "source": "ai"
   },
   "962162743": {
     "name": "St. Ambros Ristorante Pizzeria",
     "lang": "other",
+    "source": "ai"
+  },
+  "645416242": {
+    "name": "PalmaDog",
+    "lang": "neutral",
     "source": "ai"
   },
   "100244558401075": {
@@ -3253,11 +3258,6 @@
     "name": "cafe atlantico cocktail bar",
     "lang": "en",
     "source": "dict"
-  },
-  "645416242": {
-    "name": "PalmaDog",
-    "lang": "neutral",
-    "source": "ai"
   },
   "280559268482410": {
     "name": "Grand Siena",
@@ -3284,14 +3284,14 @@
     "lang": "es",
     "source": "dict"
   },
-  "856200689": {
-    "name": "Port La Lonja Palma",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "1016271790": {
     "name": "El SALÓN",
     "lang": "es",
+    "source": "ai"
+  },
+  "856200689": {
+    "name": "Port La Lonja Palma",
+    "lang": "neutral",
     "source": "ai"
   },
   "1034952347": {
@@ -3304,24 +3304,24 @@
     "lang": "es",
     "source": "ai"
   },
-  "1400307886764985": {
-    "name": "Sant Jaume Hotel",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "321012087": {
     "name": "Hotel Born",
     "lang": "neutral",
     "source": "ai"
   },
-  "264140442": {
-    "name": "Urban Sushi Palma",
+  "1400307886764985": {
+    "name": "Sant Jaume Hotel",
     "lang": "neutral",
     "source": "ai"
   },
   "316106350": {
     "name": "La Biblioteca de Babel",
     "lang": "es",
+    "source": "ai"
+  },
+  "264140442": {
+    "name": "Urban Sushi Palma",
+    "lang": "neutral",
     "source": "ai"
   },
   "677159559415283": {
@@ -3349,15 +3349,15 @@
     "lang": "en",
     "source": "dict"
   },
-  "103795694484321": {
-    "name": "Can Frasquet Tapas Bar",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "9595820": {
     "name": "Banc de Sang i Teixits de les Illes Balears",
     "lang": "ca",
     "source": "dict"
+  },
+  "103795694484321": {
+    "name": "Can Frasquet Tapas Bar",
+    "lang": "neutral",
+    "source": "ai"
   },
   "898569080": {
     "name": "Cattedrale Di Maiorca",
@@ -3394,13 +3394,13 @@
     "lang": "es",
     "source": "dict"
   },
-  "1020128298179080": {
-    "name": "Quentin’s American Bar",
+  "244857618": {
+    "name": "Porto De Palma",
     "lang": "neutral",
     "source": "ai"
   },
-  "244857618": {
-    "name": "Porto De Palma",
+  "1020128298179080": {
+    "name": "Quentin’s American Bar",
     "lang": "neutral",
     "source": "ai"
   },
@@ -3429,8 +3429,18 @@
     "lang": "neutral",
     "source": "ai"
   },
+  "1943719455923050": {
+    "name": "Palau Municipal D‘sports Son Moix",
+    "lang": "ca",
+    "source": "dict"
+  },
   "729893665": {
     "name": "Son Espases Palma",
+    "lang": "neutral",
+    "source": "ai"
+  },
+  "110990458074971": {
+    "name": "Cantina Panzá",
     "lang": "neutral",
     "source": "ai"
   },
@@ -3439,29 +3449,19 @@
     "lang": "en",
     "source": "dict"
   },
-  "110990458074971": {
-    "name": "Cantina Panzá",
-    "lang": "neutral",
-    "source": "ai"
-  },
-  "1943719455923050": {
-    "name": "Palau Municipal D‘sports Son Moix",
-    "lang": "ca",
-    "source": "dict"
-  },
   "273344140": {
     "name": "Faro De Formentor",
     "lang": "es",
     "source": "dict"
   },
-  "1929551160667608": {
-    "name": "Marina Port, Palma de Mallorca",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "229168991": {
     "name": "La Bóveda",
     "lang": "es",
+    "source": "ai"
+  },
+  "1929551160667608": {
+    "name": "Marina Port, Palma de Mallorca",
+    "lang": "neutral",
     "source": "ai"
   },
   "1012567656": {
@@ -3529,6 +3529,11 @@
     "lang": "neutral",
     "source": "ai"
   },
+  "103422589089368": {
+    "name": "Puro Grand Hotel",
+    "lang": "neutral",
+    "source": "ai"
+  },
   "925645988": {
     "name": "Hotel Saragota En Palma De Mallorca",
     "lang": "neutral",
@@ -3539,18 +3544,8 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "103422589089368": {
-    "name": "Puro Grand Hotel",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "728608550619966": {
     "name": "Mercería Amelia Mallorca",
-    "lang": "neutral",
-    "source": "ai"
-  },
-  "810071972": {
-    "name": "Palma Marina",
     "lang": "neutral",
     "source": "ai"
   },
@@ -3559,13 +3554,13 @@
     "lang": "other",
     "source": "ai"
   },
-  "297524210": {
-    "name": "Marina Port-Palma",
+  "810071972": {
+    "name": "Palma Marina",
     "lang": "neutral",
     "source": "ai"
   },
-  "1021480785": {
-    "name": "Bodega Can Rigo",
+  "297524210": {
+    "name": "Marina Port-Palma",
     "lang": "neutral",
     "source": "ai"
   },
@@ -3574,13 +3569,13 @@
     "lang": "neutral",
     "source": "ai"
   },
+  "1021480785": {
+    "name": "Bodega Can Rigo",
+    "lang": "neutral",
+    "source": "ai"
+  },
   "727048797498517": {
     "name": "Cala Major Playa",
-    "lang": "es",
-    "source": "dict"
-  },
-  "260246946": {
-    "name": "Restaurante El Cuerno",
     "lang": "es",
     "source": "dict"
   },
@@ -3588,6 +3583,11 @@
     "name": "HERA ZEUS",
     "lang": "other",
     "source": "ai"
+  },
+  "260246946": {
+    "name": "Restaurante El Cuerno",
+    "lang": "es",
+    "source": "dict"
   },
   "2041485089464687": {
     "name": "La Finca",
@@ -3629,15 +3629,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "237995036": {
-    "name": "Parc Sa Faixina",
-    "lang": "ca",
-    "source": "dict"
-  },
   "756990001313315": {
     "name": "Vinostrum La Fábrica 45",
     "lang": "neutral",
     "source": "ai"
+  },
+  "237995036": {
+    "name": "Parc Sa Faixina",
+    "lang": "ca",
+    "source": "dict"
   },
   "1890908": {
     "name": "Nassau Beach Club",
@@ -3689,13 +3689,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "1014325947": {
-    "name": "GTS Mallorca",
+  "1133538013379805": {
+    "name": "Calad'or Palma De Mallorca",
     "lang": "neutral",
     "source": "ai"
   },
-  "1133538013379805": {
-    "name": "Calad'or Palma De Mallorca",
+  "1014325947": {
+    "name": "GTS Mallorca",
     "lang": "neutral",
     "source": "ai"
   },
@@ -3819,14 +3819,14 @@
     "lang": "es",
     "source": "dict"
   },
-  "325677836": {
-    "name": "Aeropuerto de Mallorca",
-    "lang": "es",
-    "source": "ai"
-  },
   "257852457": {
     "name": "Can Sales Biblioteca Pública",
     "lang": "ca",
+    "source": "ai"
+  },
+  "325677836": {
+    "name": "Aeropuerto de Mallorca",
+    "lang": "es",
     "source": "ai"
   },
   "305857828": {
@@ -3834,15 +3834,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "384825325688922": {
-    "name": "Hakka Dim Sum - Cocktail Bar & Asian Tapas",
-    "lang": "en",
-    "source": "dict"
-  },
   "563146181": {
     "name": "Gran Hotel (Palma de Mallorca)",
     "lang": "neutral",
     "source": "ai"
+  },
+  "384825325688922": {
+    "name": "Hakka Dim Sum - Cocktail Bar & Asian Tapas",
+    "lang": "en",
+    "source": "dict"
   },
   "588076141546149": {
     "name": "Palma, Calle San Miguel",
@@ -3874,14 +3874,14 @@
     "lang": "es",
     "source": "ai"
   },
-  "1218782888139833": {
-    "name": "Puig de massanella",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "313418864": {
     "name": "Lluc Monasterio",
     "lang": "ca",
+    "source": "ai"
+  },
+  "1218782888139833": {
+    "name": "Puig de massanella",
+    "lang": "neutral",
     "source": "ai"
   },
   "267361066": {
@@ -3894,13 +3894,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "273420984": {
-    "name": "IES Antoni MAURA",
+  "1063901077127214": {
+    "name": "Spritzstop",
     "lang": "neutral",
     "source": "ai"
   },
-  "1063901077127214": {
-    "name": "Spritzstop",
+  "273420984": {
+    "name": "IES Antoni MAURA",
     "lang": "neutral",
     "source": "ai"
   },
@@ -3909,15 +3909,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "109651387300679": {
-    "name": "goodluck.tattoopalma",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "1014639749": {
     "name": "Tito's Palma Majorca",
     "lang": "en",
     "source": "dict"
+  },
+  "109651387300679": {
+    "name": "goodluck.tattoopalma",
+    "lang": "neutral",
+    "source": "ai"
   },
   "867117993665267": {
     "name": "Ajisen-es Ramen",
@@ -4004,13 +4004,13 @@
     "lang": "ca",
     "source": "dict"
   },
-  "696172404": {
-    "name": "Wineing",
+  "362267400": {
+    "name": "Port Portals Palma",
     "lang": "neutral",
     "source": "ai"
   },
-  "362267400": {
-    "name": "Port Portals Palma",
+  "696172404": {
+    "name": "Wineing",
     "lang": "neutral",
     "source": "ai"
   },
@@ -4064,6 +4064,11 @@
     "lang": "en",
     "source": "dict"
   },
+  "477797327": {
+    "name": "Bingo Rosales",
+    "lang": "neutral",
+    "source": "ai"
+  },
   "6886630": {
     "name": "Hotel Gran Melia Victoria",
     "lang": "neutral",
@@ -4073,11 +4078,6 @@
     "name": "Tudurí Pastisseria i Cafè",
     "lang": "ca",
     "source": "dict"
-  },
-  "477797327": {
-    "name": "Bingo Rosales",
-    "lang": "neutral",
-    "source": "ai"
   },
   "209794592936926": {
     "name": "Shaka restaurante",
@@ -4139,15 +4139,15 @@
     "lang": "es",
     "source": "ai"
   },
-  "110066094959902": {
-    "name": "Nuspalma",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "356709322": {
     "name": "Playa De Estrenc, Mallorca",
     "lang": "es",
     "source": "dict"
+  },
+  "110066094959902": {
+    "name": "Nuspalma",
+    "lang": "neutral",
+    "source": "ai"
   },
   "1010950888": {
     "name": "JV Jorge Vázquez Palma de Mallorca",
@@ -4174,6 +4174,11 @@
     "lang": "ca",
     "source": "ai"
   },
+  "452582391778746": {
+    "name": "Canal 4",
+    "lang": "neutral",
+    "source": "ai"
+  },
   "564204236767771": {
     "name": "Purobeach Resort Santa Ponsa",
     "lang": "neutral",
@@ -4184,13 +4189,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "160360457324637": {
-    "name": "Calle 31 de diciembre",
+  "490537870": {
+    "name": "Playa de Palma",
     "lang": "es",
     "source": "dict"
   },
-  "490537870": {
-    "name": "Playa de Palma",
+  "160360457324637": {
+    "name": "Calle 31 de diciembre",
     "lang": "es",
     "source": "dict"
   },
@@ -4198,11 +4203,6 @@
     "name": "Porto di Palma de Mallorca, Spain",
     "lang": "en",
     "source": "dict"
-  },
-  "452582391778746": {
-    "name": "Canal 4",
-    "lang": "neutral",
-    "source": "ai"
   },
   "179237142670421": {
     "name": "DiamondNails",
@@ -4234,19 +4234,14 @@
     "lang": "ca",
     "source": "ai"
   },
-  "911975698915316": {
-    "name": "Montmatre",
-    "lang": "other",
-    "source": "ai"
-  },
-  "100610812665648": {
-    "name": "Restaurante Brutal",
+  "114709211875584": {
+    "name": "Colegio de Nuestra Señora de Montesión",
     "lang": "es",
     "source": "dict"
   },
-  "13251448": {
-    "name": "Hospital General De Mallorca",
-    "lang": "es",
+  "911975698915316": {
+    "name": "Montmatre",
+    "lang": "other",
     "source": "ai"
   },
   "101186188352811": {
@@ -4254,8 +4249,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "114709211875584": {
-    "name": "Colegio de Nuestra Señora de Montesión",
+  "13251448": {
+    "name": "Hospital General De Mallorca",
+    "lang": "es",
+    "source": "ai"
+  },
+  "100610812665648": {
+    "name": "Restaurante Brutal",
     "lang": "es",
     "source": "dict"
   },
@@ -4279,13 +4279,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "190139015256064": {
-    "name": "Universo",
+  "897091434": {
+    "name": "SanaGym Mallorca",
     "lang": "neutral",
     "source": "ai"
   },
-  "897091434": {
-    "name": "SanaGym Mallorca",
+  "190139015256064": {
+    "name": "Universo",
     "lang": "neutral",
     "source": "ai"
   },
@@ -4334,15 +4334,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "820059043": {
-    "name": "En la Gloria",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "1019910706": {
     "name": "CEF Escuela de Artes Audiovisuales",
     "lang": "es",
     "source": "dict"
+  },
+  "820059043": {
+    "name": "En la Gloria",
+    "lang": "neutral",
+    "source": "ai"
   },
   "948176998622724": {
     "name": "EAT Vacuum Cooking",
@@ -4359,15 +4359,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "642521669523836": {
-    "name": "Puerto de Palma",
-    "lang": "es",
-    "source": "dict"
-  },
   "173489662": {
     "name": "Es Baret",
     "lang": "neutral",
     "source": "ai"
+  },
+  "642521669523836": {
+    "name": "Puerto de Palma",
+    "lang": "es",
+    "source": "dict"
   },
   "13916919": {
     "name": "Restaurante Ca'n manolo Palma",
@@ -4384,15 +4384,15 @@
     "lang": "es",
     "source": "dict"
   },
-  "272293489": {
-    "name": "Puerto Pollença",
-    "lang": "es",
-    "source": "dict"
-  },
   "1864854173590832": {
     "name": "La Tremenda",
     "lang": "neutral",
     "source": "ai"
+  },
+  "272293489": {
+    "name": "Puerto Pollença",
+    "lang": "es",
+    "source": "dict"
   },
   "451515647": {
     "name": "WhyNot Cocktail Bar",
@@ -4464,15 +4464,15 @@
     "lang": "other",
     "source": "ai"
   },
-  "254187816": {
-    "name": "Carlos Martin Peluqueros",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "612679885578685": {
     "name": "Plaza Mayor Mallorca",
     "lang": "es",
     "source": "dict"
+  },
+  "254187816": {
+    "name": "Carlos Martin Peluqueros",
+    "lang": "neutral",
+    "source": "ai"
   },
   "114397324893812": {
     "name": "JS Palma Plaza",
@@ -4509,9 +4509,9 @@
     "lang": "es",
     "source": "dict"
   },
-  "322719344872008": {
-    "name": "Coquetier Classy Cocktails",
-    "lang": "en",
+  "269726309": {
+    "name": "Playa De Strenc, Mallorca.",
+    "lang": "es",
     "source": "dict"
   },
   "251083179": {
@@ -5499,15 +5499,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "256812491148946": {
-    "name": "El Puerto Ibiza",
-    "lang": "es",
-    "source": "dict"
-  },
   "292283809": {
     "name": "La Cava Ibiza",
     "lang": "neutral",
     "source": "ai"
+  },
+  "256812491148946": {
+    "name": "El Puerto Ibiza",
+    "lang": "es",
+    "source": "dict"
   },
   "1781653608738962": {
     "name": "Dorado Ibiza",
@@ -5539,15 +5539,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "184582049032557": {
-    "name": "Nirvana Fitness Center",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "264738806": {
     "name": "Calle De La Virgen",
     "lang": "es",
     "source": "dict"
+  },
+  "184582049032557": {
+    "name": "Nirvana Fitness Center",
+    "lang": "neutral",
+    "source": "ai"
   },
   "151006008278942": {
     "name": "Casino de Ibiza",
@@ -6099,15 +6099,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "339981506": {
-    "name": "Playa De Figuretes Ibiza",
-    "lang": "es",
-    "source": "dict"
-  },
   "14417737": {
     "name": "Pinocho",
     "lang": "neutral",
     "source": "ai"
+  },
+  "339981506": {
+    "name": "Playa De Figuretes Ibiza",
+    "lang": "es",
+    "source": "dict"
   },
   "1004237027": {
     "name": "Ивиса (город)",
@@ -6144,6 +6144,11 @@
     "lang": "en",
     "source": "ai"
   },
+  "498820145": {
+    "name": "Ibiza Eivisa",
+    "lang": "neutral",
+    "source": "ai"
+  },
   "295295950": {
     "name": "Usuaïa",
     "lang": "neutral",
@@ -6151,11 +6156,6 @@
   },
   "5246941": {
     "name": "Ebano Hotel Apartments & Spa",
-    "lang": "neutral",
-    "source": "ai"
-  },
-  "498820145": {
-    "name": "Ibiza Eivisa",
     "lang": "neutral",
     "source": "ai"
   },
@@ -6509,13 +6509,13 @@
     "lang": "en",
     "source": "dict"
   },
-  "1369117746481602": {
-    "name": "Mitch's Bar Ibiza",
+  "666831623179891": {
+    "name": "Crazy Pizza Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
-  "666831623179891": {
-    "name": "Crazy Pizza Ibiza",
+  "1369117746481602": {
+    "name": "Mitch's Bar Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
@@ -6544,15 +6544,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "105619834843740": {
-    "name": "Pino ibiza",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "869842216459837": {
     "name": "Ibiza Can Tixedo Sports Bar Restaurante",
     "lang": "es",
     "source": "dict"
+  },
+  "105619834843740": {
+    "name": "Pino ibiza",
+    "lang": "neutral",
+    "source": "ai"
   },
   "839000274": {
     "name": "Dado Bar Ibiza",
@@ -6589,14 +6589,14 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "119329647921513": {
-    "name": "Happiness Beach Ibiza",
-    "lang": "en",
-    "source": "dict"
-  },
   "631036271": {
     "name": "Los Bodegueros Ibiza",
     "lang": "es",
+    "source": "dict"
+  },
+  "119329647921513": {
+    "name": "Happiness Beach Ibiza",
+    "lang": "en",
     "source": "dict"
   },
   "100156938246867": {
@@ -6699,15 +6699,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "101477822513938": {
-    "name": "Octan Ibiza",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "103490364787049": {
     "name": "La Gaia By Óscar Molina",
     "lang": "en",
     "source": "dict"
+  },
+  "101477822513938": {
+    "name": "Octan Ibiza",
+    "lang": "neutral",
+    "source": "ai"
   },
   "252230073": {
     "name": "Prince bar lounge",
@@ -6754,13 +6754,13 @@
     "lang": "es",
     "source": "dict"
   },
-  "850688672": {
-    "name": "El Pirata IBIZA",
+  "177867962776887": {
+    "name": "Ibiza Moorea Restaurant",
     "lang": "neutral",
     "source": "ai"
   },
-  "177867962776887": {
-    "name": "Ibiza Moorea Restaurant",
+  "850688672": {
+    "name": "El Pirata IBIZA",
     "lang": "neutral",
     "source": "ai"
   },
@@ -6769,25 +6769,25 @@
     "lang": "es",
     "source": "dict"
   },
-  "271308945": {
-    "name": "Platja d'en Bossa (Ibiza)",
-    "lang": "ca",
-    "source": "dict"
-  },
   "828333388": {
     "name": "Talamaca",
     "lang": "neutral",
     "source": "ai"
   },
-  "712381709107846": {
-    "name": "Catedral de Santa Maria",
-    "lang": "es",
-    "source": "ai"
+  "271308945": {
+    "name": "Platja d'en Bossa (Ibiza)",
+    "lang": "ca",
+    "source": "dict"
   },
   "524062917795408": {
     "name": "Plaza De La Paz Ibiza",
     "lang": "es",
     "source": "dict"
+  },
+  "712381709107846": {
+    "name": "Catedral de Santa Maria",
+    "lang": "es",
+    "source": "ai"
   },
   "351039378": {
     "name": "Restaurante Can D'en Parra",
@@ -6999,15 +6999,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "339344703128851": {
-    "name": "BORN",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "481115": {
     "name": "Parque de La Paz",
     "lang": "es",
     "source": "dict"
+  },
+  "339344703128851": {
+    "name": "BORN",
+    "lang": "neutral",
+    "source": "ai"
   },
   "129094507506842": {
     "name": "El Passadis Ibiza",
@@ -7024,13 +7024,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "2052773438328767": {
-    "name": "Last for Life tattoo Ibiza",
+  "359398605": {
+    "name": "Balearic Sea",
     "lang": "neutral",
     "source": "ai"
   },
-  "359398605": {
-    "name": "Balearic Sea",
+  "2052773438328767": {
+    "name": "Last for Life tattoo Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
@@ -7074,13 +7074,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "1073400309471131": {
-    "name": "Cala D'hort, Ibiza",
+  "252867521": {
+    "name": "Lips Reartes Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
-  "252867521": {
-    "name": "Lips Reartes Ibiza",
+  "1073400309471131": {
+    "name": "Cala D'hort, Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
@@ -7309,13 +7309,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "380866849": {
-    "name": "Sidrería Poma",
+  "348785651": {
+    "name": "Sa-Caleta",
     "lang": "neutral",
     "source": "ai"
   },
-  "348785651": {
-    "name": "Sa-Caleta",
+  "380866849": {
+    "name": "Sidrería Poma",
     "lang": "neutral",
     "source": "ai"
   },
@@ -7349,13 +7349,13 @@
     "lang": "ca",
     "source": "dict"
   },
-  "469244433": {
-    "name": "Ibiza Cala Tarida",
+  "415975381599186": {
+    "name": "SIGMA IBIZA",
     "lang": "neutral",
     "source": "ai"
   },
-  "415975381599186": {
-    "name": "SIGMA IBIZA",
+  "469244433": {
+    "name": "Ibiza Cala Tarida",
     "lang": "neutral",
     "source": "ai"
   },
@@ -7369,15 +7369,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "127738751432143": {
-    "name": "Amorino Ibiza",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "1935828596710345": {
     "name": "Club de Campo Ibiza",
     "lang": "es",
     "source": "dict"
+  },
+  "127738751432143": {
+    "name": "Amorino Ibiza",
+    "lang": "neutral",
+    "source": "ai"
   },
   "362846464228010": {
     "name": "La Bodega Talamanca",
@@ -7394,8 +7394,8 @@
     "lang": "es",
     "source": "dict"
   },
-  "919160310": {
-    "name": "Bossa tattoo Ibiza",
+  "722878474400975": {
+    "name": "Locals Only IBIZA",
     "lang": "neutral",
     "source": "ai"
   },
@@ -7403,11 +7403,6 @@
     "name": "Plaza Del Parque Ibiza",
     "lang": "es",
     "source": "dict"
-  },
-  "722878474400975": {
-    "name": "Locals Only IBIZA",
-    "lang": "neutral",
-    "source": "ai"
   },
   "827821791": {
     "name": "Club ABC Ibiza",
@@ -7439,11 +7434,6 @@
     "lang": "es",
     "source": "dict"
   },
-  "232345097630207": {
-    "name": "Up Ibiza Sky Society",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "1619707968346294": {
     "name": "San Ciriaco • IBIZA •",
     "lang": "neutral",
@@ -7451,6 +7441,11 @@
   },
   "259181264432337": {
     "name": "TRASH Ibiza",
+    "lang": "neutral",
+    "source": "ai"
+  },
+  "232345097630207": {
+    "name": "Up Ibiza Sky Society",
     "lang": "neutral",
     "source": "ai"
   },
@@ -7466,6 +7461,11 @@
   },
   "1022934877": {
     "name": "Vinyl Burger Ibiza",
+    "lang": "neutral",
+    "source": "ai"
+  },
+  "919160310": {
+    "name": "Bossa tattoo Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
@@ -7574,15 +7574,15 @@
     "lang": "es",
     "source": "dict"
   },
-  "609082529": {
-    "name": "Mathiss Ibiza",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "360706034": {
     "name": "Parc Reina Sofia - Eivissa",
     "lang": "ca",
     "source": "dict"
+  },
+  "609082529": {
+    "name": "Mathiss Ibiza",
+    "lang": "neutral",
+    "source": "ai"
   },
   "304597306066626": {
     "name": "World of Ink ibiza",
@@ -7639,14 +7639,14 @@
     "lang": "en",
     "source": "dict"
   },
-  "377326711": {
-    "name": "Arte Del Mojito",
-    "lang": "es",
-    "source": "ai"
-  },
   "1026932605": {
     "name": "Ibiza Food Studio",
     "lang": "neutral",
+    "source": "ai"
+  },
+  "377326711": {
+    "name": "Arte Del Mojito",
+    "lang": "es",
     "source": "ai"
   },
   "1774208549472830": {
@@ -7764,13 +7764,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "247290008": {
-    "name": "Pacha Disco Club Ibiza - Privè",
+  "115989791553082": {
+    "name": "Aguamadera Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
-  "115989791553082": {
-    "name": "Aguamadera Ibiza",
+  "247290008": {
+    "name": "Pacha Disco Club Ibiza - Privè",
     "lang": "neutral",
     "source": "ai"
   },
@@ -7789,13 +7789,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "1659679737659859": {
-    "name": "La Taberna Ibiza",
+  "360763847": {
+    "name": "Bla Bla • Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
-  "360763847": {
-    "name": "Bla Bla • Ibiza",
+  "1659679737659859": {
+    "name": "La Taberna Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
@@ -7804,13 +7804,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "110170303990510": {
-    "name": "La Barrita Ibiza",
+  "294770667": {
+    "name": "Gazebo Mansion Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
-  "294770667": {
-    "name": "Gazebo Mansion Ibiza",
+  "110170303990510": {
+    "name": "La Barrita Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
@@ -7959,15 +7959,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "276323934": {
-    "name": "Casa 13",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "285732951": {
     "name": "Sushi And Love",
     "lang": "en",
     "source": "dict"
+  },
+  "276323934": {
+    "name": "Casa 13",
+    "lang": "neutral",
+    "source": "ai"
   },
   "105122451321690": {
     "name": "UNIC Restaurante Ibiza",
@@ -8049,13 +8049,13 @@
     "lang": "es",
     "source": "dict"
   },
-  "449315849": {
-    "name": "Fabric Tattoo Ibiza",
+  "1030569581": {
+    "name": "Talamanca",
     "lang": "neutral",
     "source": "ai"
   },
-  "1030569581": {
-    "name": "Talamanca",
+  "449315849": {
+    "name": "Fabric Tattoo Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
@@ -8134,33 +8134,33 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "950009351856173": {
-    "name": "Eurostars Ibiza",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "1005434538": {
     "name": "Platja S'Estanyol",
     "lang": "ca",
     "source": "dict"
   },
-  "111385303645476": {
-    "name": "The BOOO",
-    "lang": "en",
-    "source": "dict"
+  "950009351856173": {
+    "name": "Eurostars Ibiza",
+    "lang": "neutral",
+    "source": "ai"
   },
   "157305108002078": {
     "name": "Natural Beauty Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
-  "283609183": {
-    "name": "Eivissa Castle",
+  "111385303645476": {
+    "name": "The BOOO",
     "lang": "en",
     "source": "dict"
   },
   "417583055427326": {
     "name": "Massa Coffee",
+    "lang": "en",
+    "source": "dict"
+  },
+  "283609183": {
+    "name": "Eivissa Castle",
     "lang": "en",
     "source": "dict"
   },
@@ -8194,18 +8194,13 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "387078601": {
-    "name": "LA GRIFERIA",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "266059918": {
     "name": "Kathmandu II Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
-  "300035785": {
-    "name": "Plata Del Levante Formentera",
+  "387078601": {
+    "name": "LA GRIFERIA",
     "lang": "neutral",
     "source": "ai"
   },
@@ -8213,6 +8208,11 @@
     "name": "Calle De La Virgen 5 - Puerto De ibiza",
     "lang": "es",
     "source": "dict"
+  },
+  "300035785": {
+    "name": "Plata Del Levante Formentera",
+    "lang": "neutral",
+    "source": "ai"
   },
   "767463754": {
     "name": "Benniras",
@@ -8244,6 +8244,11 @@
     "lang": "neutral",
     "source": "ai"
   },
+  "1033494246": {
+    "name": "Ses Figueretes",
+    "lang": "neutral",
+    "source": "ai"
+  },
   "533838268": {
     "name": "RESET",
     "lang": "neutral",
@@ -8254,28 +8259,8 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "1033494246": {
-    "name": "Ses Figueretes",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "597047883487759": {
     "name": "La Vaca Argentina Ibiza",
-    "lang": "neutral",
-    "source": "ai"
-  },
-  "360005754141555": {
-    "name": "Ibiza Universe",
-    "lang": "neutral",
-    "source": "ai"
-  },
-  "168735810458092": {
-    "name": "Evissa Medieval",
-    "lang": "neutral",
-    "source": "ai"
-  },
-  "498682307133354": {
-    "name": "Cala Rotja",
     "lang": "neutral",
     "source": "ai"
   },
@@ -8284,13 +8269,28 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "251940918": {
-    "name": "Playa Los Molinos Ibiza",
-    "lang": "es",
-    "source": "dict"
+  "360005754141555": {
+    "name": "Ibiza Universe",
+    "lang": "neutral",
+    "source": "ai"
+  },
+  "498682307133354": {
+    "name": "Cala Rotja",
+    "lang": "neutral",
+    "source": "ai"
+  },
+  "168735810458092": {
+    "name": "Evissa Medieval",
+    "lang": "neutral",
+    "source": "ai"
   },
   "113249360848828": {
     "name": "La Taberna del Parque Ibiza",
+    "lang": "es",
+    "source": "dict"
+  },
+  "251940918": {
+    "name": "Playa Los Molinos Ibiza",
     "lang": "es",
     "source": "dict"
   },
@@ -8329,15 +8329,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "1908560082713710": {
-    "name": "Tiburon Formentera",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "847568518": {
     "name": "El Faro Ibiza",
     "lang": "es",
     "source": "dict"
+  },
+  "1908560082713710": {
+    "name": "Tiburon Formentera",
+    "lang": "neutral",
+    "source": "ai"
   },
   "26862724": {
     "name": "Sushiya Aoyama",
@@ -8404,15 +8404,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "118532794688082": {
-    "name": "Tattoo Ibiza Lounge",
-    "lang": "en",
-    "source": "dict"
-  },
   "208241705965572": {
     "name": "Ca'n Raio",
     "lang": "neutral",
     "source": "ai"
+  },
+  "118532794688082": {
+    "name": "Tattoo Ibiza Lounge",
+    "lang": "en",
+    "source": "dict"
   },
   "1918170835061986": {
     "name": "Vila Café",
@@ -8464,15 +8464,15 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "1031110039": {
-    "name": "Wesselton Ibiza",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "269051312": {
     "name": "S'estanyol Beach",
     "lang": "en",
     "source": "dict"
+  },
+  "1031110039": {
+    "name": "Wesselton Ibiza",
+    "lang": "neutral",
+    "source": "ai"
   },
   "257272923": {
     "name": "Calle De La Virgen • IBIZA",
@@ -8484,15 +8484,15 @@
     "lang": "ca",
     "source": "dict"
   },
-  "101428245821419": {
-    "name": "Omakase by Walt",
-    "lang": "en",
-    "source": "dict"
-  },
   "1554575561504241": {
     "name": "CHIC concept store",
     "lang": "neutral",
     "source": "ai"
+  },
+  "101428245821419": {
+    "name": "Omakase by Walt",
+    "lang": "en",
+    "source": "dict"
   },
   "114495877933843": {
     "name": "Casa Sudaca Ibiza",
@@ -8504,8 +8504,8 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "1049680658444385": {
-    "name": "VisionarHairandmore",
+  "644620449010298": {
+    "name": "Greyibiza",
     "lang": "neutral",
     "source": "ai"
   },
@@ -8514,8 +8514,8 @@
     "lang": "neutral",
     "source": "ai"
   },
-  "644620449010298": {
-    "name": "Greyibiza",
+  "1049680658444385": {
+    "name": "VisionarHairandmore",
     "lang": "neutral",
     "source": "ai"
   },
@@ -8564,15 +8564,15 @@
     "lang": "en",
     "source": "dict"
   },
-  "954812852": {
-    "name": "Es repos",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "1023371724": {
     "name": "Escuela de lucha ibiza",
     "lang": "es",
     "source": "dict"
+  },
+  "954812852": {
+    "name": "Es repos",
+    "lang": "neutral",
+    "source": "ai"
   },
   "629786790222159": {
     "name": "Socialista Ibiza",
@@ -8614,23 +8614,23 @@
     "lang": "en",
     "source": "dict"
   },
-  "1011973832276058": {
-    "name": "Numero 00 Ibiza",
-    "lang": "neutral",
-    "source": "ai"
-  },
   "249387655": {
     "name": "Playa D'en Bossa - Ibiza",
     "lang": "es",
     "source": "dict"
   },
-  "647464345590111": {
-    "name": "El Balcón de Ibiza",
+  "1011973832276058": {
+    "name": "Numero 00 Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
   "434215213702358": {
     "name": "Orígens David Pomar",
+    "lang": "neutral",
+    "source": "ai"
+  },
+  "647464345590111": {
+    "name": "El Balcón de Ibiza",
     "lang": "neutral",
     "source": "ai"
   },
